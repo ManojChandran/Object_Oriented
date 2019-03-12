@@ -27,7 +27,7 @@ An efficient Class is created when class construction follow SOLID principle. Se
 
 # What happens when an efficient class is created?
 
-An efficient Class construction will give you the object, which have real worl obejct properties. Object orientation gives features like
+An efficient Class construction will give you the object, which have real world object properties. Object orientation gives features like
 
 1) Abstraction
 2) Inheritance
