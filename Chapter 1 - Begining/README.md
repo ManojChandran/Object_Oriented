@@ -2,7 +2,7 @@
 
 This chapter gives an introduction on evolution of object oriented programming and computer programming in general. Below narration is outline the upcoming chapters in a slice.
 
-# Everything has a begining
+# Everything has a beginning
 
 Human civilization evolved every day and with each step in evolution, complex questions blocked him in every step. He needed a companion and found one to help, machine.
 
