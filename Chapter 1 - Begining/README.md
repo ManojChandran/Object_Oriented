@@ -1,33 +1,42 @@
-# Everything has a origin
+# Introduction
 
-Human civilization evolved every day and with each step in evolution, a complex question blocked him in every step. He found a companion to help, machine. Day by day our need to solve problem and its complexity increased, simultaneously need for more powerful machine also.
+This chapter gives an introduction on evolution of object oriented programming and computer programming in general. Below narration is outline the upcoming chapters in a slice.
+
+# Everything has a begining
+
+Human civilization evolved every day and with each step in evolution, complex questions blocked him in every step. He needed a companion and found one to help, machine.
+
+Day by day our need to solve problem and its complexity increased, simultaneously need for more powerful machine also.
 
 Problems around, where from real world!!!
-they need real world thoughts and solutions. Real world is full of objects and their solutions is also related with it. First approach the problem is to find a method to address things as objects as in real world.
+they need real world thoughts and solutions. Real world is full of objects and their solutions is also related with it. First approach to the problem was to identify a method to address objects, similarly as objects in real world.
 
-# What is an Object and Class?
+# Object and Class
 
 An Object in real world will have attributes (color, texture,..) and behavior(scroll, bend..). When you define the same in computer world, A "CLASS" is born.
 
 Object (attribute & behavior)
---> Define object's attribute and behavior
---> Get Class.
+--> Define object's attribute and behavior, we will get a Class.
 
-Class is a blue print of the object, its efficiency and design improves your solution. Success of your solution depends on how you define and design your classes.
+Class is a blue print of the object, its efficiency and design improves your solution. All success of your solution, depends on
+   1) How you define object with a class?
+   2) How you define interaction between objects, using classes?
 
-# How to create an Efficient "CLASS"?
+# Efficient "CLASS"
 
-An efficient Class is created when class construction follow SOLID principle. Set of rules to define an efficient class.
+First step towards Object Orientation, is to learn to design an efficient class.
 
-1) Single responsibility principle
-2) Open Closed principle
-3) Liskov Substitution Principle
-4) Interface segregation principle
-5) Dependency Inversion principle
+An efficient Class is created, when class construction follow SOLID principle. SOLID acronym stands for
+
+ S - Single responsibility principle
+ O - Open Closed principle
+ L - Liskov Substitution Principle
+ I - Interface segregation principle
+ D - Dependency Inversion principle
 
 # What happens when an efficient class is created?
 
-An efficient Class construction will give you the object, which have real world object properties. Object orientation gives features like
+An efficient Class construction will give you the object, which have all real world object properties. This Object orientation gives the object, features like
 
 1) Abstraction
 2) Inheritance
@@ -36,7 +45,7 @@ An efficient Class construction will give you the object, which have real world 
 
 # What happens when Object acquires real world properties?
 
-The Objects inside solution will acquire
+This Enhances the created object in their interaction and operations. The Objects inside solution will acquire capabilities mentioned below
 
 1) Association
 2) Aggregation
