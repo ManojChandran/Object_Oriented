@@ -1,15 +1,17 @@
 # Introduction
 
-This chapter gives an introduction on evolution of object oriented programming and computer programming in general. Below narration is outline the upcoming chapters in a slice.
+Evolving complex systems and new challenges, are making life hell for coders. The thrive for efficient and optimized code is need of the times. To tackle this, strong basics and understanding core principle in writing code is needed. We need to understand the evolution of computer programming in general and rise of object oriented programming.
 
 # Everything has a beginning
 
-Human civilization evolved every day and with each step in evolution, complex questions blocked him in every step. He needed a companion and found one to help, machine.
+Human civilization evolved every day and with each step in evolution, complex questions blocked him in his journey. We needed a companion and found one to help us in desperate times, Machine !!!!!
 
-Day by day our need to solve problem and its complexity increased, simultaneously need for more powerful machine also.
+World of machine fascinated us and we devoted ourselves to the mechanics of their working. Day by day our need to solve problem and its complexity increased, simultaneously need for more powerful and intelligent machine increased. They started obeying us with language we decided to communicate with them, thus Software came into existence.
+
+We started solving real world problems and at times break our backs to make the machine understand it.
 
 Problems around, where from real world!!!
-they need real world thoughts and solutions. Real world is full of objects and their solutions is also related with it. First approach to the problem was to identify a method to address objects, similarly as objects in real world.
+They need real world thoughts and solutions. Real world is full of objects and their solutions is also related with it. First approach to solve the problem was to identify a method to address entities associated with in real world and realize the same in program world. The idea to create "OBJECT" was born...
 
 # Object and Class
 
@@ -19,24 +21,27 @@ Object (attribute & behavior)
 --> Define object's attribute and behavior, we will get a Class.
 
 Class is a blue print of the object, its efficiency and design improves your solution. All success of your solution, depends on
-   1) How you define object with a class?
-   2) How you define interaction between objects, using classes?
+
+   1) How you define OBJECT using a CLASS? </br>
+   2) How you define interaction between OBJECTS, using CLASS? </br>
 
 # Efficient "CLASS"
 
 First step towards Object Orientation, is to learn to design an efficient class.
 
-An efficient Class is created, when class construction follow SOLID principle. SOLID acronym stands for
+An efficient Class is created, when we follow SOLID principle in CLASS construction.
 
- S - Single responsibility principle</br>
- O - Open Closed principle</br>
- L - Liskov Substitution Principle</br>
- I - Interface segregation principle</br>
- D - Dependency Inversion principle</br>
+  SOLID </br>
+
+   S - Single responsibility principle</br>
+   O - Open Closed principle</br>
+   L - Liskov Substitution Principle</br>
+   I - Interface segregation principle</br>
+   D - Dependency Inversion principle</br>
 
 # What happens when an efficient class is created?
 
-An efficient Class construction will give you the object, which have all real world object properties. This Object orientation gives the object, features like
+Following the guidelines of SOLID principle, an efficient Class will be constructed. Efficiently constructed class, which have all real world object properties. Objects created out of these classes will give features like
 
 1) Abstraction
 2) Inheritance
@@ -45,14 +50,14 @@ An efficient Class construction will give you the object, which have all real wo
 
 # What happens when Object acquires real world properties?
 
-This Enhances the created object in their interaction and operations. The Objects inside solution will acquire capabilities mentioned below
+This Enhances the created object in their interaction and operations. The Objects inside solution will acquire capabilities of
 
 1) Association
 2) Aggregation
 3) Composition
 4) Dependency
 
-# What was the new challenge?
+# New challenge
 
 With acquired power and features, we started solving bigger issues. At a point there was a realization that, coding has become increasingly complex. So complex, that maintenance became very hard. There were certain times when we need to rewrite the entire code, re architect it.
 
