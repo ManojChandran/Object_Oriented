@@ -71,10 +71,11 @@ On gradual study we arrived at OOP principles which will help you to simplify th
 
 # How to implement OOP principle?
 
+Simple answer to this was to understand design patter and use it according to the situation.
 Design Patterns : general Repeatable/ Proven solution to a commonly occurring problem in software design. Design Pattern is classified into
 
-1) Creational
-2) Structural
-3) Behavioral
+1) Creational - deals with creation of the object
+2) Structural - deals with composition of the object
+3) Behavioral - deals with communication between the object
 
 Once you get hold on these Design Patterns, you are ready to solve mysteries and go beyond. Ultimately, solution is also an Object which has a meaning now .....
