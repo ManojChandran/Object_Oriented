@@ -1,6 +1,8 @@
 # Introduction
 
-Evolving complex systems and new challenges, are making life hell for coders. The thrive for efficient and optimized code is need of the times. To tackle this, strong basics and understanding core principle in writing code is needed. We need to understand the evolution of computer programming in general and rise of object oriented programming.
+Evolving complex systems and new challenges, are making life hell for coders. The industrial thrive for efficient and optimized code is evident, day by day complexity is increasing. To tackle this, coder has to keep up with changing terrain. This is not possible all times, most of the time coder is not provided enough time to address the issue.
+
+Solution, go back basics. Clear understandings of core principle and strong basics in writing code is needed. When we understand our path correctly travel will be easy. We need to understand the evolution of programming in general and rise of programming concepts.
 
 # Everything has a beginning
 
@@ -13,6 +15,7 @@ We started solving real world problems and at times break our backs to make the 
 Problems around, where from real world!!!
 They need real world thoughts and solutions. Real world is full of objects and their solutions is also related with it. First approach to solve the problem was to identify a method to address entities associated with in real world and realize the same in program world. The idea to create "OBJECT" was born...
 
+###########################################################################################
 # Object and Class
 
 An Object in real world will have attributes (color, texture,..) and behavior(scroll, bend..). When you define the same in computer world, A "CLASS" is born.
@@ -43,10 +46,10 @@ An efficient Class is created, when we follow SOLID principle in CLASS construct
 
 Following the guidelines of SOLID principle, an efficient Class will be constructed. Efficiently constructed class, which have all real world object properties. Objects created out of these classes will give features like
 
-1) Abstraction
-2) Inheritance
-3) Polymorphism
-4) Encapsulation
+1) Encapsulation - reduce complexity and increase reusability
+2) Abstraction  - reduce complexity and isolate impact of changes
+3) Inheritance - eliminate redundant code
+4) Polymorphism - Refactor ugly switch case statements
 
 # What happens when Object acquires real world properties?
 
