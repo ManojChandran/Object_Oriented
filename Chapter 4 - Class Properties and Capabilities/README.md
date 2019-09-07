@@ -7,9 +7,9 @@ Guidelines help us to create an efficient CLASS, whats next?
 An efficient Class construction will give you the object, which have all real world object properties. This Object orientation gives the object, features like
 
 1) Encapsulation - reduce complexity and increase reusability
-2) Abstraction  - reduce complexity and isolate impact of changes
-3) Inheritance - eliminate redundant code
-4) Polymorphism - Refactor ugly switch case statements
+2) Abstraction   - reduce complexity and isolate impact of changes
+3) Inheritance   - eliminate redundant code
+4) Polymorphism  - Refactor ugly switch case statements
 
 # What happens when Object acquires real world properties?
 
