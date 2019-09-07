@@ -6,6 +6,20 @@ Solution, go back to basics. Clear understandings of core principle and strong b
 
 This book attempt to refresh the basics and provide a clear picture for beginners to start with. Concentrate more on evolution, trying to explain them.
 
+# Object oriented programming
+
+Objective aim of this book is to provide a refresh of our programming basics, also equip the reader to code efficient software solutions. It provides a base for doing Object Oriented programming.
+
+
+```
+Object-oriented programming is a programming paradigm based on the concept
+of "objects", which can contain data, in the form of fields, and code, in
+the form of procedures. A feature of objects is an object's procedures that
+can access and often modify the data fields of the object with which they
+are  associated.                                                                             
+                                                          - Wikipedia
+```
+
 # Everything has a beginning
 
 Human civilization evolved every day and with each step in evolution, complex questions blocked them in their journey. We needed a companion and found one to help us in desperate times, Machine !!!!!
@@ -18,4 +32,4 @@ We started solving real world problems and at times break our backs to make the 
 Problems around, where from the real world!!!
 Those problems need real world thoughts and solutions. Real world is full of objects and their solutions is also related with it. Communicating the real world issue and describing them to machine was a complex thing to do. First approach to solve the problem was to identify a method to address entities associated with in real world and realize the same in program world.
 
-       The idea to create "OBJECT" was born...
+        The idea to create "OBJECT" was born...

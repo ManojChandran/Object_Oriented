@@ -10,14 +10,3 @@ Class is a blue print of the object, attributes are the data and methods were it
 
    1) How object is defined with a class?
    2) How interactions between objects happens?
-
-# Object oriented programming
-
-```
-Object-oriented programming is a programming paradigm based on the concept
-of "objects", which can contain data, in the form of fields, and code, in
-the form of procedures. A feature of objects is an object's procedures that
-can access and often modify the data fields of the object with which they
-are  associated.                                                                             
-                                                          - Wikipedia
-```
