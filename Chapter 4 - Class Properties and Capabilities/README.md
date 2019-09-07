@@ -1,6 +1,6 @@
-# Introduction
+# Class properties and capabilities
 
-This chapter gives an introduction on evolution
+Guidelines help us to create an efficient CLASS, whats next?
 
 # What happens when an efficient class is created?
 
