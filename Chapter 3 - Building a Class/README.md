@@ -7,7 +7,7 @@ First step towards Object Orientation, is to design an efficient class. The theo
 An efficient Class is created, when class construction follow SOLID principle.
 
 ```
-  SOLID acronym stands for
+  SOLID stands for
    S - Single responsibility principle
    O - Open Closed principle
    L - Liskov Substitution Principle
