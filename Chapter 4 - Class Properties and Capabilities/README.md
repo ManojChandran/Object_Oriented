@@ -13,14 +13,16 @@ Also provide us with 4 major principles which make the solution designed an Obje
 3) Inheritance
 4) Polymorphism.
 
-# principles explained
+# Expanding Principles
 
 1) Encapsulation  
-Encapsulation is an idea of bundling data and methods that work on the data within one unit. It is a mechanism of hiding of data implementation by restricting access to public methods. It reduce complexity and increase reusability.
+Encapsulation is an idea of bundling data and methods that work on the data within one unit. It is a mechanism of hiding of data implementation by restricting access to public methods. It reduce complexity and increase re-usability.
 
-2) Abstraction   - It is about hiding unwanted details while giving out most essential details. It reduce complexity and isolate impact of changes.
+2) Abstraction   
+Abstraction is about hiding unwanted details while giving out most essential details. It reduce complexity and isolate impact of changes.
 
-3) Inheritance   - It is a mechanism in which one class acquires the property of another class. It will eliminate redundant code
+3) Inheritance
+Inheritance is a mechanism in which one class acquires the property of another class. It will eliminate redundant code
 
 4) Polymorphism  
 Polymorphism describes a pattern in object oriented programming in which classes have different functionality while sharing a common interface. It refers to the ability of a variable, function or object to take on multiple forms. Refactor ugly switch case statements
