@@ -16,35 +16,28 @@ Also provide us with 4 major principles which make the solution designed an Obje
 # Expanding Principles
 
 1) Inheritance</br>
-Inheritance is a mechanism in which one class acquires the property of another class. It will eliminate redundant code
+Inheritance is a mechanism in which one class acquires the property of another class, It will eliminate redundant code.
 
 ```python
 # Inheritance example.
 # Pass class value instead of object while defining.
-class Mammal(object):
-    """docstring for Mamal."""
+# Multiple inheritence example
+class MyFatherClass(object):
+    def __init__(self):
+        print('snore')
 
-    def is_a_mammal(self):
-        print('yes, a mammal')
-
-class Whale(Mammal): # Pass class and getting inherited
-    """docstring for Whale."""
-
-    def who_is_this(self):
-        print('Whale')
+class ChildClass(MyFatherClass):
+    def __init__(self):
+        super().__init__()
 
 def main():
-    w = Whale() # instantiating Object whale
-    w.who_is_this()
-    w.is_a_mammal() # inherited is a relationship
+    d1 = ChildClass() # child inherits snoring from father.
 
 if __name__ == '__main__':
     main()
 
-Output:
-
-Whale
-yes, a mammal
+Output
+snore
 
 ```
 
