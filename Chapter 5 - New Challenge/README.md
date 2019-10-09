@@ -6,7 +6,7 @@ This chapter gives an introduction on evolution
 
 With acquired power and features, we started solving bigger issues. At a point there was a realization that, coding has become increasingly complex. So complex, that maintenance became very hard. There were certain times when we need to rewrite the entire code, re architect it.
 
-# How can we solve it?
+# What are basic principle to write a maintainable code?
 
 On gradual study we arrived at OOP principles which will help you to simply things. Basic OOP principles are explained below.
 
