@@ -6,7 +6,7 @@ Solution, go back to basics. Clear understandings of core principle and strong b
 
 This book attempt to refresh the basics and provide a clear picture for beginners to start with. Concentrate more on evolution, trying to explain them.
 
-# Object oriented programming
+## Object oriented programming
 
 Objective aim of this book is to provide a refresh of our programming basics, also equip the reader to code efficient software solutions. It provides a base for doing Object Oriented programming.
 
@@ -20,7 +20,7 @@ are  associated.
                                                           - Wikipedia
 ```
 
-# Everything has a beginning
+## Everything has a beginning
 
 Human civilization evolved every day and with each step in evolution, complex questions blocked them in their journey. We needed a companion and found one to help us in desperate times, Machine !!!!!
 Initially it was in the form of small tools and gradually progressed into complex machines.
