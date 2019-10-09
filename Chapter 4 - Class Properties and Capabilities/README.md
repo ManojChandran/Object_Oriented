@@ -15,7 +15,7 @@ Also provide us with 4 major principles which make the solution designed an Obje
 
 # Expanding Principles
 
-1) Inheritance
+1) Inheritance</br>
 Inheritance is a mechanism in which one class acquires the property of another class. It will eliminate redundant code
 
 2) Polymorphism  
