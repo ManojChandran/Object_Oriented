@@ -8,18 +8,51 @@ An efficient CLASS construction will give you the object, which have all real wo
 Also provide us with 4 major principles which make the solution designed an Object Oriented one.
 
 4 major principles are :
-1) Inheritance
-2) Polymorphism
-3) Abstraction
-4) Encapsulation
+1) Encapsulation
+2) Abstraction
+3) Inheritance
+4) Polymorphism
+
+## Encapsulation  
+Encapsulation is an idea of bundling data and methods that work on the data within one unit. It is a mechanism of hiding of data implementation by restricting access to public methods. It reduce complexity and increase re-usability.
+
+```python
+# Encapsulation
+class ProductEncapsulation(object):
+    """docstring ProdEncapsulation."""
+
+    def __init__(self):
+        self.__productName = 't-shirt'
+        self.__brandCode = '871628736777'
+
+    def getProductname(self):
+        return self.__productName
+
+    def getbradCode(self):
+        return self.__brandCode
+
+def main():
+    Item = ProductEncapsulation()
+    print(Item.getProductname())
+    print(Item.getbradCode())
+
+if __name__ == '__main__':
+    main()
+
+Output
+t-shirt
+871628736777
+
+```
+
+## Abstraction   
+Abstraction is about hiding unwanted details while giving out most essential details. It reduce complexity and isolate impact of changes.
 
 ## Inheritance
 Inheritance is a mechanism in which one class acquires the property of another class, It will eliminate redundant code.
 
 ```python
 # Inheritance example.
-# Pass class value instead of object while defining.
-# Multiple inheritence example
 class MyFatherClass(object):
     def __init__(self):
         print('snore')
@@ -76,12 +109,6 @@ Output
 2
 
 ```
-
-## Abstraction   
-Abstraction is about hiding unwanted details while giving out most essential details. It reduce complexity and isolate impact of changes.
-
-## Encapsulation  
-Encapsulation is an idea of bundling data and methods that work on the data within one unit. It is a mechanism of hiding of data implementation by restricting access to public methods. It reduce complexity and increase re-usability.
 
 ## What happens when Object acquires real world properties?
 
