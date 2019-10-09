@@ -49,7 +49,42 @@ yes, a mammal
 ```
 
 2) Polymorphism  
-Polymorphism describes a pattern in object oriented programming in which classes have different functionality while sharing a common interface. It refers to the ability of a variable, function or object to take on multiple forms. Refactor ugly switch case statements
+Polymorphism describes a pattern in object oriented programming in which classes have different functionality while sharing a common interface. It refers to the ability of a variable, function or object to take on multiple forms.
+
+```python
+# Polymorphism is the capacity to take on different forms
+# Polymorphism with Class Methods
+class Add(object):
+    """docstring for Add."""
+
+    def operation(self, x, y):
+        self.x = x
+        self.y = y
+        return (self.x + self.y)
+
+class Sub(object):
+    """docstring for Sub."""
+
+    def operation(self, x, y):
+        self.x = x
+        self.y = y
+        return (self.x - self.y)
+
+def main():
+    A = Add()
+    S = Sub()
+
+    for resultof in (A, S):
+        print(resultof.operation(5,3))
+
+if __name__ == '__main__':
+    main()
+
+Output
+8
+2
+
+```
 
 3) Abstraction   
 Abstraction is about hiding unwanted details while giving out most essential details. It reduce complexity and isolate impact of changes.
