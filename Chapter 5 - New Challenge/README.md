@@ -8,7 +8,7 @@ With acquired power and features, we started solving bigger issues. At a point t
 
 # What are basic principle to write a maintainable code?
 
-On gradual study we arrived at OOP principles which will help you to simply things. Basic OOP principles are explained below.
+On gradual study we arrived at OOP principles which will help you to simplify things. Basic OOP principles are explained below.
 
 1) Encapsulate what varies.
 2) Favor Composition over Inheritance.
