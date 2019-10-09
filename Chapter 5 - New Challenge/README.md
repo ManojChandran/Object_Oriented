@@ -13,3 +13,12 @@ On gradual study we arrived at OOP principles which will help you to simply thin
 1) Encapsulate what varies.
 2) Favor Composition over Inheritance.
 3) Program to Interface, not to implementation.
+
+# How to gauge the quality of Class?
+Grady Booch proposes five metrics to measure the quality of classes:
+
+      Coupling
+      Cohesion
+      Sufficiency
+      Completeness
+      Primitiveness
