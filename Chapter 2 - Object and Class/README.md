@@ -4,7 +4,7 @@ Every idea has its significance, when the solutions it can offer is high. Once t
 
 An Object in real world will have attributes (color, texture,..) and behavior(scroll, bend..). In computer world, Object is a package of both data(attribute) and procedures (behavior) that operate on that data. When we define the object, we will end up creating a "CLASS".
 
-```
+```python
 # defining a class and creating an Object.
 class Shark(object):
     """docstring for Shark."""

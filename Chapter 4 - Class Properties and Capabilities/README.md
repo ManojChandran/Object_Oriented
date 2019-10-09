@@ -18,6 +18,36 @@ Also provide us with 4 major principles which make the solution designed an Obje
 1) Inheritance</br>
 Inheritance is a mechanism in which one class acquires the property of another class. It will eliminate redundant code
 
+```python
+# Inheritance example.
+# Pass class value instead of object while defining.
+class Mammal(object):
+    """docstring for Mamal."""
+
+    def is_a_mammal(self):
+        print('yes, a mammal')
+
+class Whale(Mammal): # Pass class and getting inherited
+    """docstring for Whale."""
+
+    def who_is_this(self):
+        print('Whale')
+
+def main():
+    w = Whale() # instantiating Object whale
+    w.who_is_this()
+    w.is_a_mammal() # inherited is a relationship
+
+if __name__ == '__main__':
+    main()
+
+Output:
+
+Whale
+yes, a mammal
+
+```
+
 2) Polymorphism  
 Polymorphism describes a pattern in object oriented programming in which classes have different functionality while sharing a common interface. It refers to the ability of a variable, function or object to take on multiple forms. Refactor ugly switch case statements
 
