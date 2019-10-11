@@ -150,7 +150,17 @@ Output
 
 ```
 
-## What happens when Object acquires real world properties?
+## What is that solution gaining by applying the 4 principle?
+
+* Encapsulation give the solution a modularity and be more self centered, binding processing function and data together.
+
+* Abstraction gives Structure and Guidelines to the Solution. Abstraction is not implementation, it just portray an idea, by that guide the sub classes to follow the implementation.
+
+* Inheritance passes knowledge down and reduce redundant code. It reduces code by gaining insight from the super class.
+
+* Polymorphism provide dynamic behavior to solution, solution can react to the situation in different ways.
+
+## What happens when our solution applies Object oriented principles?
 
 This Enhances the created object in their interaction and operations. The Objects inside solution will acquire capabilities mentioned below
 
