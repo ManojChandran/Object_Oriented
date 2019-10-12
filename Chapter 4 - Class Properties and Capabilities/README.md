@@ -9,144 +9,141 @@ Also provide us with 4 major principles which make the solution designed an Obje
 
 4 major principles are :
 1) Encapsulation
-2) Abstraction
-3) Inheritance
+2) Inheritance
+3) Abstraction
 4) Polymorphism
 
 ## Encapsulation  
 Encapsulation is an idea of bundling data and methods that work on the data within one unit. It is a mechanism of hiding of data implementation by restricting access to public methods. It reduce complexity and increase re-usability.
 
-```python
-# Encapsulation
-class ProductEncapsulation(object):
-    """docstring ProdEncapsulation."""
+```java
+// Encapsulation
+public class ProductEncapsulation {
+	private String productName;
+	private String productId;
 
-    def __init__(self):
-        self.__productName = 't-shirt'
-        self.__brandCode = '871628736777'
+        public String getproductName() {
+              return productName;
+        }
 
-    def getProductname(self):
-        return self.__productName
+        public String getproductId() {
+              return productId;
+        }
 
-    def getbradCode(self):
-        return self.__brandCode
+        public void setName(String productName) {
+              name = productName;
+        }
 
-def main():
-    Item = ProductEncapsulation()
-    print(Item.getProductname())
-    print(Item.getbradCode())
+        public void setName(String productId) {
+              name = productId;
+        }
+}
 
-if __name__ == '__main__':
-    main()
+public class ProctuctEncap {
 
-Output
-t-shirt
-871628736777
+   public static void main(String args[]) {
+      EncapTest encap = new ProductEncapsulation();
+      encap.setproductName("Jacket");
+      encap.setproductId("9878664335");
 
-```
-
-## Abstraction   
-Abstraction is about hiding unwanted details while giving out most essential details. It reduce complexity and isolate impact of changes.
-
-```python
-# Abstraction example
-# It becomes blue print for implementation
-# can't instantiate abstract class
-from abc import ABC, abstractmethod # ABC = Abstract Base Classes
-class abstarctLandAnimal(ABC):
-    """docstring for abstarctLandAnimal."""
-    def __init__(self):
-        super().__init__()    
-
-    @abstractmethod
-    def walk(self):
-        pass
-
-    @abstractmethod
-    def talk(self):
-        pass
-
-class Duck(abstarctLandAnimal):
-    """docstring for Duck."""
-
-    def __init__(self):
-        super().__init__()
-        self.name = 'duck'
-
-    def walk(self):
-        print('duck walks')
-    def talk(self):
-        print('duck quaks')
-
-def main():
-    d1 = Duck()
-    d1.walk()
-    d1.talk()
-
-if __name__ == '__main__':
-    main()
+      System.out.print("Name : " + encap.getproductName() + " Age : " + encap.getproductId());
+   }
+}
 
 ```
 
 ## Inheritance
 Inheritance is a mechanism in which one class acquires the property of another class, It will eliminate redundant code.
 
-```python
-# Inheritance example.
-class MyFatherClass(object):
-    def __init__(self):
-        print('snore')
+```java
+// Inheritance example.
+class FatherClass{
+  void sleep(){
+    System.out.print("Snore");
+  }
+}
 
-class ChildClass(MyFatherClass):
-    def __init__(self):
-        super().__init__()
+class ChildClass extends FatherClass{
+  void study(){
+    System.out.print("Math");
+  }
+}
 
-def main():
-    d1 = ChildClass() # child inherits snoring from father.
+public class relation {
+  public static void main(String [] args){
+    ChildClass myChild = new ChildClass();
+    myChild.sleep();
+  }
+}
 
-if __name__ == '__main__':
-    main()
+```
 
-Output
-snore
+## Abstraction   
+Abstraction is about hiding unwanted details while giving out most essential details. It reduce complexity and isolate impact of changes.
 
+```java
+// Abstraction example
+// It becomes blue print for implementation
+// can't instantiate abstract class
+abstract class HumanClass{
+  abstract void sleep();
+  abstract void study();
+}
+class FatherClass extends HumanClass{
+  void sleep(){
+    System.out.print("Snore");
+  }
+
+  void study(){
+    System.out.print("chemistry");
+  }
+}
+
+class ChildClass extends FatherClass{
+  void sleep(){
+    System.out.print("silent");
+  }
+
+  void study(){
+    System.out.print("Math");
+  }
+}
+
+public class relation {
+  public static void main(String [] args){
+    ChildClass myChild = new ChildClass();
+    myChild.sleep();
+  }
+}
 ```
 
 ## Polymorphism  
 Polymorphism describes a pattern in object oriented programming in which classes have different functionality while sharing a common interface. It refers to the ability of a variable, function or object to take on multiple forms.
 
-```python
-# Polymorphism is the capacity to take on different forms
-# Polymorphism with Class Methods
-class Add(object):
-    """docstring for Add."""
+```java
+// Polymorphism is the capacity to take on different forms
+// Polymorphism with Class Methods
+class FatherClass {
+  void move(){
+    System.out.print("walk");
+  }
+}
 
-    def operation(self, x, y):
-        self.x = x
-        self.y = y
-        return (self.x + self.y)
+class ChildClass {
+  void move(){
+    System.out.print("run");
+  }
+}
 
-class Sub(object):
-    """docstring for Sub."""
+public class relation {
+  public static void main(String [] args){
+    FatherClass myFather = new FatherClass();
+    ChildClass myChild = new ChildClass();
 
-    def operation(self, x, y):
-        self.x = x
-        self.y = y
-        return (self.x - self.y)
-
-def main():
-    A = Add()
-    S = Sub()
-
-    for resultof in (A, S):
-        print(resultof.operation(5,3))
-
-if __name__ == '__main__':
-    main()
-
-Output
-8
-2
+    myFather.move();
+    myChild.move();
+  }
+}
 
 ```
 

@@ -1,13 +1,15 @@
 # New Challenge
 
-Road to Object Oriented Programming was open and many of us came up with new languages to code in Object Oriented way.
+Road to Object Oriented Programming was open and many of us came up with new languages to code in Object Oriented way. Adding on to this, we introduced many techniques and tweak's with the language.
 
-![alt text](https://www.cs.ubc.ca/wccce/Program03/papers/TongXu/TongXu_files/image002.gif)
+  1) Access Modifiers to protect the class.
+  2) Constructors to initialize the class.
+  3) Interfaces to enhance Abstraction of class.
+  4) Static to stop object creation.
+  5) Final to stop class mutation.
+  6) Type
 
-we started getting traffic jam. Consistently the promise of  reuse and maintainable code was broken. Half of the us started believing, knowing an object oriented principle and applying them will get them good code.
-
-Adding on to the existing situation there were more enhancement done to the Object Oriented
-
+Half of the us started believing, knowing an object oriented principle and applying them will get them good code. Road became congested with implementation of these ideas, We started getting traffic jam. Consistently the promise of reuse and maintainable code was broken.
 
 ## What was the new challenge?
 
@@ -28,8 +30,8 @@ There were extensive study and analysis done on techniques to achieve this. On g
 ## How to gauge the quality of Class?
 Grady Booch proposes five metrics to measure the quality of classes:
 
-      Coupling
-      Cohesion
-      Sufficiency
-      Completeness
-      Primitiveness
+* Coupling
+* Cohesion
+* Sufficiency
+* Completeness
+* Primitiveness
