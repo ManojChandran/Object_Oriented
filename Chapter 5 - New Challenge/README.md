@@ -9,6 +9,64 @@ Road to Object Oriented Programming was open and many of us came up with new lan
   5) Final to stop class mutation.
   6) Type
 
+### Access Modifiers
+
+* Private: The access level of a private modifier is only within the class. It cannot be accessed from outside the class.
+* Default: The access level of a default modifier is only within the package. It cannot be accessed from outside the package. If you do not specify any access level, it will be the default.
+* Protected: The access level of a protected modifier is within the package and outside the package through child class. If you do not make the child class, it cannot be accessed from outside the package.
+* Public: The access level of a public modifier is everywhere. It can be accessed from within the class, outside the class, within the package and outside the package.
+
+### Constructors
+
+Constructor is a block of code that initializes the newly created object
+
+```java
+// Constructor example
+class MyClass{
+   //This is the constructor
+   MyClass(){
+     System.out.print("I am initializing the newly created object");
+   }
+}
+public class ObjectInitialization {
+  public static void main(String [] args){
+    MyClass constr = new MyClass();
+  }
+}
+```
+
+### Interface
+
+Interface is an agreement.
+
+```java
+interface HumanClass{
+  public void sleep();
+  public void study();
+}
+class FatherClass implements HumanClass{
+  public void sleep(){
+    System.out.print("Snore");
+  }
+
+  public void study(){
+    System.out.print("chemistry");
+  }
+}
+
+public class relation {
+  public static void main(String [] args){
+    FatherClass myfather = new FatherClass();
+    myfather.sleep();
+  }
+}
+```
+
+## Static
+## Final
+## Type
+
+
 Half of the us started believing, knowing an object oriented principle and applying them will get them good code. Road became congested with implementation of these ideas, We started getting traffic jam. Consistently the promise of reuse and maintainable code was broken.
 
 ## What was the new challenge?

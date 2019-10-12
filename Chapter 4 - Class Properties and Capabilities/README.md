@@ -9,8 +9,8 @@ Also provide us with 4 major principles which make the solution designed an Obje
 
 4 major principles are :
 1) Encapsulation
-2) Inheritance
-3) Abstraction
+2) Abstraction
+3) Inheritance
 4) Polymorphism
 
 ## Encapsulation  
@@ -52,6 +52,40 @@ public class ProctuctEncap {
 }
 
 ```
+## Abstraction   
+Abstraction is about hiding unwanted details while giving out most essential details. It reduce complexity and isolate impact of changes.
+
+```java
+// Abstraction example
+// It becomes blue print for implementation
+// can't instantiate abstract class
+abstract class HumanClass{
+  abstract void sleep();
+  abstract void study();
+}
+class FatherClass extends HumanClass{
+  void sleep(){
+    System.out.print("Snore");
+  }
+
+  void study(){
+    System.out.print("chemistry");
+  }
+}
+
+public class relation {
+  public static void main(String [] args){
+    FatherClass myfather = new FatherClass();
+    myfather.sleep();
+
+/*	HumanClass myHuman = new HumanClass();
+		relation.java:28: error: HumanClass is abstract; cannot be instantiated
+    HumanClass myHuman = new HumanClass();
+                         ^
+		1 error */
+  }
+}
+```
 
 ## Inheritance
 Inheritance is a mechanism in which one class acquires the property of another class, It will eliminate redundant code.
@@ -77,45 +111,6 @@ public class relation {
   }
 }
 
-```
-
-## Abstraction   
-Abstraction is about hiding unwanted details while giving out most essential details. It reduce complexity and isolate impact of changes.
-
-```java
-// Abstraction example
-// It becomes blue print for implementation
-// can't instantiate abstract class
-abstract class HumanClass{
-  abstract void sleep();
-  abstract void study();
-}
-class FatherClass extends HumanClass{
-  void sleep(){
-    System.out.print("Snore");
-  }
-
-  void study(){
-    System.out.print("chemistry");
-  }
-}
-
-class ChildClass extends FatherClass{
-  void sleep(){
-    System.out.print("silent");
-  }
-
-  void study(){
-    System.out.print("Math");
-  }
-}
-
-public class relation {
-  public static void main(String [] args){
-    ChildClass myChild = new ChildClass();
-    myChild.sleep();
-  }
-}
 ```
 
 ## Polymorphism  
