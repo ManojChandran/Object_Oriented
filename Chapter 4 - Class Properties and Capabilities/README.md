@@ -18,7 +18,8 @@ Encapsulation is an idea of bundling data and methods that work on the data with
 
 ```java
 // Encapsulation
-public class ProductEncapsulation {
+// Encapsulation
+class ProductEncapsulation {
 	private String productName;
 	private String productId;
 
@@ -30,19 +31,19 @@ public class ProductEncapsulation {
               return productId;
         }
 
-        public void setName(String productName) {
-              name = productName;
+        public void setproductName(String productName) {
+              this.productName = productName;
         }
 
-        public void setName(String productId) {
-              name = productId;
+        public void setproductId(String productId) {
+              this.productId = productId;
         }
 }
 
 public class ProctuctEncap {
 
    public static void main(String args[]) {
-      EncapTest encap = new ProductEncapsulation();
+      ProductEncapsulation encap = new ProductEncapsulation();
       encap.setproductName("Jacket");
       encap.setproductId("9878664335");
 
