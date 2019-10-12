@@ -4,7 +4,7 @@ This is a small attempt to write up a simple, easy to understand book for Object
 
 # Contents
 
-    A Preface	new line changes	4 months ago
+    A Preface
     Chapter 1 - Beginning	 
     Chapter 2 - Object and Class	 
     Chapter 3 - Building a Class	 
