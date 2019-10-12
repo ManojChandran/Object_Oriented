@@ -150,11 +150,11 @@ Output
 
 ```
 
-## What is that solution gaining by applying the 4 principle?
+## What is that our solution gaining by applying the 4 principle?
 
-* Encapsulation give the solution a modularity and be more self centered, binding processing function and data together.
+* Encapsulation give the solution a modularity and be more self centered, binding processing function and data together. Everything is capsuled and protected within the boundary of class.
 
-* Abstraction gives Structure and Guidelines to the Solution. Abstraction is not implementation, it just portray an idea, by that guide the sub classes to follow the implementation.
+* Abstraction gives Structure and Guidelines to the Solution. Abstraction is not implementation, it just portrays an idea, by that idea the sub classes to follow the implementation.
 
 * Inheritance passes knowledge down and reduce redundant code. It reduces code by gaining insight from the super class.
 
