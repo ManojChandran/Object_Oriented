@@ -172,3 +172,14 @@ Grady Booch proposes five metrics to measure the quality of classes:
 * Sufficiency - Does the class capture enough of the details of the thing being modeled to be useful?
 * Completeness - Does the class capture all of the useful behavior of the thing being modeled to be re-usable?
 * Primitiveness - Does the class capture all of the useful behavior of the thing being modeled to be re-usable?
+
+## Coupling  
+How closely do classes rely on each other?
+## Cohesion
+How closely do classes rely on each other?
+## Sufficiency
+Does the class capture enough of the details of the thing being modeled to be useful?
+## Completeness
+Does the class capture all of the useful behavior of the thing being modeled to be re-usable?
+## Primitiveness
+Does the class capture all of the useful behavior of the thing being modeled to be re-usable?
