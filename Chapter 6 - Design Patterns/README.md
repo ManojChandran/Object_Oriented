@@ -4,7 +4,7 @@ Now the stage is set and we are ready for big leap. We have quality Objects and 
 
 With Object Oriented design principle in hand, their implementation is big thing. Proper implementation will provide us with maintainable and re-usable code.
 
-Know principles are :
+Known principles are :
 
 * Encapsulate what varies.
 * Favor Composition over Inheritance.
@@ -33,10 +33,12 @@ Design Pattern is classified into
 >3) Behavioral
 
 ## Creational
+Creational design patterns are design patterns that deal with object creation mechanisms, trying to create objects in a manner suitable to the situation.
 
 ## Structural
+Structural design patterns are design patterns that ease the design by identifying a simple way to realize relationships among entities.
 
 ## Behavioral
-
+Behavioral patterns are concerned with the assignment of responsibilities between objects, or, encapsulating behavior in an object and delegating requests to it
 
 Once you get hold on these Design Patterns, you are ready to solve mysteries and go beyond. Ultimately, solution is also an Object which has a meaning now .....
