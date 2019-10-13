@@ -187,3 +187,4 @@ Does the class capture all of the useful behavior of the thing being modeled to 
 
 > Irrespective any interview or Object orient discussion, you might have come across this question.
 > What is the difference between function and a method?
+> Why multiple inheritance is not allowed in JAVA?
