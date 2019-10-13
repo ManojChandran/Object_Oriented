@@ -183,3 +183,7 @@ Does the class capture enough of the details of the thing being modeled to be us
 Does the class capture all of the useful behavior of the thing being modeled to be re-usable?
 ## Primitiveness
 Does the class capture all of the useful behavior of the thing being modeled to be re-usable?
+
+
+> Irrespective any interview or Object orient discussion, you might have come across this question.
+> What is the difference between function and a method?
