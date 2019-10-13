@@ -8,14 +8,20 @@ An efficient Class is created, when class construction follow SOLID principle.
 
 ```
   SOLID stands for
-   S - Single responsibility principle
-        A class should have one and only one reason to changes.
-   O - Open Closed principle
-        Software entities should be open for extension, but closed for modification.
+   S - Single responsibility Principle
+   O - Open Closed Principle
    L - Liskov Substitution Principle
-        Sub types must be substitutable for their base type.
-   I - Interface segregation principle
-        The dependency of one class to another, should depend on the smallest possible interface.
-   D - Dependency Inversion principle
-        Depends on abstractions (interfaces), not on concrete classes.
+   I - Interface Segregation Principle
+   D - Dependency Inversion Principle
 ```
+
+### Single Responsibility Principle
+A class should have one and only one reason to changes.
+### Open Closed Principle
+Software entities should be open for extension, but closed for modification.
+### Liskov Substitution Principle
+Sub types must be substitutable for their base type.
+### Interface Segregation Principle
+The dependency of one class to another, should depend on the smallest possible interface.
+### Dependency Inversion Principle
+Depends on abstractions (interfaces), not on concrete classes.
