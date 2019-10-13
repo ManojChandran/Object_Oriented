@@ -1,6 +1,7 @@
 # Contents
 
 Preface </br>
+
 Chapter 1 - Beginning                                                 </br>
    What is the Object Oriented Programming?                           </br>
 
@@ -28,7 +29,7 @@ Chapter 7 - Functional Programming                                    </br>
 
 Chapter 8 - Big O                                                     </br>
    Why are our Systems not happy?                                     </br>
-   
+
 Chapter 9 - Windup                                                    </br>
    Where are we going?                                                </br>
 
