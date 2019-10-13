@@ -6,7 +6,7 @@ Solution, go back to basics. Clear understandings of core principle and strong b
 
 This book attempt to refresh the basics and provide a clear picture for beginners to start with. Concentrate more on evolution, trying to explain them.
 
-## What is the Object Oriented Programming?
+## What is Object Oriented Programming?
 
 Just refer to what Wikipedia has to say...
 
