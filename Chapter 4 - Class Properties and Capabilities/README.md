@@ -143,7 +143,7 @@ public class relation {
 
 ```
 
-## What is that our solution gaining by applying the 4 principle?
+## What is that our solution gaining by applying 4 principle?
 
 * Encapsulation give the solution a modularity and be more self centered, binding processing function and data together. Everything is capsuled and protected within the boundary of class.
 
@@ -171,4 +171,4 @@ Grady Booch proposes five metrics to measure the quality of classes:
 * Cohesion - How closely do classes rely on each other?
 * Sufficiency - Does the class capture enough of the details of the thing being modeled to be useful?
 * Completeness - Does the class capture all of the useful behavior of the thing being modeled to be re-usable?
-* Primitiveness - Does the class capture all of the useful behavior of the thing being modeled to be re-usable? 
+* Primitiveness - Does the class capture all of the useful behavior of the thing being modeled to be re-usable?
