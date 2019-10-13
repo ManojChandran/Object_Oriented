@@ -1,28 +1,28 @@
 # Contents
 
-Preface
-Chapter 1 - Beginning</br>
-   What is the Object Oriented Programming?
-Chapter 2 - Object and Class</br>
-   What are Objects and Classes?	 
-Chapter 3 - Building a Class</br>
-   How can we build an efficient class?
-Chapter 4 - Class Properties and Capabilities</br>
-   What happens when an efficient class is created?
-   What is that our solution gaining by applying 4 principle?
-   What happens when our solution applies Object oriented principles?
-   How to gauge the quality of Class?
-Chapter 5 - New Challenge</br>
-   What was the new challenge?
-   What are the basic principle to write a maintainable code?
-Chapter 6 - Design Patterns</br>
-   How to implement Object Oriented design principles?
-Chapter 7 - Functional Programming</br>
-   Why is that programmer not happy?
-Chapter 8 - Big O </br>
-   Why are our Systems not happy?
-Chapter 9 - Windup</br>
-   Where are we going?
+Preface </br>
+Chapter 1 - Beginning                                             </br>
+   What is the Object Oriented Programming?   </br>
+Chapter 2 - Object and Class   </br>
+   What are Objects and Classes?</br>
+Chapter 3 - Building a Class   </br>
+   How can we build an efficient class?</br>
+Chapter 4 - Class Properties and Capabilities   </br>
+   What happens when an efficient class is created?</br>
+   What is that our solution gaining by applying 4 principle?</br>
+   What happens when our solution applies Object oriented principles?</br>
+   How to gauge the quality of Class?</br>
+Chapter 5 - New Challenge   </br>
+   What was the new challenge?</br>
+   What are the basic principle to write a maintainable code?</br>
+Chapter 6 - Design Patterns   </br>
+   How to implement Object Oriented design principles?</br>
+Chapter 7 - Functional Programming   </br>
+   Why is that programmer not happy?</br>
+Chapter 8 - Big O    </br>
+   Why are our Systems not happy?</br>
+Chapter 9 - Windup   </br>
+   Where are we going?</br>
 
 # Preface
 
