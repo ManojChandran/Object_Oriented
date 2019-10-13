@@ -1,30 +1,28 @@
 # Contents
 
->
 Preface </br>
->
 Chapter 1 - Beginning                                                 </br>
->   What is the Object Oriented Programming?                           </br>
+   What is the Object Oriented Programming?                           </br>
 Chapter 2 - Object and Class                                          </br>
->   What are Objects and Classes?                                      </br>
+   What are Objects and Classes?                                      </br>
 Chapter 3 - Building a Class                                          </br>
->   How can we build an efficient class?                               </br>
+   How can we build an efficient class?                               </br>
 Chapter 4 - Class Properties and Capabilities                         </br>
->   What happens when an efficient class is created?                   </br>
->   What is that our solution gaining by applying 4 principle?         </br>
->   What happens when our solution applies Object oriented principles? </br>
->   How to gauge the quality of Class?                                 </br>
+   What happens when an efficient class is created?                   </br>
+   What is that our solution gaining by applying 4 principle?         </br>
+   What happens when our solution applies Object oriented principles? </br>
+   How to gauge the quality of Class?                                 </br>
 Chapter 5 - New Challenge                                             </br>
->   What was the new challenge?                                        </br>
->   What are the basic principle to write a maintainable code?         </br>
+   What was the new challenge?                                        </br>
+   What are the basic principle to write a maintainable code?         </br>
 Chapter 6 - Design Patterns                                           </br>
->   How to implement Object Oriented design principles?                </br>
+   How to implement Object Oriented design principles?                </br>
 Chapter 7 - Functional Programming                                    </br>
->   Why is that programmer not happy?                                  </br>
+   Why is that programmer not happy?                                  </br>
 Chapter 8 - Big O                                                     </br>
->   Why are our Systems not happy?                                     </br>
+   Why are our Systems not happy?                                     </br>
 Chapter 9 - Windup                                                    </br>
->   Where are we going?                                                </br>
+   Where are we going?                                                </br>
 
 # Preface
 
