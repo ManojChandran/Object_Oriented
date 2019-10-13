@@ -15,6 +15,7 @@ Known principles are :
 
 # How to implement Object Oriented design principles?
 
+In the 1994 a mile stone book came in software engineering, it was called Design Pattern and work of four authors called Gang of Four.
 
 ```
 Design Patterns: Elements of Reusable Object-Oriented Software (1994) is a software engineering book
@@ -22,15 +23,15 @@ describing software design patterns. The book was written by Erich Gamma, Richar
 and John Vlissides, with a foreword by Grady Booch. The book is divided into two parts, with the first
 two chapters exploring the capabilities and pitfalls of object-oriented programming, and the remaining
 chapters describing 23 classic software design patterns.
-                                                        - Wikipedia
+                                                                                - Wikipedia
 ```
 23 Patterns where identified and categorized, these were general Repeatable/ Proven solution to a commonly occurring problem in software design.
 
-Design Pattern is classified into
+Original GoF Categorization
 
->1) Creational
->2) Structural
->3) Behavioral
+>  Creational
+>  Structural
+>  Behavioral
 
 ## Creational
 Creational design patterns are design patterns that deal with object creation mechanisms, trying to create objects in a manner suitable to the situation.
