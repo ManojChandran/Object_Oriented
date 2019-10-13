@@ -2,7 +2,7 @@
 
 This chapter gives an introduction on evolution of
 
-# How to implement OOP principle?
+# How to implement Object Oriented design principles?
 
 Design Patterns : general Repeatable/ Proven solution to a commonly occurring problem in software design. Design Pattern is classified into
 

@@ -1,5 +1,4 @@
 # Introduction
 
 This chapter gives an introduction
-
-## Why is that programmer still not happy?
+## Where are we going?

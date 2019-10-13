@@ -2,13 +2,27 @@
 
 Preface
 Chapter 1 - Beginning	 
-Chapter 2 - Object and Class	 
-Chapter 3 - Building a Class	 
+............What is the Object Oriented Programming?
+Chapter 2 - Object and Class
+............What are Objects and Classes?	 
+Chapter 3 - Building a Class
+............How can we build an efficient class?
 Chapter 4 - Class Properties and Capabilities	 
+............What happens when an efficient class is created?
+............What is that our solution gaining by applying 4 principle?
+............What happens when our solution applies Object oriented principles?
+............How to gauge the quality of Class?
 Chapter 5 - New Challenge	 
-Chapter 6 - Design Patterns	 
+............What was the new challenge?
+............What are the basic principle to write a maintainable code?
+Chapter 6 - Design Patterns
+............How to implement Object Oriented design principles?
 Chapter 7 - Functional Programming	 
-Chapter 8 - Windup	 
+............Why is that programmer not happy?
+Chapter 8 - Big O
+............Why are our Systems not happy?
+Chapter 9 - Windup
+............Where are we going?
 
 # Preface
 
