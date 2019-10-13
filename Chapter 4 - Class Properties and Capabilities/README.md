@@ -147,8 +147,6 @@ public class relation {
 
 * Encapsulation give the solution a modularity and be more self centered, binding processing function and data together. Everything is capsuled and protected within the boundary of class.
 
-![alt text](http://www.cs.sjsu.edu/faculty/pearce/modules/lectures/ood/principles/Modularity_files/image004.jpg)
-
 * Abstraction gives Structure and Guidelines to the Solution. Abstraction is not implementation, it just portrays an idea, by that idea the sub classes to follow the implementation.
 
 * Inheritance passes knowledge down and reduce redundant code. It reduces code by gaining insight from the super class.
