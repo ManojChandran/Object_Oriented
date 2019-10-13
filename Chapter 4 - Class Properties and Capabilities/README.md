@@ -2,7 +2,7 @@
 
 Guidelines help us to create an efficient CLASS, whats next?... An efficient CLASS, without interaction is of no use. By defining class and instantiating it, we create Object.
 
-## What happens when an efficient class is created?
+## What happens when an efficient class is build?
 
 An efficient CLASS construction will give you the object, which have all real world object properties.
 Also provide us with 4 major principles which make the solution designed an Object Oriented one.

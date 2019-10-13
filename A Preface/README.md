@@ -3,7 +3,7 @@
 Preface </br>
 
 Chapter 1 - Beginning                                                 </br>
-   What is Object Oriented Programming?                           </br>
+   What is Object Oriented Programming?                               </br>
 
 Chapter 2 - Object and Class                                          </br>
    What are Objects and Classes?                                      </br>
@@ -12,7 +12,7 @@ Chapter 3 - Building a Class                                          </br>
    How can we build an efficient class?                               </br>
 
 Chapter 4 - Class Properties and Capabilities                         </br>
-   What happens when an efficient class is created?                   </br>
+   What happens when an efficient class is build?                     </br>
    What is that our solution gaining by applying 4 principle?         </br>
    What happens when our solution applies Object oriented principles? </br>
    How to gauge the quality of Class?                                 </br>

@@ -4,6 +4,8 @@ Now the stage is set and we are ready for big leap. We have quality Objects and 
 
 With Object Oriented design principle in hand, their implementation is big thing. Proper implementation will provide us with maintainable and re-usable code.
 
+Know principles are :
+
 * Encapsulate what varies.
 * Favor Composition over Inheritance.
 * Program to Interface, not to implementation.
