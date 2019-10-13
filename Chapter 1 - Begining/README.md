@@ -6,10 +6,9 @@ Solution, go back to basics. Clear understandings of core principle and strong b
 
 This book attempt to refresh the basics and provide a clear picture for beginners to start with. Concentrate more on evolution, trying to explain them.
 
-## Object oriented programming
+## What is the Object Oriented Programming?
 
-Objective aim of this book is to provide a refresh of our programming basics, also equip the reader to code efficient software solutions. It provides a base for doing Object Oriented programming.
-
+Just refer to what Wikipedia has to say...
 
 ```
 Object-oriented programming is a programming paradigm based on the concept
