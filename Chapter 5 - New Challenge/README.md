@@ -5,9 +5,7 @@ Road to Object Oriented Programming was open and many of us came up with new lan
   1) Access Modifiers to protect the class.
   2) Constructors to initialize the class.
   3) Interfaces to enhance Abstraction of class.
-  4) Static to stop object creation.
-  5) Final to stop class mutation.
-  6) Type
+  4) Final to stop class mutation.
 
 ### Access Modifiers
 
