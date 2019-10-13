@@ -6,14 +6,16 @@ First step towards Object Orientation, is to design an efficient class. The theo
 
 An efficient Class is created, when class construction follow SOLID principle.
 
->  SOLID stands for
->   S - Single responsibility principle
->        A class should have one and only one reason to changes.
->   O - Open Closed principle
->        Software entities should be open for extension, but closed for modification.
->   L - Liskov Substitution Principle
->        Sub types must be substitutable for their base type.
->   I - Interface segregation principle
->        The dependency of one class to another, should depend on the smallest possible interface.
->   D - Dependency Inversion principle
->        Depends on abstractions (interfaces), not on concrete classes.
+```
+  SOLID stands for
+   S - Single responsibility principle
+        A class should have one and only one reason to changes.
+   O - Open Closed principle
+        Software entities should be open for extension, but closed for modification.
+   L - Liskov Substitution Principle
+        Sub types must be substitutable for their base type.
+   I - Interface segregation principle
+        The dependency of one class to another, should depend on the smallest possible interface.
+   D - Dependency Inversion principle
+        Depends on abstractions (interfaces), not on concrete classes.
+```
