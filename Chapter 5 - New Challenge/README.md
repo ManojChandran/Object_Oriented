@@ -11,6 +11,8 @@ Road to Object Oriented Programming was open and many of us came up with new lan
 
 ### Access Modifiers
 
+Scope and Access of object is key part in designing the solution. We created access modifiers to help...
+
 * Private: The access level of a private modifier is only within the class. It cannot be accessed from outside the class.
 * Default: The access level of a default modifier is only within the package. It cannot be accessed from outside the package. If you do not specify any access level, it will be the default.
 * Protected: The access level of a protected modifier is within the package and outside the package through child class. If you do not make the child class, it cannot be accessed from outside the package.
@@ -18,7 +20,7 @@ Road to Object Oriented Programming was open and many of us came up with new lan
 
 ### Constructors
 
-Constructor is a block of code that initializes the newly created object
+When some object is created we need options to set its state. This will help us to have logical beginning for any Solution we are Building. Constructor is a block of code that initializes the newly created object.
 
 ```java
 // Constructor example
@@ -37,7 +39,9 @@ public class ObjectInitialization {
 
 ### Interface
 
-Interface is an agreement.
+Communication between object and between different teams are key in our Object Oriented solution. Teams which build them might be working isolated and achieving their goals. Interface provide a way to reach an agreement between them.
+
+Interface is an agreement or contract.
 
 ```java
 interface HumanClass{
@@ -62,14 +66,25 @@ public class relation {
 }
 ```
 
-## Static
-## Final
-## Type
+### Final
 
+While allowing inheritance, sometimes we need to stop it from happening. Declaring class as "Final" will prevent it to be inherited by other classes.
 
-Half of the us started believing, knowing an object oriented principle and applying them will get them good code. Road became congested with implementation of these ideas, We started getting traffic jam. Consistently the promise of reuse and maintainable code was broken.
+```java
+final class A
+{
+     // methods and fields
+}
+// The following class is illegal.
+class B extends A
+{
+    // COMPILE-ERROR! Can't subclass A
+}
+```
 
 ## What was the new challenge?
+
+Road became congested with implementation of these ideas, We started getting traffic jam. Half of the us started believing, knowing an object oriented principle and applying them will get us good code. Consistently the promise of reuse and maintainable code was broken.
 
 With acquired power and features, we started solving bigger issues. Later time, we started enhancing the solutions. It took less time for us to understand that, code has become increasingly complex. So complex, that upgrade is becoming very hard. There were times when we need to rewrite the entire code, re architect it.
 
