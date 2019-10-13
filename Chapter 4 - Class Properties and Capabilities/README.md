@@ -161,3 +161,14 @@ This Enhances the created object in their interaction and operations. The Object
 2) Aggregation
 3) Composition
 4) Dependency
+
+## How to gauge the quality of Class?
+With getting more enhancements and upgrades to class, we definitely need base to measure the quality of class.
+
+Grady Booch proposes five metrics to measure the quality of classes:
+
+* Coupling - How closely do classes rely on each other?
+* Cohesion - How closely do classes rely on each other?
+* Sufficiency - Does the class capture enough of the details of the thing being modeled to be useful?
+* Completeness - Does the class capture all of the useful behavior of the thing being modeled to be re-usable?
+* Primitiveness - Does the class capture all of the useful behavior of the thing being modeled to be re-usable? 

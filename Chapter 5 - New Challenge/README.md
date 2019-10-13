@@ -97,12 +97,3 @@ There were extensive study and analysis done on techniques to achieve this. On g
 * Program to Interface, not to implementation.
 * Depend on Abstraction, do not depend on concrete class.
 * Strive for loosely coupled design between object that interact.
-
-## How to gauge the quality of Class?
-Grady Booch proposes five metrics to measure the quality of classes:
-
-* Coupling
-* Cohesion
-* Sufficiency
-* Completeness
-* Primitiveness
