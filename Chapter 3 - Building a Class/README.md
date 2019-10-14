@@ -1,11 +1,17 @@
-# Efficient "CLASS"
+# Building a Class
 
 Once the CLASS and OBJECT is defined, we extend our work to improve it. Industry came up with guidelines to create an efficient class, which is key for any solution.
 
 First step towards Object Orientation, is to design an efficient class. The theory of SOLID principles was introduced by Martin in his 2000 paper Design Principles and Design Patterns.
 
 ## How can we build an efficient class?
-An efficient Class is created, when class construction follow SOLID principle.
+Defining a class in a design, developer should have multiple factors in consideration.
+
+1) Class should provide rigidity to design, changes in class should not effect many other parts.
+2) Shouldn't make design fragile, things should not break in unrelated places.
+3) Should Stop reuse of code outside of its original context.
+
+Considering these above criteria, Uncle Bob proposed solid principle in 1995. He requested developers to follow the principle, to create an efficient Class.
 
 ```
   SOLID stands for
