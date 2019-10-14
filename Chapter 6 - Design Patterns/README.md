@@ -15,7 +15,7 @@ Known principles are :
 
 # How to implement Object Oriented design principles?
 
-In the 1994 a mile stone book came in software engineering, it was called Design Pattern and it was work of four authors, later called as Gang of Four.
+In the 1994 a mile stone book came in software engineering, it was called Design Pattern and it was work of four authors, later known as Gang of Four.
 
 ```
 Design Patterns: Elements of Reusable Object-Oriented Software (1994) is a software engineering book
