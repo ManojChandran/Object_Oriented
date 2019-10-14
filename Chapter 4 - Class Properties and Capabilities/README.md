@@ -155,19 +155,97 @@ public class relation {
 
 ## What happens when our solution applies Object oriented principles?
 
-This Enhances the created object in their interaction and operations. The Objects inside solution will acquire capabilities mentioned below
+This Enhances the created object in their interaction and operations. The Objects inside solution will acquire capabilities of having different kind of relationship with each other.
 
 1) Association
 2) Aggregation
 3) Composition
-4) Dependency
 
 ### Association
+Association is relationship between two classes where one class utilizes features of another class. A kind of "Has A" relationship...
+
+```java
+// Association example
+class Manager{
+  private String name;
+  public Manager(String name){
+    this.name = name;
+  }
+
+  public String Logon(SwipeCard obj){
+    return obj.Swipe(this);
+  }
+
+  public String getManagerName(SwipeCard obj){
+    return name;
+  }
+}
+
+class SwipeCard{
+  private String cardID;
+  public SwipeCard(String cardID){
+    this.cardID = cardID;
+  }
+
+  public String Swipe(Manager obj){
+    return "Login Successful";
+  }
+
+  public String swipeCardID(){
+    return cardID;
+  }
+}
+
+public class relation {
+  public static void main(String [] args){
+    Manager mike = new Manager("Mike");
+    SwipeCard ton = new SwipeCard("C0120");
+    System.out.println(mike.Logon(ton));
+  }
+}
+
+```
 
 ### Aggregation
 
+Aggregation in Java is a relationship between two classes that is best described as a "has-a" and "whole/part" relationship. Class has an owner and can exist independently.
+
+```java
+class Employee{
+  private String name;
+  private String Address;
+  public Employee(String name){
+    this.name = name;
+  }
+
+  public void getManagerCountry(Address addr){
+    System.out.println(addr.getAddressCountry());
+  }
+  public void setManagerName(String name){
+    this.name = name;
+  }
+
+  public void getManagerName(){
+    System.out.println(name);
+  }
+}
+
+public class relation {
+  public static void main(String [] args){
+    Employee mike = new Employee("Mike");
+    Address mikeAddr = new Address(55, "Agra", "UP", "India");
+
+    mike.getManagerName();
+    mike.getManagerCountry(mikeAddr);
+
+  }
+}
+
+```
+
 ### Composition
 Composition is the design technique to implement has-a relationship in classes. Rather than inheriting by extending the class, idea is to have the Composition by referencing the object in you new class.
+
 
 ```java
 // Composition example
@@ -205,9 +283,6 @@ public class relation {
 }
 
 ```
-
-### Dependency
-nbjhghjgjgjkhj
 
 
 > An object is simply a value or variable that has a method, A method is a function associated with a particular object. An Object Oriented program is the one that uses methods to express the properties and operations on each data structure.
