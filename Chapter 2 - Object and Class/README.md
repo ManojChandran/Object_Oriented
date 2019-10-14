@@ -24,5 +24,5 @@ public class Dog {
 
 Class is a blue print of the object, attributes are the data and methods were its behavior. The efficiency and design of the class will, improves your solution. All success of software solution, depends on
 
->   1) How "Object" is defined with a "Class"?
->   2) How interactions between "Object" happens?
+* How "Object" is defined with a "Class"?
+* How interactions between "Object" happens?

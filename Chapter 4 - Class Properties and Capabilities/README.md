@@ -147,7 +147,7 @@ public class relation {
 
 * Encapsulation give the solution a modularity and be more self centered, binding processing function and data together. Everything is capsuled and protected within the boundary of class.
 
-* Abstraction gives Structure and Guidelines to the Solution. Abstraction is not implementation, it just portrays an idea, by that idea the sub classes to follow the implementation.
+* Abstraction gives Structure and Guidelines to the Solution. Abstraction is not implementation, it just portrays an idea, an idea for sub classes to follow in their implementation.
 
 * Inheritance passes knowledge down and reduce redundant code. It reduces code by gaining insight from the super class.
 
@@ -161,6 +161,52 @@ This Enhances the created object in their interaction and operations. The Object
 2) Aggregation
 3) Composition
 4) Dependency
+
+### Association
+
+### Aggregation
+
+### Composition
+Composition is the design technique to implement has-a relationship in classes. Rather than inheriting by extending the class, idea is to have the Composition by referencing the object in you new class.
+
+```java
+// Composition example
+class HumanClass {
+  private String name;
+
+  public HumanClass(String name){
+    this.name = name;
+  }
+
+  public String toString(){
+    return name;
+  }
+
+}
+
+class DogClass{
+  private String name;
+  private HumanClass owner;
+  public DogClass(String name, HumanClass owner){
+    this.name = name;
+    this.owner = owner;
+  }
+
+  public String toString(){
+    return String.format("My name is :%s, My Owner name is :%s", name, owner);
+  }
+}
+
+public class relation {
+  public static void main(String [] args){
+    HumanClass mike = new HumanClass("Mike");
+    DogClass ton = new DogClass("ton", mike);
+  }
+}
+
+```
+
+### Dependency
 
 ## How to gauge the quality of Class?
 With getting more enhancements and upgrades to class, we definitely need base to measure the quality of class.
