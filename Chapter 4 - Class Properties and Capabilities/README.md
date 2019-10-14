@@ -1,6 +1,6 @@
 # Class properties and capabilities
 
-Guidelines help us to create an efficient CLASS, whats next?... An efficient CLASS, without interaction is of no use. By defining class and instantiating it, we create Object.
+Guidelines help us to create an efficient CLASS, whats next?... An efficient CLASS, without interaction is of no use. 
 
 ## What happens when an efficient class is build?
 
