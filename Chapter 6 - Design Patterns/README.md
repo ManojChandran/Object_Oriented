@@ -7,7 +7,7 @@ With Object Oriented design principle in hand, their implementation is big thing
 Known principles are :
 
 * Encapsulate what varies.
-* Favor Composition over Inheritance.
+* Favor Object Composition over Class Inheritance.
 * Program to Interface, not to implementation.
 * Depend on Abstraction, do not depend on concrete class.
 * Strive for loosely coupled design between object that interact.
