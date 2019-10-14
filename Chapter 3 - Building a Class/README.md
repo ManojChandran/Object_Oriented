@@ -17,12 +17,12 @@ An efficient Class is created, when class construction follow SOLID principle.
 ```
 
 ### Single Responsibility Principle
-A class should have one and only one reason to changes.
+* A class should have one and only one reason to changes.
 ### Open Closed Principle
-Software entities should be open for extension, but closed for modification.
+* Software entities should be open for extension, but closed for modification.
 ### Liskov Substitution Principle
-Sub types must be substitutable for their base type.
+* Sub types must be substitutable for their base type.
 ### Interface Segregation Principle
-The dependency of one class to another, should depend on the smallest possible interface.
+* The dependency of one class to another, should depend on the smallest possible interface.
 ### Dependency Inversion Principle
-Depends on abstractions (interfaces), not on concrete classes.
+* Depends on abstractions (interfaces), not on concrete classes.

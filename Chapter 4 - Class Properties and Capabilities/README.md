@@ -233,7 +233,7 @@ class Employee{
 public class relation {
   public static void main(String [] args){
     Employee mike = new Employee("Mike");
-    Address mikeAddr = new Address(55, "Agra", "UP", "India");
+    Address mikeAddr = new Address(55, "New Britain", "Connecticut", "US");
 
     mike.getManagerName();
     mike.getManagerCountry(mikeAddr);
