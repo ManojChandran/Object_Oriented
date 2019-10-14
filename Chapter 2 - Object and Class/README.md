@@ -22,10 +22,7 @@ public class Dog {
 }
 ```
 
-Class is a blue print of the object, attributes are the data and methods were its behavior.
-> An object is simply a value or variable that has a method, A method is a function associated with a particular object. An Object Oriented program is the one that uses methods to express the properties and operations on each data structure.
-
-The efficiency and design of the class will, improves your solution. All success of software solution, depends on
+Class is a blue print of the object, attributes are the data and methods were its behavior. The efficiency and design of the class will, improves your solution. All success of software solution, depends on
 
 * How "Object" is defined with a "Class"?
 * How interactions between "Object" happens?

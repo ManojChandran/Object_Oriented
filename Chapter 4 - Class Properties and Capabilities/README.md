@@ -207,6 +207,10 @@ public class relation {
 ```
 
 ### Dependency
+nbjhghjgjgjkhj
+
+
+> An object is simply a value or variable that has a method, A method is a function associated with a particular object. An Object Oriented program is the one that uses methods to express the properties and operations on each data structure.
 
 ## How to gauge the quality of Class?
 With getting more enhancements and upgrades to class, we definitely need base to measure the quality of class.
