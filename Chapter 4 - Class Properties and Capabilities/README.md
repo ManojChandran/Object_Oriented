@@ -310,6 +310,6 @@ Does the class capture all of the useful behavior of the thing being modeled to 
 Does the class capture all of the useful behavior of the thing being modeled to be re-usable?
 
 
-> Irrespective any interview or Object orient discussion, you might have come across this question.
+> Irrespective of any interview or discussion on Object orient programming, you might have come across these question.
 > What is the difference between function and a method?
 > Why multiple inheritance is not allowed in JAVA?
