@@ -42,4 +42,20 @@ Structural design patterns are design patterns that ease the design by identifyi
 ## Behavioral
 Behavioral patterns are concerned with the assignment of responsibilities between objects, or, encapsulating behavior in an object and delegating requests to it
 
+## The Catalog of Design Patterns
+
+Singleton - Ensure a class only has one instance, and provide a global point of access to it.
+
+Observer - Defines a one-to-many dependency between objects so that when one object changes state, all of its dependents are notified and updated automatically
+
+Abstract Factory - Provide an interface for creating families of related or dependent objects without specifying their concrete classes.
+
+Decorator Pattern - Attaches additional responsibilities to an object dynamically. Decorator provides a flexible alternative to sub-classing for extending functionality.
+
+Factory Method Pattern - Defines an interface for creating an object, but lets sub classes decide which class to instantiate. It lets a class defer instantiation to subclass
+
+Command - Encapsulate a request as an object, thereby letting you parameterize clients with different requests, queue or log requests, and support undoable operations.
+
+
+
 Once you get hold on these Design Patterns, you are ready to solve mysteries and go beyond. Ultimately, solution is also an Object which has a meaning now .....
