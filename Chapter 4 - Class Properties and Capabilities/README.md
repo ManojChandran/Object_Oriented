@@ -309,7 +309,31 @@ between modules.
 ```
 ## Cohesion
 
-Cohesion is an indication of how related and focused the responsibilities of an software element are, it's an indication of relationship of elements within the class.
+Cohesion is an indication of how related and focused the responsibilities of an software element are, it's an indication of relationship of elements within the class. Ideal case is to have high internal Cohesion, High cohesion means that the class is focused on what it should be doing, i.e. only methods relating to the intention of the class.
+
+Low Cohesion
+```java
+class staffMail {
+	checkEmail();
+	sendEmail();
+	printLetter();
+}
+```
+High Cohesion
+```java
+class staffMail {
+	private String emailAddress;
+
+	public setEmailaddr(String emailAddress){
+		this.emailAddress = emailAddress;
+	}
+
+	public getEmailaddr(){
+		return emailAddress;		
+	}
+}
+```
+High cohesive example is clear about intention and more focused.Low cohesive example is not focused and have additional responsibility.
 
 ## Sufficiency
 * Does the class capture enough of the details of the thing being modeled to be useful?
