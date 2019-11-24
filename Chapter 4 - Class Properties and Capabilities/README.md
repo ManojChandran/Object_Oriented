@@ -1,6 +1,6 @@
 # Class properties and capabilities
 
-Guidelines help us to create an efficient CLASS, whats next?... An efficient CLASS, without interaction is of no use. 
+Guidelines help us to create an efficient CLASS, whats next?... An efficient CLASS, without interaction is of no use.
 
 ## What happens when an efficient class is build?
 
@@ -17,7 +17,6 @@ Also provide us with 4 major principles which make the solution designed an Obje
 Encapsulation is an idea of bundling data and methods that work on the data within one unit. It is a mechanism of hiding of data implementation by restricting access to public methods. It reduce complexity and increase re-usability.
 
 ```java
-// Encapsulation
 // Encapsulation
 class ProductEncapsulation {
 	private String productName;
@@ -299,9 +298,17 @@ Grady Booch proposes five metrics to measure the quality of classes:
 * Primitiveness
 
 ## Coupling  
-* How closely do classes rely on each other?
+
+Coupling refers to how strongly a software element is connected to other elements, it's an indication of relationship between the objects.
+
+```
+coupling is the degree of interdependence between software modules; a measure of how closely connected two routines or modules are; the strength of the relationships between modules.
+                                                                  - wikipedia
+```
 ## Cohesion
-* How closely do classes rely on each other?
+
+Cohesion is an indication of how related and focused the responsibilities of an software element are, it's an indication of relationship of elements within the class.
+
 ## Sufficiency
 * Does the class capture enough of the details of the thing being modeled to be useful?
 ## Completeness
