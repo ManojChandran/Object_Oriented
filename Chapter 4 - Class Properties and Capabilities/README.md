@@ -302,7 +302,9 @@ Grady Booch proposes five metrics to measure the quality of classes:
 Coupling refers to how strongly a software element is connected to other elements, it's an indication of relationship between the objects.
 
 ```
-coupling is the degree of interdependence between software modules; a measure of how closely connected two routines or modules are; the strength of the relationships between modules.
+coupling is the degree of interdependence between software modules; a measure of
+how closely connected two routines or modules are; the strength of the relationships
+between modules.
                                                                   - wikipedia
 ```
 ## Cohesion
