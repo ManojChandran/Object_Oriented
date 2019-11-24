@@ -335,6 +335,8 @@ class staffMail {
 ```
 High cohesive example is clear about intention and more focused.Low cohesive example is not focused and have additional responsibility.
 
+>  The code inside each Java class must have high internal cohesion, but be as loosely coupled as possible to the code in other Java classes.
+
 ## Sufficiency
 * Does the class capture enough of the details of the thing being modeled to be useful?
 ## Completeness
