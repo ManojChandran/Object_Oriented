@@ -77,14 +77,14 @@ public class relation {
     FatherClass myfather = new FatherClass();
     myfather.sleep();
 
-/*	HumanClass myHuman = new HumanClass();
-		relation.java:28: error: HumanClass is abstract; cannot be instantiated
-    HumanClass myHuman = new HumanClass();
-                         ^
-		1 error */
   }
 }
 ```
+>/*	HumanClass myHuman = new HumanClass();
+relation.java:28: error: HumanClass is abstract; cannot be instantiated
+HumanClass myHuman = new HumanClass();
+^
+1 error */
 
 ## Inheritance
 Inheritance is a mechanism in which one class acquires the property of another class, It will eliminate redundant code.
