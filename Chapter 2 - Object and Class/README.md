@@ -1,5 +1,15 @@
 # Object and Class
 
+A good software solution is the one, which are...
+* Easy to Read and Understand
+* Components, which can be Reused or Extended
+* Easy to Upgrade and Maintainable
+
+Sounds simple...
+
+>Being simple is a noble pursuit of any design and trying to make something simple is hard.
+                                            - Anonymous.
+
 Every idea has its significance, when the solutions it can offer is high. Once the idea "Object" was born, everybody worked towards to apply it. First and foremost thing is to do, is to define the idea.  
 
 ## What are Objects and Classes?

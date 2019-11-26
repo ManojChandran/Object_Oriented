@@ -14,4 +14,4 @@ Certain languages are opinionated and certain are not, crucial thing is to know 
 9) Does it support functional programming?
 
 
-Understanding data structure and algorithm is one thing, implementing it elegantly is the key. Software solutions demand more Openness, Clarity and Structure, it directly depends on the person writing the solution. Clear understanding of the
+Understanding data structure and algorithm is one thing, implementing it elegantly is the key. Software solutions demand more Openness, Clarity and Structure, it directly depends on the person writing the solution. Clear understanding of basics will help the programmer to write good code.

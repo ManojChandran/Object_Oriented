@@ -84,7 +84,7 @@ public class relation {
 relation.java:28: error: HumanClass is abstract; cannot be instantiated
 HumanClass myHuman = new HumanClass();
 ^
-1 error 
+1 error
 
 ## Inheritance
 Inheritance is a mechanism in which one class acquires the property of another class, It will eliminate redundant code.
@@ -283,11 +283,10 @@ public class relation {
 
 ```
 
-
 > An object is simply a value or variable that has a method, A method is a function associated with a particular object. An Object Oriented program is the one that uses methods to express the properties and operations on each data structure.
 
 ## How to gauge the quality of Class?
-With getting more enhancements and upgrades to class, we definitely need base to measure the quality of class.
+Idea of class is getting more enhancements and upgrades. With these sophisticated way of defining class, comes with challenge to gauge the quality of the class being created. We definitely need a base to measure the quality of class.
 
 Grady Booch proposes five metrics to measure the quality of classes:
 
