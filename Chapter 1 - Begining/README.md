@@ -42,5 +42,4 @@ A good software is the one, which are...
 
 Sounds simple...
 
->Being simple is a noble pursuit of any design and trying to make something simple is hard.
-- Anonymous.
+>Being simple is a noble pursuit of any design and trying to make something simple is hard.- Anonymous.
