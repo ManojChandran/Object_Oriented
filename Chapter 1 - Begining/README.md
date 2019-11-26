@@ -32,3 +32,15 @@ Problems around, where from the real world!!!
 Those problems need real world thoughts and solutions. Real world is full of objects and their solutions is also related with it. Communicating the real world issue and describing them to machine was a complex thing to do. First approach to solve the problem was to identify a method to address entities associated with in real world and realize the same in program world.
 
         The idea to create "OBJECT" was born...
+
+## Software
+
+A good software is the one, which are...
+* Easy to Read and Understand
+* Components, which can be Reused or Extended
+* Easy to Upgrade and Maintainable
+
+Sounds simple...
+
+>Being simple is a noble pursuit of any design and trying to make something simple is hard.
+- Anonymous.
