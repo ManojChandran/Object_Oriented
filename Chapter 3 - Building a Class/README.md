@@ -4,6 +4,19 @@ Once the CLASS and OBJECT is defined, we extend our work to improve it. Industry
 
 First step towards Object Orientation, is to design an efficient class.
 
+## Why we need a efficient CLASS?
+
+Idea of writing a good code is to have certain properties. A good code should be,
+
+* Easy to Read and Understand
+* Easy to Upgrade and Maintainable
+* Components, which can be Reused or Extended
+
+To achieve this, we need to start with base component which is "CLASS". By creating an efficient class "CLASS", we are creating strong base to build a big building.
+
+>Above criteria seems simple and logical...But
+>Being simple is a noble pursuit of any design and trying to make something simple is hard.- Anonymous.
+
 ## How can we build an efficient class?
 Defining a class in a design, developer should have multiple factors in consideration.
 
@@ -28,6 +41,9 @@ and Design Patterns, although the SOLID acronym was introduced later by Michael 
 
 ### Single Responsibility Principle
 * A class should have one and only one reason to changes.
+
+For every other enhancement, if we are forced to touch the class! then the class needs refactoring. Big problem in touching the class is, its impact on objects created from it and their interactions. High possibility of introducing bugs or functionality changes.
+
 ### Open Closed Principle
 * Software entities should be open for extension, but closed for modification.
 ### Liskov Substitution Principle

@@ -1,8 +1,8 @@
 # Introduction
 
-Evolving complex systems and new challenges, are making life hell for coders. The industry thriving for efficient and optimized code is evident, day by day complexity is increasing. To tackle this, coder has to keep up with changing terrain. This is not possible all times, most of the time coder is not provided enough time to address the issue.
+Evolving complex systems and new challenges, are making life hell for coders. The industry thriving for efficient and optimized code, it is evident by increasing complexity of problems and solutions. To tackle this, we coders has to keep up with changing terrain. This is not possible all times, most of the time coder is pushed to provide solution than actually addressing the issue. Urgency makes coders life hell....
 
-Solution, go back to basics. Clear understandings of core principle and strong basics in writing code is needed. When we understand our path correctly, travel will be easy. We need to understand the evolution of programming in general and rise of programming concepts.
+Solution is to go back to basics, refresh our understandings of core principle and strong basics in writing code. When we are clear about our path, travel will be easy. Clarity will be achieved when We  understand the evolution of programming in general and what led to new programming concepts.
 
 This book attempt to refresh the basics and provide a clear picture for beginners to start with. Concentrate more on evolution, trying to explain them.
 
@@ -18,28 +18,20 @@ can access and often modify the data fields of the object with which they
 are  associated.                                                                             
                                                           - Wikipedia
 ```
+yeah, I got it. To understand this we need start our journey, to understand why we code? why we code like this?
 
 ## Everything has a beginning
 
-Human civilization evolved every day and with each step in evolution, complex questions blocked them in their journey. We needed a companion and found one to help us in desperate times, Machine !!!!!
+Human civilization evolved every day and with each step in evolution, complex questions blocked them in their journey. We needed a companion and found one to help us in desperate times, Machines !!!!!
 Initially it was in the form of small tools and gradually progressed into complex machines.
 
 World of machine fascinated us and we devoted ourselves to the mechanics of their working. Day by day our need to solve problem and its complexity increased, simultaneously need for more powerful and intelligent machine increased. We as a civilization, extended on relationship with machine by introducing language to speak with them. Machines started understand our instructions with language we decided to communicate with them, thus Software came into existence.
 
 We started solving real world problems and at times break our backs to make the machine understand it.
 
-Problems around, where from the real world!!!
-Those problems need real world thoughts and solutions. Real world is full of objects and their solutions is also related with it. Communicating the real world issue and describing them to machine was a complex thing to do. First approach to solve the problem was to identify a method to address entities associated with in real world and realize the same in program world.
+Problems around us, where from the real world!!!
+Those problems, need real world thoughts and solutions. Real world is full of objects and their solutions is also related with it. Communicating the real world issue and describing them to machine was a complex thing to do. First approach to solve the problem was to identify a method to address entities associated with in real world and realize the same in program world. Suddenly there was a revelation "our problems in real world are with OBJECTS, solutions are really their interactions".
 
-        The idea to create "OBJECT" was born...
-
-## Software
-
-A good software is the one, which are...
-* Easy to Read and Understand
-* Components, which can be Reused or Extended
-* Easy to Upgrade and Maintainable
-
-Sounds simple...
-
->Being simple is a noble pursuit of any design and trying to make something simple is hard.- Anonymous.
+```
+The idea to create "OBJECT" was born...
+```

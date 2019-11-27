@@ -285,7 +285,7 @@ public class relation {
 
 > An object is simply a value or variable that has a method, A method is a function associated with a particular object. An Object Oriented program is the one that uses methods to express the properties and operations on each data structure.
 
-## How to gauge the quality of Class?
+## How to gauge the quality of Classes designed?
 Idea of class is getting more enhancements and upgrades. With these sophisticated way of defining class, comes with challenge to gauge the quality of the class being created. We definitely need a base to measure the quality of class.
 
 Grady Booch proposes five metrics to measure the quality of classes:
@@ -332,7 +332,7 @@ class staffMail {
 	}
 }
 ```
-High cohesive example is clear about intention and more focused.Low cohesive example is not focused and have additional responsibility.
+High Cohesion example is clear about intention and more focused.Low Cohesion example is not focused and have additional responsibility.
 
 >  The code inside each Java class must have high internal cohesion, but be as loosely coupled as possible to the code in other Java classes.
 
