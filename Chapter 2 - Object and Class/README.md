@@ -22,7 +22,7 @@ public class Dog {
 }
 ```
 
-Class is a blue print of the object, attributes are the data and methods were its behavior. The efficiency and design of the class will, improves our solution. Success of software our solution, depends on
+Class is a blue print of the object, attributes are the data and methods were its behavior. The efficiency and design of the class will, improves our solution. Success of our software solution, depends on
 
 * How "Object" is defined with a "Class"?
 * How interactions between "Object" happens?
