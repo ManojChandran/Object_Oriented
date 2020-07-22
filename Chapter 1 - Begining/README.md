@@ -22,15 +22,16 @@ yeah, I got it. To understand this we need start our journey, to understand why 
 
 ## Everything has a beginning
 
-Human civilization evolved every day and with each step in evolution, complex questions blocked them in their journey. We needed a companion and found one to help us in desperate times, Machines !!!!!
-Initially it was in the form of small tools and gradually progressed into complex machines.
+Human civilization evolved every day and with each step in evolution, complex questions blocked them in their journey. A need for comapnion was felt in every step and luckily!!!...we found one to help us in desperate times, Machines !!!!!
 
-World of machine fascinated us and we devoted ourselves to the mechanics of their working. Day by day our need to solve problem and its complexity increased, simultaneously need for more powerful and intelligent machine increased. We as a civilization, extended on relationship with machine by introducing language to speak with them. Machines started understand our instructions with language we decided to communicate with them, thus Software came into existence.
+Initially it was in the form of small tools and gradually evolved with us, it evolved into a complex ones. World of machine fascinated us and we devoted ourselves to the machines of their working. Day by day our need to solve problem and its complexity increased, simultaneously need for more powerful and intelligent machine increased. We as a civilization, extended on relationship with machine by introducing language to speak with them. Machines started understand our instructions with language we decided to communicate with them, thus Software came into existence.
 
 We started solving real world problems and at times break our backs to make the machine understand it.
 
 Problems around us, where from the real world!!!
-Those problems, need real world thoughts and solutions. Real world is full of objects and their solutions is also related with it. Communicating the real world issue and describing them to machine was a complex thing to do. First approach to solve the problem was to identify a method to address entities associated with in real world and realize the same in program world. Suddenly there was a revelation "our problems in real world are with OBJECTS, solutions are really their interactions".
+Those problems, needed real world thoughts and solutions. Real world is full of objects and their solutions is also related with it. Communicating the real world issue to machine was a complex thing to do, out entirely depends on how well we describe issue to machine. 
+
+First approach to solve the problem, was to identify a method to address entities associated with in real world and realize the same in program world. Suddenly there was a revelation "our problems in real world are with OBJECTS, solutions are really their interactions".
 
 ```
 The idea to create "OBJECT" was born...
