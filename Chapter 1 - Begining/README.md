@@ -31,7 +31,7 @@ We started solving real world problems and at times break our backs to make the 
 Problems around us, where from the real world!!!
 Those problems, needed real world thoughts and solutions. Real world is full of objects and their solutions is also related with it. Communicating the real world issue to machine was a complex thing to do, out entirely depends on how well we describe issue to machine. 
 
-First approach to solve the problem, was to identify a method to address entities associated with in real world and realize the same in program world. Suddenly there was a revelation "our problems in real world are with OBJECTS, solutions are really their interactions".
+First approach to solve the problem, was to identify a method. A method to address all entities associated with in real world and realize it in program world. Suddenly there was a revelation "our problems in real world are with OBJECTS, solutions are really their interactions".
 
 ```
 The idea to create "OBJECT" was born...
