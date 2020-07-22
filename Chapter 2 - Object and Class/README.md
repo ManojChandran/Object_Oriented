@@ -8,9 +8,9 @@ An Object in real world will have attributes (color, texture,..) and behavior(sc
 ```java
 // Simple dog class.
 public class Dog {
-   string breed;  // attribute
+   String breed;  // attribute
    int age;
-   string color;
+   String color;
 
    void bark() {    // behavior
 	    System.out.println("Bow Bow");
