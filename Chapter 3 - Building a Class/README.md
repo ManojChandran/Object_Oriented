@@ -52,31 +52,3 @@ For every other enhancement, if we are forced to touch the class! then the class
 * The dependency of one class to another, should depend on the smallest possible interface.
 ### Dependency Inversion Principle
 * Depends on abstractions (interfaces), not on concrete classes.
-
-# Class declaration 
-Lets start with declaring a class in java, see the below example.
-
-```java
-public class Student {
-   int id;
-   String name;       // Class body
-}
-```
-Declaration constitutes following parts,
-* Modifier  
-* class keyword 
-* Class name 
-* Class body 
-
-# Class types
-
-Now that we have learned about how to built an efficient class, we want explore about the types avilable. 
-
-Yes!!!... 
-
-What are the types of classes available or what type of classes we can create?
-
-### Static class
-### Final class
-### Abstract class
-### Concrete class

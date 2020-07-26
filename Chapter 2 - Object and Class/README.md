@@ -38,15 +38,28 @@ Declaration constitutes following parts,
 
 # Class types
 
-Now that we have learned about how to built an efficient class, we want explore about the types avilable. 
+Now that we have learned about declartion of class, lets explore types avilable. 
 
-Yes!!!... 
+Yes!!!...  what type of classes we can create?
 
-What are the types of classes available or what type of classes we can create?
-
+### Abstract class - not allowed to instantiate
+Abstract classes are born, when classes are not allowed to instantiate. Without instatntiating, no objects are created.
+```java
+public class GraphicObject {
+   // declare fields
+   abstract void draw(); // Abstract method, automatically makes the class as Abstract.
+}
+```
+### Final class - not allowed to inherit
+Immutable classes are called `final` class, means class cannot be extended(inherited).
+```java
+final class MyObject {
+   // methods and fields
+}
+```
 ### Static class
-### Final class
-### Abstract class
+Classes created with static keyword are called `static` class. They cannot 
+
 ### Concrete class
 
 # Conclusion
