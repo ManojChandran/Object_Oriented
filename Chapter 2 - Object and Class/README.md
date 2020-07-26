@@ -43,7 +43,7 @@ Now that we have learned about declartion of class, lets explore types avilable.
 Yes!!!...  what type of classes we can create?
 
 ### Abstract class - not allowed to instantiate
-Abstract classes are born, when classes are not allowed to instantiate. Without instatntiating, no objects are created.
+An Abstract class is the one, which is not allowed to instantiate. Without instatntiating, no objects are created.
 ```java
 public class GraphicObject {
    // declare fields
@@ -51,16 +51,43 @@ public class GraphicObject {
 }
 ```
 ### Final class - not allowed to inherit
-Immutable classes are called `final` class, means class cannot be extended(inherited).
+A Final class is the one, which is not allowed to extend. Without extending, no inheritens possible.
 ```java
 final class MyObject {
    // methods and fields
 }
 ```
-### Static class
-Classes created with static keyword are called `static` class. They cannot 
-
+### Inner class - group your class
+An Inner class is a class within the class, mostly use to group a couple of classes together.
+```java
+public class OuterClass{
+   class InnerClass{
+      // only inner class are allowed to be static in Java.
+   }
+}
+```
+### Static class - not allowed to inherit or instantiate
+A Static class is the one, which is not allowed to instantiate or inherit. 
+```java
+public class OuterClass{
+   static class IamStaticClass{
+      // only inner class are allowed to be static in Java.
+   }
+}
+```
 ### Concrete class
+A simple class which can be instantiated, extended....etc. One which is normal.
+```java
+public class Plane {
+   public Plane() {
+
+   }
+
+   public void setSpeed(int speed) {
+      this.speed = speed;
+   }
+}
+```
 
 # Conclusion
 Class is a blue print of the object, attributes are the data and methods were its behavior. The efficiency and design of the class will, improves our solution. Success of our software solution, depends on
