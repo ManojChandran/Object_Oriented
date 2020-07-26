@@ -39,7 +39,10 @@ This Book is attempt to find a new to approach for learning a programming langua
 
 More than ever, the need for good programmer is increasing day by day. The complex systems set around us are very mush influential and guiding our life in a different ways. More and more application are getting designed, its changing the way we see the world and interact with it.
 
-This is an introductory textbook and assume basic Java programming knowledge, most of the coding examples are in JAVA. We are trying to push everybody to ask question on 
-why are we coding like this?
-why programming languages are written like this?
-Do we have a better, maintainable and peaceful approach?
+Success mantra of modern era programming is "Write code that can adapt to changes".
+
+This is an introductory textbook and assume basic Java programming knowledge, most of the coding examples are in JAVA. This is an attempt to push everybody to rethink the way we code and start asking simple question.
+ 
+> why are we coding like this?
+> why programming languages are written like this?
+> Do we have a better, maintainable and peaceful approach?
