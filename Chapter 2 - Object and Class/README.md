@@ -66,7 +66,7 @@ public class OuterClass{
    }
 }
 ```
-### Static class - not allowed to inherit or instantiate
+### Static class - not allowed to inherit nor instantiate
 A Static class is the one, which is not allowed to instantiate or inherit. 
 ```java
 public class OuterClass{
