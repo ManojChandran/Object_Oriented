@@ -43,6 +43,6 @@ Success mantra of modern era programming is "Write code that can adapt to change
 
 This is an introductory textbook and assume basic Java programming knowledge, most of the coding examples are in JAVA. This is an attempt to push everybody to rethink the way we code and start asking simple question.
  
-* why are we coding like this?</br>
-* why programming languages are written like this?</br>
+* Why are we coding like this?</br>
+* Why programming languages are written like this?</br>
 * Do we have a better, maintainable and peaceful approach?</br>
