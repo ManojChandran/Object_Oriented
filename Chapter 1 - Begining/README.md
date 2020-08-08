@@ -28,10 +28,13 @@ Initially it was in the form of small tools and gradually evolved with us, it ev
 
 We started solving real world problems and at times break our backs to make the machine understand it.
 
-Problems around us, where from the real world!!!
 Those problems, needed real world thoughts and solutions. Real world is full of objects and their solutions is also related with it. Communicating the real world issue to machine was a complex thing to do, out entirely depends on how well we describe issue to machine. 
 
-First approach to solve the problem, was to identify a method. A method to address all entities associated with in real world and realize it in program world. Suddenly there was a revelation "our problems in real world are with OBJECTS, solutions are really their interactions".
+Problems around us, where big and very much from the real world!!!
+
+Bigger problems, need step by step solution and achive the solution by breaking it down. First form of break down happened in the form of Procedure (function). Problems were boken down into smaller ones and started resolving one by one. These `procedure` have specific, defined input and provide output in defined format. More and more functions where created, solutions became complicated and hard to maintain. Functions, sub functions, sub sub functions....more over not representing real world entities.
+
+New approach to solve the problem, was to identify a method. A method to address all entities associated with in real world and realize it in program world. Suddenly there was a revelation "our problems in real world are with OBJECTS, solutions are really their interactions".
 
 ```
 The idea to create "OBJECT" was born...
