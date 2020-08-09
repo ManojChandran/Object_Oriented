@@ -46,9 +46,16 @@ For every other enhancement, if we are forced to touch the class! then the class
 
 ### Open Closed Principle
 * Software entities should be open for extension, but closed for modification.
+
+Software entities include Classes, modules, method ...etc, We should be able to extend its behavior. "Closed for modification" simply means code remains unchanged.
+
 ### Liskov Substitution Principle
 * Sub types must be substitutable for their base type.
+
+We should be able to substitue base class objects with child class objects and this process should not alter the behaviour/ characteristics of program.
+
 ### Interface Segregation Principle
 * The dependency of one class to another, should depend on the smallest possible interface.
+
 ### Dependency Inversion Principle
 * Depends on abstractions (interfaces), not on concrete classes.
