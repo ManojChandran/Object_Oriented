@@ -55,7 +55,18 @@ Software entities include Classes, modules, method ...etc, We should be able to 
 We should be able to substitue base class objects with child class objects and this process should not alter the behaviour/ characteristics of program.
 
 ### Interface Segregation Principle
-* The dependency of one class to another, should depend on the smallest possible interface.
+* Clients should not be forced to depend upon interface that they do not use.
+
+The dependency of one class to another, should depend on the smallest possible interface. Idea is to reduce interface pollution.
 
 ### Dependency Inversion Principle
 * Depends on abstractions (interfaces), not on concrete classes.
+
+```
+Interface pollution is about creating large interfaces or grabbing more Unrelated Methods.
+
+Signs of Interface Pollution 
+   - Classes have empty method Implementation
+   - Method Implementations throw UnsupportedOperationException 
+   - Method Implementations return default/ dummy values
+```
