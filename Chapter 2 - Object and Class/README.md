@@ -88,9 +88,44 @@ public class Plane {
    }
 }
 ```
+# Interface
+Now that we understood class and class types, how can we make sure communication between the classes, in structured way. Interface allows to achive the same...
+
+In general, an interface is a device or a system that unrelated entities use to interact. Interfaces form a contract between the class and the outside world, and this contract is enforced at build time by the compiler.
+
+```java
+//Interface
+interface Plane {
+   public void wings();
+   public void engine();
+}
+
+//Jet implements the Plane interface
+class Jet implements Plane {
+   public void wings() {
+      System.out.println("2 wings");
+   }
+
+   public void engine() {
+      System.out.println("wroong")
+   }
+}
+
+public MyMainClass {
+   public static void main(Strings[] args){
+      Jet myJet = new Jet();  // create new jet object
+      myJet.wings();
+      myJet.engine();
+   }
+}
+```
+
+> re visit Interface example
 
 # Conclusion
-Class is a blue print of the object, attributes are the data and methods were its behavior. The efficiency and design of the class will, improves our solution. Success of our software solution, depends on
+Class is a blue print of the object, attributes are the data and methods were its behavior. Interface makes sure proper communication between the classes
+
+The efficiency and design of the class will, improves our solution. Success of our software solution, depends on
 
 * How "Object" is defined with a "Class"?
 * How interactions between "Object" happens?

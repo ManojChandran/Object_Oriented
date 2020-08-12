@@ -4,21 +4,21 @@ Once the CLASS and OBJECT is defined, we extend our work to improve it. Industry
 
 First step towards Object Orientation, is to design an efficient class.
 
-## Why we need a efficient CLASS?
+## Why we need an efficient CLASS?
 
 Idea of writing a good code is to have certain properties. A good code should be,
 
 * Easy to Read and Understand
 * Easy to Upgrade and Maintainable
-* Components, which can be Reused or Extended
+* Easy to Extend and reuse Components
 
-To achieve this, we need to start with base component which is "CLASS". By creating an efficient class "CLASS", we are creating strong base to build a big building.
+To achieve this, we need to start with base building block "CLASS". By creating an efficient class "CLASS", we are creating strong base to build a big building.
 
 >Above criteria seems simple and logical...But
 >Being simple is a noble pursuit of any design and trying to make something simple is hard.- Anonymous.
 
 ## How can we build an efficient class?
-Defining a class in a design, developer should have multiple factors in consideration.
+Defining a class in a design, developer should consider multiple factors.
 
 1) Class should provide rigidity to design, changes in class should not effect many other parts.
 2) Shouldn't make design fragile, things should not break in unrelated places.
@@ -61,6 +61,8 @@ The dependency of one class to another, should depend on the smallest possible i
 
 ### Dependency Inversion Principle
 * Depends on abstractions (interfaces), not on concrete classes.
+
+
 
 ```
 Interface pollution is about creating large interfaces or grabbing more Unrelated Methods.
