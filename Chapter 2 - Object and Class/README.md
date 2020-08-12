@@ -92,7 +92,8 @@ public class Plane {
 Now that we understood Class and Class types, lets discuss about communication between the Objects instantiated from the Class.
 
 ```
-"In object oriented programming, a protocol or interface is a common means for unrelated objects to communicate with each other"
+"In object oriented programming, a protocol or interface is a common 
+means for unrelated objects to communicate with each other"
                                                                      -Wikipedia
 ```
 In general, an interface is a device or a system that unrelated entities use to interact. It defines the rules of communication between two un related objects. Interfaces form a contract between the class and the outside world, and this contract is enforced at build time by the compiler.
