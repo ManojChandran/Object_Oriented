@@ -89,14 +89,15 @@ public class Plane {
 }
 ```
 # Interface
-Now that we understood Class and Class types, lets discuss about communication between the Objects instantiated from the Class.
+Now that we understood Class and Class types, lets discuss about communication between the Objects instantiated by the Class. Get introduced to Interface.... 
 
+In general, an interface is a device or a system that unrelated entities use to interact. It defines the rules of communication between two un related objects. 
 ```
 "In object oriented programming, a protocol or interface is a common 
 means for unrelated objects to communicate with each other"
                                                          -Wikipedia
 ```
-In general, an interface is a device or a system that unrelated entities use to interact. It defines the rules of communication between two un related objects. Interfaces form a contract between the class and the outside world, and this contract is enforced at build time by the compiler.
+Interfaces form a contract between the class and the outside world, and this contract is enforced at build time by the compiler.
 
 ```java
 //Interface
@@ -134,3 +135,22 @@ The efficiency and design of the class will, improves our solution. Success of o
 
 * How "Object" is defined with a "Class"?
 * How interactions between "Object" happens?
+
+# Things to Think about
+
+```
+General understanding :
+Real life entity (eg: Bench) -> Create a blue print (class Bench) -> Instatiate the class, create Object.
+
+General Observation :
+Real life entity wear and tear by time.
+
+Question:
+Does Object created from the class (Blue print of the real life entity) wear and tear or get damaged.
+
+Note: Its clear about Object life cycle, 
+"new" will create the Object" -> Object stays in Memory -> dies with program execution completion or program exit.
+
+Wear and tear is different from this.
+
+```
