@@ -36,6 +36,38 @@ Declaration constitutes following parts,
 * Class name 
 * Class body 
 
+# Object creation
+
+Create an Object from class using "new" keyword.
+
+```java
+public class myNewClass {
+   void display () {
+      System.out.println("object created")
+   }
+
+   public static void main (String[] args){
+      myNewClass createObj = new myNewClass();
+      createObj.display(); 
+   }
+}
+```
+
+# Constructor
+
+Now that we learned, how to define class, instatiate class and create object. Also every object created from class has a state associated with it. Big question is how we can set the state?
+
+Let me introduce "Constructor", Constructor is a special method used to set the state of an object when instantiated.
+
+```java
+class Test {
+   Test () {
+      // constructor body
+      // will get executed, when object instantiated
+   }
+}
+```
+
 # Class types
 
 Now that we have learned about declartion of class, lets explore types avilable. 
@@ -85,21 +117,6 @@ public class Plane {
 
    public void setSpeed(int speed) {
       this.speed = speed;
-   }
-}
-```
-
-# Constructor
-
-Now that we learned, how to define class, instatiate class and create object. Also every object created from class has a state associated with it. Big question is how we can set the state?
-
-Let me introduce "Constructor", Constructor is a special method used to set the state of an object when instantiated.
-
-```Java
-class Test {
-   Test () {
-      // constructor body
-      // will get executed, when object instantiated
    }
 }
 ```
