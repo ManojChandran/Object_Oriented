@@ -88,6 +88,22 @@ public class Plane {
    }
 }
 ```
+
+# Constructor
+
+Now that we learned, how to define class, instatiate class and create object. Also every object created from class has a state associated with it. Big question is how we can set the state?
+
+Let me introduce "Constructor", Constructor is a special method used to set the state of an object when instantiated.
+
+```Java
+class Test {
+   Test () {
+      // constructor body
+      // will get executed, when object instantiated
+   }
+}
+```
+
 # Interface
 Now that we understood Class and Class types, lets discuss about communication between the Objects instantiated by the Class. Get introduced to Interface.... 
 
