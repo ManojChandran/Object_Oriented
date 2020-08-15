@@ -1,6 +1,6 @@
 # Introduction
 
-Evolving complex systems and new challenges, are making life hell for coders. The industry thriving for efficient and optimized code, it is evident by increasing complexity of problems and solutions. To tackle this, we coders has to keep up with changing terrain. This is not possible all times, most of the time coder is pushed to provide solution than actually addressing the issue. Urgency makes coders life hell....
+Evolving complex systems and new challenges, are making life hell for coders. The industry thriving for efficient and optimized code, it is evident by increasing complexity of problems and solutions. To tackle this, we coders has to keep up with changing terrain. This is not possible all times, most of the time coder is pushed to provide "fix" than actually addressing the issue. Urgency makes coders life hell....
 
 Solution is to go back to basics, refresh our understandings of core principle and strong basics in writing code. When we are clear about our path, travel will be easy. Clarity will be achieved when We  understand the evolution of programming in general and what led to new programming concepts.
 
@@ -22,9 +22,9 @@ yeah, I got it. To understand this we need start our journey, to understand why 
 
 ## Everything has a beginning
 
-Human civilization evolved every day and with each step in evolution, complex questions blocked them in their journey. A need for comapnion was felt in every step and luckily!!!...we found one to help us in desperate times, Machines !!!!!
+Human civilization evolved every day and with each step in evolution, complex questions blocked them in their journey. A need for companion was felt in every step and luckily!!!...we found one to help us in desperate times, Machines !!!!!
 
-Initially it was in the form of small tools and gradually evolved with us, it evolved into a complex ones. World of machine fascinated us and we devoted ourselves to the machines of their working. Day by day our need to solve problem and its complexity increased, simultaneously need for more powerful and intelligent machine increased. We as a civilization, extended on relationship with machine by introducing language to speak with them. Machines started understand our instructions with language we decided to communicate with them, thus Software came into existence.
+Initially it was in the form of small tools and gradually evolved with us, it evolved into a complex ones. World of machine fascinated us and we devoted ourselves to the machines of their working. Day by day our need to solve problem and its complexity increased, simultaneously need for more powerful and intelligent machine increased. We as a civilization, extended our relationship with machine by introducing language to speak with them. Machines started understand our instructions with language we decided to communicate with them, thus Software came into existence.
 
 We started solving real world problems and at times break our backs to make the machine understand it.
 
@@ -32,13 +32,14 @@ Those problems, needed real world thoughts and solutions. Real world is full of 
 
 Problems around us, where big and very much from the real world!!!
 
-Bigger problems, need step by step solution and achive the solution by breaking it down. First form of break down happened in the form of Procedure (function). Problems were boken down into smaller ones and started resolving one by one. These `procedure` have specific, defined input and provide output in defined format. More and more functions where created, solutions became complicated and hard to maintain. Functions, sub functions, sub sub functions....more over not representing real world entities.
+Bigger problems, we can achive it by braking down the problem and take a step by step approach towards solution. First form of break down happened in the form of Procedure (function). Problems were boken down into smaller ones and started resolving one by one. These `procedure` have specific, defined input and provide output in defined format. More and more `procedure` (functions) where created, solutions became complicated and hard to maintain. Functions, sub functions, sub sub functions....more over not representing real world entities.
 
 >Funtions have following problem : 
 >More and more functions created complex, hard to maintain code
+>High memory consumption, because of stacking the details of calling program
 >Functions cannot hold state, most system decisions are taken on the state of the entity.
 
-New approach to solve the problem, was to identify a method. A method to address all entities associated with in real world and realize it in program world. Suddenly there was a revelation "our problems in real world are with OBJECTS, solutions are really their interactions".
+Discussion heated up, on finding a new approach to solve the problem. An efficient approach to address all entities and their associated interaction in real world, realize it in program world. Suddenly there was a revelation "our problems in real world are with OBJECTS, solutions are really their interactions".
 
 ```
 The idea to create "OBJECT" was born...
