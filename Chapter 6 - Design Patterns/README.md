@@ -25,13 +25,13 @@ two chapters exploring the capabilities and pitfalls of object-oriented programm
 chapters describing 23 classic software design patterns.
                                                                                 - Wikipedia
 ```
-23 Patterns where identified and categorized, these were general Repeatable/ Proven solution to a commonly occurring problem in software design.
+23 Patterns where identified and categorized, these were general Repeatable/ Proven solution to a commonly occurring problem in software design. Design patterns are classified into three main category based on the type of probelm they solve.
 
 Original GoF Categorization
 
->  Creational
->  Structural
->  Behavioral
+>  Creational - process of creation of Objects from classes
+>  Structural - process of arranging or composing Objects and Classes
+>  Behavioral - process of communication/ interaction between Objects
 
 ## Creational
 Creational design patterns are design patterns that deal with object creation mechanisms, trying to create objects in a manner suitable to the situation.

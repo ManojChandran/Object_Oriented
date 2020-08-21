@@ -34,10 +34,10 @@ Problems around us, where big and very much from the real world!!!
 
 Bigger problems, we can achive it by braking down the problem and take a step by step approach towards solution. First form of break down happened in the form of Procedure (function). Problems were boken down into smaller ones and started resolving one by one. These `procedure` have specific, defined input and provide output in defined format. More and more `procedure` (functions) where created, solutions became complicated and hard to maintain. Functions, sub functions, sub sub functions....more over not representing real world entities.
 
->Funtions have following problem : 
->More and more functions created complex, hard to maintain code
->High memory consumption, because of stacking the details of calling program
->Functions cannot hold state, most system decisions are taken on the state of the entity.
+>Funtions have following problem : <br>
+>More and more functions created complex, hard to maintain code <br>
+>High memory consumption, because of stacking the details of calling program <br>
+>Functions cannot hold state, most system decisions are taken on the state of the entity.<br>
 
 Discussion heated up, on finding a new approach to solve the problem. An efficient approach to address all entities and their associated interaction in real world, realize it in program world. Suddenly there was a revelation "our problems in real world are with OBJECTS, solutions are really their interactions".
 
