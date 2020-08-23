@@ -6,18 +6,18 @@ Every idea has its significance, when the solutions it can offer is high. Once t
 An Object in real world will have attributes (color, texture,..) and behavior(scroll, bend..). In computer world, Object is a package of both data(attribute) and procedures (behavior) that operate on that data. When we define the object, we will end up creating a "CLASS".
 
 ```java
-// Simple dog class.
-public class Dog {
-   String breed;  // attribute
+// Simple human class.
+class Human {
+   String sex;      //attribute
    int age;
-   String color;
+   float height, weight;
 
-   void bark() {    // behavior
-	    System.out.println("Bow Bow");
+   void walks() {    // behavior
+	    System.out.println("walks with Two legs");
    }
 
-   void happy() {
-	    System.out.println("Spins Tail");
+   void talks() {
+	    System.out.println("Talks many language");
    }
 }
 ```
@@ -25,9 +25,10 @@ public class Dog {
 Lets start with declaring a class in java, see the below example.
 
 ```java
-public class Student {
-   int id;
-   String name;       // Class body
+public class Human {
+   String sex;      
+   int age;
+   float height, weight;     // Class body
 }
 ```
 Declaration constitutes following parts,
@@ -41,16 +42,29 @@ Declaration constitutes following parts,
 Create an Object from class using "new" keyword.
 
 ```java
-public class myNewClass {
-   void display () {
-      System.out.println("object created")
+class Human {
+   String sex;      //attribute
+   int age;
+   float height, weight;
+
+   void walks() {    // behavior
+	    System.out.println("walks with Two legs");
    }
 
-   public static void main (String[] args){
-      myNewClass createObj = new myNewClass();
-      createObj.display(); 
+   void talks() {
+	    System.out.println("Talks many language");
    }
 }
+
+public class myHuman{
+   public static void main(String args[]){
+      // new keyword will create object men of type Human
+      Human men = new Human();
+      men.walks();
+   }
+}
+output:
+walks with Two legs
 ```
 
 # Constructor
