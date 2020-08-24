@@ -33,7 +33,7 @@ public class Human {
 ```
 CLASS declaration constitutes following parts,
 * Modifier - defines access privillege of the class.
-* class keyword - Communicates to compiler following piece of code, represents class definition.
+* class keyword - communicates to compiler following piece of code, represents class definition.
 * Class name - defines the name of the class.
 * Class body - definition of class itself.
 
