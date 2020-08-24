@@ -1,6 +1,6 @@
 # Object and Class
 
-Every idea has its significance, when the solutions it can offer is high. Once the idea "Object" was born, everybody worked towards to apply it. First and foremost thing to do, is to define the idea.  
+Every idea has its significance, when the solutions it can offer is high. Once the idea "Object" was born, everybody worked towards applying it. First and foremost thing to do, is to define the idea. 
 
 ## What are Objects and Classes?
 An Object in real world will have attributes (color, texture,..) and behavior(scroll, bend..). In computer world, Object is a package of both data(attribute) and procedures (behavior) that operate on that data. When we define the object, we will end up creating a "CLASS".
@@ -8,11 +8,11 @@ An Object in real world will have attributes (color, texture,..) and behavior(sc
 ```java
 // Simple human class.
 class Human {
-   String sex;      //attribute
+   String sex;      // attribute, which signifies Data
    int age;
    float height, weight;
 
-   void walks() {    // behavior
+   void walks() {    // behavior, which signifies operations that can be done on data
 	    System.out.println("walks with Two legs");
    }
 
@@ -22,7 +22,7 @@ class Human {
 }
 ```
 # Class declaration 
-Lets start with declaring a class in java, see the below example.
+Lets demstify the class, let's start with declaring a class in java. See the below example.
 
 ```java
 public class Human {
@@ -31,15 +31,17 @@ public class Human {
    float height, weight;     // Class body
 }
 ```
-Declaration constitutes following parts,
-* Modifier  
-* class keyword 
-* Class name 
-* Class body 
+CLASS declaration constitutes following parts,
+* Modifier - defines access privillege of the class.
+* class keyword - Communicates to compiler following piece of code, represents class definition.
+* Class name - defines the name of the class.
+* Class body - definition of class itself.
+
+note: above description is true for any language you learn, these four parts constitute a class.
 
 # Object creation
 
-Create an Object from class using "new" keyword.
+We clearly understood class defintion, now its time to create an Object. In JAVA, we use "new" keyword.
 
 ```java
 class Human {
@@ -66,6 +68,10 @@ public class myHuman{
 output:
 walks with Two legs
 ```
+Clear understanding of following line `Human men = new Human();` is essential for our understanding and grasp the ideas. 
+Literal meaning : We are creating object named `men` of type `Human` using key word `new` by calling `Human()` class. 
+
+Real meaning : System allocates memory for Object with name `men` and of type `Human`.
 
 # Constructor
 
