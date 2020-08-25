@@ -25,7 +25,7 @@ class Human {
 Lets demstify the class, let's start with declaring a class in java. See the below example.
 
 ```java
-public class Human {
+private class Human {
    String sex;      
    int age;
    float height, weight;     // Class body
@@ -68,22 +68,29 @@ public class myHuman{
 output:
 walks with Two legs
 ```
-Clear understanding of following line `Human men = new Human();` is essential for our understanding and grasp the ideas. 
+Clear understanding of following line `Human men = new Human();` is essential for our understanding and grasp the ideas. </br>
 Literal meaning : We are creating object named `men` of type `Human` using key word `new` by calling `Human()` class. 
 
 Real meaning : System allocates memory for Object with name `men` and of type `Human`.
 
+> Things to think on : </br>
+> what is this "Human()" method which new operator is calling? </br>
+> We haven't defined "Human()" method, where did it came from? </br>
+
 # Constructor
 
-Now that we learned, how to define class, instatiate class and create object. Also every object created from class has a state associated with it. Big question is how we can set the state?
+During our chapter 1 discussion, we talked about the STATE of an OBJECT, any real world entity has a state. Consider a person walking in rain, he will get wet and by time, he might get cold. Now person is in wet and cold state, he might have started dry and warm state from home. Similarly, software objects have state and during interaction with other objects, it will change. These state has important part in decision making of software entities. We learned to define OBJECT using class, learned antomy of a class and instantiate it with `new` to create an OBJECT. Now our big question is...
 
-Let me introduce "Constructor", Constructor is a special method used to set the state of an object when instantiated.
+How we can set the state of an object?
+
+Let me introduce "Constructor", every class contains a costructor and get invoked to create an OBJECT. Constructor can be called as a special method that get's called every time, when we create an OBJECT using `new` keyword. Same is constructor method is used to set the state of an OBJECT.
 
 ```java
-class Test {
-   Test () {
-      // constructor body
-      // will get executed, when object instantiated
+class Human {
+   Human () { // compiler implicitly build this for us 
+              // constructor body
+              // will get executed, when object instantiated
+              // this is the method new operator calling to create object
    }
 }
 ```
