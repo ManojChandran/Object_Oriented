@@ -70,7 +70,7 @@ walks with Two legs
 ```
 Clear understanding of following line `Human men = new Human();` is essential for our understanding and grasp the ideas. </br>
 
-Literal meaning : We are creating object named `men` of type `Human` using key word `new` by calling `Human()` class. 
+Literal meaning : We are creating object named `men` of type `Human` using key word `new` by calling `Human()` class. </br>
 Real meaning : System allocates memory for Object with name `men` and of type `Human`.
 
 > Things to think on : </br>
