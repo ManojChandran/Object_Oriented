@@ -37,7 +37,7 @@ CLASS declaration constitutes following parts,
 * Class name - defines the name of the class.
 * Class body - definition of class itself.
 
-note: above description is true for any language you learn, these four parts constitute a class.
+> note: above description is true for any language you learn, these four parts constitute a class.
 
 # Object creation
 
@@ -83,17 +83,24 @@ During our chapter 1 discussion, we talked about the STATE of an OBJECT, any rea
 
 How we can set the state of an object?
 
-Let me introduce "Constructor", every class contains a costructor and get invoked to create an OBJECT. Constructor can be called as a special method that get's called every time, when we create an OBJECT using `new` keyword. Same is constructor method is used to set the state of an OBJECT.
+Let me introduce "Constructor", every class contains a costructor and get invoked to create an OBJECT. Constructor can be called as a special method that get's called every time, when we create an OBJECT using `new` keyword. Same is constructor method is used to set the state of an OBJECT. 
 
 ```java
 class Human {
-   Human () { // compiler implicitly build this for us 
+   Human () { // compiler implicitly build this for us
+              // It has same name as the class name 
               // constructor body
               // will get executed, when object instantiated
               // this is the method new operator calling to create object
    }
 }
 ```
+
+## Constructor types
+
+#### Default Constructor
+#### No-args Constructor
+#### Parametrized Constructor
 
 # Class types
 
