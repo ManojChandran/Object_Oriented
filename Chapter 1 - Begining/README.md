@@ -38,7 +38,8 @@ Bigger problems, we can achive it by braking down the problem and take a step by
 ```
 Funtions have following problem : <br>
 1) High memory consumption, because of stacking the details of calling program <br>
-2) Functions cannot hold state, most system decisions are taken on the state of the entity.<br>
+2) Functions cannot determine the access privillege of Data getting handled.
+3) Functions cannot hold state, most system decisions are taken on the state of the entity.<br>
    Consider a real world scenario where you say hello to one person, response will depend on the state or impact of his previous interaction. If you are calling a function, it will process the request and always give same type of response. There won't be any kind of impact of previous interactions.
 
    But most of our real life decisions are made or taken considering the state of the entity.
@@ -46,11 +47,7 @@ Funtions have following problem : <br>
 
 Discussion heated up, on finding a new approach to solve the problem. An efficient approach to address all entities and their associated interaction in real world, realize it in program world. Suddenly there was a revelation "our problems in real world are with OBJECTS, solutions are really their interactions".
 
-```
-The idea to create "OBJECT" was born...
-```
-
-Lets define the Object....
+# Lets define the Object....
 ```
 OBJECT - Any thing that has state and exhibit behavior
 ```
@@ -58,3 +55,5 @@ OBJECT - Any thing that has state and exhibit behavior
 How do you represent it in digital world?
 By defining state as attributes and behavior as function.
 
+
+Now that we learned little bit of history and the idea to create "OBJECT", let's take our next step....

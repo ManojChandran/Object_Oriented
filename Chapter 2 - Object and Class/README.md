@@ -81,15 +81,15 @@ Real meaning : System allocates memory for Object with name `men` and of type `H
 
 During our chapter 1 discussion, we talked about the STATE of an OBJECT, any real world entity has a state. Consider a person walking in rain, he will get wet and by time, he might get cold. Now person is in wet and cold state, he might have started dry and warm state from home. Similarly, software objects have state and during interaction with other objects, it will change. These state has important part in decision making of software entities. We learned to define OBJECT using class, learned antomy of a class and instantiate it with `new` to create an OBJECT. Now our big question is...
 
-How we can set the state of an object?
+`How we can set the state of an object?`
 
 Let me introduce `Constructor`, every class contains a costructor and get invoked to create an OBJECT. Constructor can be called as a special method that get's called every time, when we create an OBJECT using `new` keyword. Same constructor method is used to set the state of an OBJECT. 
 
-Characteristics of a constructor:
+Constructor: The one method which construct the OBJECT for you.
 
-* Compiler Implicitly build constructor.
-* Constructor method have same name as class name.
-* `new` operator calls constructor method to create an OBJECT.
+* Compiler Implicitly build constructor, Programmer can explicitly define constructor a class.
+* Constructor method will or should have same name as class name.
+* Our `new` operator calls constructor method to create an OBJECT.
 * Constructor will get executed, when object is instantiated.
 
 ```java
