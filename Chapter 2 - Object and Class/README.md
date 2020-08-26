@@ -105,38 +105,55 @@ class Human {
 Constructor methods are created by default by compiler, we use the same method to create the object. Object oriented programming language allow you to define constructor and there are different types of constructor.
 
 ##### Default Constructor
-```java
-class Human {
-}
 
+```java
+public class Human {
+   int age; //attribute
+   float height, weight;
+
+   public static void main(String args[]){
+       // default constructor is called to create object
+	Human men = new Human();
+   }
+}
 ```
 
 ##### No-args Constructor
 ```java
-class Human {
-   String sex;      //attribute
-   int age;
+public class Human {
+   int age; //attribute
    float height, weight;
+   
+   Human() {
+   	this.age = 16;
+   }
 
-   Human(){           // No-args explicit constructor
-      this.age = 16;  // setting age of created object to 16
+   public static void main(String args[]){
+      // No-args explicit constructor
+	   Human men = new Human();
+	   System.out.println(men.age); // print 16
    }
 }
 ```
 
 ##### Parametrized Constructor
 ```java
-class Human {
-   String sex;      //attribute
-   int age;
+public class Human {
+   int age; //attribute
    float height, weight;
+   
+   Human(int age) {
+   	this.age = age; // recieve and set the age of created object
+   }
 
-   Human(int age){          
-      this.age = age;  // pass and set the age of created object
+   public static void main(String args[]){
+       // Parametrized explicit constructor
+	Human men = new Human(30);
+	System.out.println(men.age);
    }
 }
 ```
-# THIS
+# Magic of "this"
 
 # Conclusion
 Class is a blue print of the object, attributes are the data and methods were its behavior. Interface makes sure proper communication between the classes
