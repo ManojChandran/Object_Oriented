@@ -83,7 +83,7 @@ During our chapter 1 discussion, we talked about the STATE of an OBJECT, any rea
 
 How we can set the state of an object?
 
-Let me introduce "Constructor", every class contains a costructor and get invoked to create an OBJECT. Constructor can be called as a special method that get's called every time, when we create an OBJECT using `new` keyword. Same constructor method is used to set the state of an OBJECT. 
+Let me introduce `Constructor`, every class contains a costructor and get invoked to create an OBJECT. Constructor can be called as a special method that get's called every time, when we create an OBJECT using `new` keyword. Same constructor method is used to set the state of an OBJECT. 
 
 Characteristics of a constructor:
 
