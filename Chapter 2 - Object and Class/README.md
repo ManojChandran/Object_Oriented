@@ -117,13 +117,13 @@ The efficiency and design of the class will, improves our solution. Success of o
 
 >Things to think on : </br>
 >General understanding : Real life entity (eg: Bench) -> Create a blue print (class Bench) -> Instatiate the class, create Object.</br>
-
+>
 >General Observation : Real life entity wear and tear by time.</br>
-
+>
 >Question: Does Object created from the class (Blue print of the real life entity) wear and tear or get damaged. </br>
-
+>
 >Note: Its clear about Object life cycle, "new" will create the Object" -> Object stays in Memory -> dies with program execution completion or program exit.</br>
-
+>
 >Wear and tear is different from this.</br>
 
 ```
