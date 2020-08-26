@@ -74,8 +74,8 @@ Literal meaning : We are creating object named `men` of type `Human` using key w
 Real meaning : System allocates memory for Object with name `men` and of type `Human`.
 
 > Things to think on : </br>
-> what is this "Human()" method which new operator is calling? </br>
-> We haven't defined "Human()" method, where did it came from? </br>
+> 1) what is this "Human()" method which new operator is calling? </br>
+> 2) We haven't defined "Human()" method, where did it came from? </br>
 
 # Constructor
 
@@ -83,24 +83,26 @@ During our chapter 1 discussion, we talked about the STATE of an OBJECT, any rea
 
 How we can set the state of an object?
 
-Let me introduce "Constructor", every class contains a costructor and get invoked to create an OBJECT. Constructor can be called as a special method that get's called every time, when we create an OBJECT using `new` keyword. Same is constructor method is used to set the state of an OBJECT. 
+Let me introduce "Constructor", every class contains a costructor and get invoked to create an OBJECT. Constructor can be called as a special method that get's called every time, when we create an OBJECT using `new` keyword. Same constructor method is used to set the state of an OBJECT. 
+
+* Compiler Implicitly build constructor.
+* Constructor method have same name as class name.
+* `new` operator calls constructor method to create an OBJECT.
+* Constructor will get executed, when object is instantiated.
 
 ```java
 class Human {
-   Human () { // compiler implicitly build this for us
-              // It has same name as the class name 
-              // constructor body
-              // will get executed, when object instantiated
-              // this is the method new operator calling to create object
+   Human () { // constructor body
+
    }
 }
 ```
 
-## Constructor types
+#### Constructor types
 
-#### Default Constructor
-#### No-args Constructor
-#### Parametrized Constructor
+##### Default Constructor
+##### No-args Constructor
+##### Parametrized Constructor
 
 # Class types
 
