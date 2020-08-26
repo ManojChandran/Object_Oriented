@@ -85,13 +85,16 @@ How we can set the state of an object?
 
 Let me introduce "Constructor", every class contains a costructor and get invoked to create an OBJECT. Constructor can be called as a special method that get's called every time, when we create an OBJECT using `new` keyword. Same constructor method is used to set the state of an OBJECT. 
 
+Characteristics of a constructor:
+
 * Compiler Implicitly build constructor.
 * Constructor method have same name as class name.
 * `new` operator calls constructor method to create an OBJECT.
 * Constructor will get executed, when object is instantiated.
 
-```java
+```*.java
 class Human {
+   String name;
    Human () { // constructor body
 
    }
