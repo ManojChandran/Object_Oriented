@@ -125,6 +125,3 @@ The efficiency and design of the class will, improves our solution. Success of o
 >Note: Its clear about Object life cycle, "new" will create the Object" -> Object stays in Memory -> dies with program execution completion or program exit.</br>
 >
 >Wear and tear is different from this.</br>
-
-```
-
