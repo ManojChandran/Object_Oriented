@@ -69,7 +69,7 @@ public class OuterClass{
    }
 }
 ```
-> Things to think on:
+> Things to think on:</br>
 > Now that we have learned to create class, Is there any guidelines to create a class?
 
 # Efficient class
