@@ -163,7 +163,7 @@ public class Human {
 
 # Magic of "this"
 
-`this` is the keyword used to refer the OBJECT, refer the below example. Output value printed for `this` and `men` object are same, this the proof for reference.
+The main purpose of class is to define the OBJECT, just creating object won't solve our issue. As i stated earlier, objects has state. We need a mechanism to refer attributes and set the state. `this` is the keyword used to refer the OBJECT in JAVA and Javascript, sample java code below.
 
 ```java
 public class Human {
@@ -184,17 +184,20 @@ output:
 this reference = Human@24d46ca6
 object reference = Human@24d46ca6
 ```
+In above example, OBJECT `men` and `this` refer the same address(virtual) in memory. 
+
 > Note :`this` is used in Java and Javascript, Python uses `self` keyword.
 > Idea is to refer the OBJECT inside class, to assign or set value to the OBJECT attributes.
 
 # Conclusion
-Class is a blue print of the object, attributes are the data and methods were its behavior. Interface makes sure proper communication between the classes
+Class is a blue print of the object, attributes are the data and methods were its behavior. Every class defined has an implicit constructor build into it. New OBJECT gets created by calling constructor method and `this` keyword will help to reference the OBJECT attributes within the class.
 
 The efficiency and design of the class will, improves our solution. Success of our software solution, depends on
 
 * How "Object" is defined with a "Class"?
 * How interactions between "Object" happens?
 
+Next step is to understand the class better...
 
 > Things to think on : </br>
 > General understanding : Real life entity (eg: Bench) -> Create a blue print (class Bench) -> Instatiate the class, create Object.</br>

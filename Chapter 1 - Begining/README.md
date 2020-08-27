@@ -36,11 +36,14 @@ Problems around us, where big and very much from the real world!!!
 Bigger problems, we can achive it by braking down the problem and take a step by step approach towards solution. First form of break down happened in the form of Procedure (function). Problems were boken down into smaller ones and started resolving one by one. These `procedure` have specific, defined input and provide output in defined format. More and more `procedure` (functions) where created, solutions became complicated and hard to maintain. Functions, sub functions, sub sub functions....more over not representing real world entities.
 
 ```
-Funtions have following problem : <br>
-1) High memory consumption, because of stacking the details of calling program <br>
-2) Functions cannot determine the access privillege of Data getting handled.
-3) Functions cannot hold state, most system decisions are taken on the state of the entity.<br>
-   Consider a real world scenario where you say hello to one person, response will depend on the state or impact of his previous interaction. If you are calling a function, it will process the request and always give same type of response. There won't be any kind of impact of previous interactions.
+Funtions have following problem : </br>
+1) High memory consumption, because of stacking the details of calling program </br>
+2) Functions cannot determine the access privillege of Data getting handled. </br>
+3) Functions cannot hold state, most system decisions are taken on the state of the entity.</br>
+   Consider a real world scenario where you say hello to one person, response will depend on the state </br>
+   or impact of his previous interaction. If you are calling a function, it will process the request   </br>
+   and always give same type of response. There won't be any kind of impact of previous interactions.
+   </br>
 
    But most of our real life decisions are made or taken considering the state of the entity.
 ```
