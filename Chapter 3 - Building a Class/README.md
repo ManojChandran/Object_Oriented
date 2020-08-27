@@ -1,7 +1,80 @@
 # Building a Class
 
-Once the CLASS and OBJECT is defined, we extend our work to improve it. Industry came up with guidelines to create an efficient class, which is key for any solution.
+Once the CLASS and OBJECT is defined, we extend our work to improve it. Try to deep dive into CLASS, its properties and interactions. Also, we will discuss security concept in Object Oriented Programming how we achive it.
 
+> Things to think on:
+> Real life object hide its composition and make, they just display the Attributes and Behavior. Certain times they don't display or convey the reason behind their Attributes and Behavior. This might be part of their security and data hiding.
+>
+> Software entity also has the attain the same, How its realized in our Software solution?
+
+# Access Modifiers
+
+While describing class and its signature, we discussed about access modifiers. These access modifiers can be applied to class, method and data types. Based on these access modifiers data hiding or access controll is achived between objects.
+
+`Private`: The access level of a private modifier is only within the class. It cannot be accessed from outside the class.</br>
+`Default`: The access level of a default modifier is only within the package. It cannot be accessed from outside the package. If you do not specify any access level, it will be the default.</br>
+`Protected`: The access level of a protected modifier is within the package and outside the package through child class. If you do not make the child class, it cannot be accessed from outside the package.</br>
+`Public`: The access level of a public modifier is everywhere. It can be accessed from within the class, outside the class, within the package and outside the package.</br>
+
+# Class types
+
+Now that we have learned about declartion of class, lets explore types avilable. 
+
+Yes!!!...  what are the type of classes we can create?
+
+### Concrete class
+A simple class which can be instantiated, extended....etc. One which is normal.
+```java
+public class Plane {
+   public Plane() {
+
+   }
+
+   public void setSpeed(int speed) {
+      this.speed = speed;
+   }
+}
+```
+
+### Abstract class - not allowed to instantiate
+An Abstract class is the one, which is not allowed to instantiate. Without instatntiating, no objects are created.
+```java
+public class GraphicObject {
+   // declare fields
+   abstract void draw(); // Abstract method, automatically makes the class as Abstract.
+}
+```
+### Final class - not allowed to inherit
+A Final class is the one, which is not allowed to extend. Without extending, no inheritens possible.
+```java
+final class MyObject {
+   // methods and fields
+}
+```
+### Inner class - group your class
+An Inner class is a class within the class, mostly use to group a couple of classes together.
+```java
+public class OuterClass{
+   class InnerClass{
+      // only inner class are allowed to be static in Java.
+   }
+}
+```
+### Static class - not allowed to inherit nor instantiate
+A Static class is the one, which is not allowed to instantiate or inherit. 
+```java
+public class OuterClass{
+   static class IamStaticClass{
+      // only inner class are allowed to be static in Java.
+   }
+}
+```
+> Things to think on:
+> Now that we have learned to create class, Is there any guidelines to create a class?
+
+# Efficient class
+
+Industry came up with guidelines to create an efficient class, which is key for any solution.
 First step towards Object Orientation, is to design an efficient class.
 
 ## Why we need an efficient CLASS?
