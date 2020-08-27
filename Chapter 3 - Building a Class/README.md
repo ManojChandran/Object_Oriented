@@ -35,7 +35,15 @@ public class Plane {
    }
 }
 ```
-
+### Inner class - group your class
+An Inner class is a class within the class, mostly use to group a couple of classes together.
+```java
+public class OuterClass{
+   class InnerClass{
+      // only inner class are allowed to be static in Java.
+   }
+}
+```
 ### Abstract class - not allowed to instantiate
 An Abstract class is the one, which is not allowed to instantiate. Without instatntiating, no objects are created.
 ```java
@@ -49,15 +57,6 @@ A Final class is the one, which is not allowed to extend. Without extending, no 
 ```java
 final class MyObject {
    // methods and fields
-}
-```
-### Inner class - group your class
-An Inner class is a class within the class, mostly use to group a couple of classes together.
-```java
-public class OuterClass{
-   class InnerClass{
-      // only inner class are allowed to be static in Java.
-   }
 }
 ```
 ### Static class - not allowed to inherit nor instantiate
