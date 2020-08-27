@@ -2,10 +2,10 @@
 
 Once the CLASS and OBJECT is defined, we extend our work to improve it. Try to deep dive into CLASS, its properties and interactions. Also, we will discuss security concept in Object Oriented Programming and how we can achive it.
 
-> Things to think on:
-> Real life object hide its composition and make, they just display the Attributes and Behavior. Certain times they don't display or convey the reason behind their Attributes and Behavior. This might be part of their security and data hiding.
+> Things to think on:</br>
+> Real life object hide its composition and make, they just display the Attributes and Behavior. Certain times they don't display or convey the reason behind their Attributes and Behavior. This might be part of their security and data hiding.</br>
 >
-> Software entity also has the attain the same, How its realized in our Software solution?
+> Software entity also has the attain the same, How its realized in our Software solution?</br>
 
 # Access Modifiers
 
