@@ -106,19 +106,21 @@ Constructor methods are created by default by compiler, we use the same method t
 
 ##### Default Constructor
 
+Default constructors are the one which gets created implicitly by compiler. 
 ```java
 public class Human {
    int age; //attribute
    float height, weight;
 
    public static void main(String args[]){
-       // default constructor is called to create object
-	Human men = new Human();
+      // default constructor is called to create object
+	   Human men = new Human();
    }
 }
 ```
-
 ##### No-args Constructor
+
+No-args constructors are explicit constructor methods declared without parameters.
 ```java
 public class Human {
    int age; //attribute
@@ -137,6 +139,8 @@ public class Human {
 ```
 
 ##### Parametrized Constructor
+
+Parametrized constructors are explicit constructor methods declared with parameters.
 ```java
 public class Human {
    int age; //attribute
@@ -148,12 +152,40 @@ public class Human {
 
    public static void main(String args[]){
        // Parametrized explicit constructor
-	Human men = new Human(30);
-	System.out.println(men.age);
+	    Human men = new Human(30);
+	    System.out.println(men.age);
    }
 }
 ```
+> Things to think on: </br>
+> How do we refer the OBJECT inside Class? </br>
+> What "this" keyword used in constructor? </br>
+
 # Magic of "this"
+
+`this` is the keyword used to refer the OBJECT, refer the below example. Output value printed for `this` and `men` object are same, this the proof for reference.
+
+```java
+public class Human {
+   int age;          
+   float height, weight;
+   
+   Human() {
+   	System.out.println("this reference = " + this);
+   }
+
+   public static void main(String args[]){
+      // No-args explicit constructor
+	   Human men = new Human();
+	   System.out.println("object reference = " + men);
+   }
+}
+output:
+this reference = Human@24d46ca6
+object reference = Human@24d46ca6
+```
+> Note :`this` is used in Java and Javascript, Python uses `self` keyword.
+> Idea is to refer the OBJECT inside class, to assign or set value to the OBJECT attributes.
 
 # Conclusion
 Class is a blue print of the object, attributes are the data and methods were its behavior. Interface makes sure proper communication between the classes
@@ -164,13 +196,13 @@ The efficiency and design of the class will, improves our solution. Success of o
 * How interactions between "Object" happens?
 
 
->Things to think on : </br>
->General understanding : Real life entity (eg: Bench) -> Create a blue print (class Bench) -> Instatiate the class, create Object.</br>
+> Things to think on : </br>
+> General understanding : Real life entity (eg: Bench) -> Create a blue print (class Bench) -> Instatiate the class, create Object.</br>
 >
->General Observation : Real life entity wear and tear by time.</br>
+> General Observation : Real life entity wear and tear by time.</br>
 >
->Question: Does Object created from the class (Blue print of the real life entity) wear and tear or get damaged. </br>
+> Question: Does Object created from the class (Blue print of the real life entity) wear and tear or get damaged. </br>
 >
->Note: Its clear about Object life cycle, "new" will create the Object" -> Object stays in Memory -> dies with program execution completion or program exit.</br>
+> Note: Its clear about Object life cycle, "new" will create the Object" -> Object stays in Memory -> dies with program execution completion or program exit.</br>
 >
->Wear and tear is different from this.</br>
+> Wear and tear is different from this.</br>
