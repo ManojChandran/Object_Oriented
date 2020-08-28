@@ -1,20 +1,45 @@
 # Building a Class
 
-Once the CLASS and OBJECT is defined, we extend our work to improve it. Try to deep dive into CLASS, its properties and interactions. Also, we will discuss security concept in Object Oriented Programming and how we can achive it.
+Once the CLASS and OBJECT is defined, we extend our work to improve it. Let's deep dive into CLASS, its properties and interactions. Also, we will discuss security concept in Object Oriented Programming and how we can achive it.
 
 > Things to think on:</br>
 > Real life object hide its composition and make, they just display the Attributes and Behavior. Certain times they don't display or convey the reason behind their Attributes and Behavior. This might be part of their security and data hiding.</br>
 >
 > Software entity also has the attain the same, How its realized in our Software solution?</br>
 
-# Access Modifiers
+# Modifiers
+
+Object Oriented Programming paradigm, emphasis is more on data than application logic. Data handling, representation and protection are all given more importance. This is achived by a concept called `scope`.
+
+```
+Scope refers to the visibility of variables and methods in one part of a program to another part of that program. 
+```
+
+Modifiers are keywords which alters the access and visibility of the definitions, there are two types of Modifiers...
+
+ * Access Modifiers
+ * Non-Access Modifiers
+
+## Access Modifiers
 
 While describing class and its signature, we discussed about access modifiers. These access modifiers can be applied to class, method and data types. Based on these access modifiers data hiding or access controll is achived between objects.
+
+```
+Access modifiers in JAVA specifies the accessibility or scope of fields, methods, constructors or class.
+```
 
 `Private`: The access level of a private modifier is only within the class. It cannot be accessed from outside the class.</br>
 `Default`: The access level of a default modifier is only within the package. It cannot be accessed from outside the package. If you do not specify any access level, it will be the default.</br>
 `Protected`: The access level of a protected modifier is within the package and outside the package through child class. If you do not make the child class, it cannot be accessed from outside the package.</br>
 `Public`: The access level of a public modifier is everywhere. It can be accessed from within the class, outside the class, within the package and outside the package.</br>
+
+## Non-access Modifiers
+
+Access modifiers deals with the visibility of the variable, methods and class. Non-access modifiers deals with defining the operations done on them.
+
+`Static` modifier for creating class methods and variables.</br>
+`Final` modifier for finalizing the implementations of classes, methods, and variables.</br>
+`Abstract` modifier for creating abstract classes and methods.</br>
 
 # Class types
 
