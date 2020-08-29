@@ -163,7 +163,9 @@ public class Human {
 
 # Magic of "this"
 
-The main purpose of class is to define the OBJECT, just creating object won't solve our issue. As i stated earlier, objects has state. We need a mechanism to refer attributes and set the state. `this` is the keyword used to refer the OBJECT in JAVA and Javascript, sample java code below.
+The main purpose of class is to define the OBJECT, we need to construct the Object with constructor method. The class defined have method's or behaviour which act on the instance data. Now the big question is how to distinguish between Class variables and Instance variable.
+
+In JAVA, `this` is the keyword is used to refer the instance variable and Class variable. Sample java code below.
 
 ```java
 public class Human {
@@ -190,7 +192,7 @@ In above example, OBJECT `men` and `this` refer the same address(virtual) in mem
 > Idea is to refer the OBJECT inside class, to assign or set value to the OBJECT attributes.
 
 # Conclusion
-Class is a blue print of the object, attributes are the data and methods were its behavior. Every class defined has an implicit constructor build into it. New OBJECT gets created by calling constructor method and `this` keyword will help to reference the OBJECT attributes within the class.
+Class is a blue print of the object, attributes are the data and methods were its behavior. Every class defined has an implicit constructor build into it. New OBJECT gets created by calling constructor method and `this` keyword will help to refer the instance variable of OBJECT.
 
 The efficiency and design of the class will, improves our solution. Success of our software solution, depends on
 

@@ -44,6 +44,7 @@ Funtions have following problem : </br>
    or impact of his previous interaction. If you are calling a function, it will process the request   </br>
    and always give same type of response. There won't be any kind of impact of previous interactions.
    </br>
+4) Fuction couldn't guarantee data security or abstraction.</br>
 
    But most of our real life decisions are made or taken considering the state of the entity.
 ```

@@ -1,19 +1,31 @@
 # Building a Class
 
-Once the CLASS and OBJECT is defined, we extend our work to improve it. Let's deep dive into CLASS, its properties and interactions. Also, we will discuss security concept in Object Oriented Programming and how we can achive it.
+Once the CLASS and OBJECT is defined, we extend our work to improve it. Let's deep dive into CLASS, its types and interactions. Also, we will discuss security concept in Object Oriented Programming and how we can achive it.
 
 > Things to think on:</br>
 > Real life object hide its composition and make, they just display the Attributes and Behavior. Certain times they don't display or convey the reason behind their Attributes and Behavior. This might be part of their security and data hiding.</br>
 >
 > Software entity also has the attain the same, How its realized in our Software solution?</br>
 
-# Modifiers
-
 Object Oriented Programming paradigm, emphasis is more on data than application logic. Data handling, representation and protection are all given more importance. This is achived by a concept called `scope`.
 
 ```
 Scope refers to the visibility of variables and methods in one part of a program to another part of that program. 
 ```
+
+try this out...
+```java
+public class Men {
+   public static void main(String args[]){
+	   {
+	   int x = 5;
+      }
+      System.out.println(x);
+   }
+}
+```
+
+# Modifiers
 
 Modifiers are keywords which alters the access and visibility of the definitions, there are two types of Modifiers...
 
