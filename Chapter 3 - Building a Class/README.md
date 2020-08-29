@@ -7,6 +7,8 @@ Once the CLASS and OBJECT is defined, we extend our work to improve it. Let's de
 >
 > Software entity also has the attain the same, How its realized in our Software solution?</br>
 
+# Scope
+
 Object Oriented Programming paradigm, emphasis is more on data than application logic. Data handling, representation and protection are all given more importance. This is achived by a concept called `scope`.
 
 ```
