@@ -161,11 +161,16 @@ public class Human {
 > How do we refer the OBJECT inside Class? </br>
 > What "this" keyword used in constructor? </br>
 
-# Magic of "this"
+# Understanding "this"
 
-The main purpose of class is to define the OBJECT, we need to construct the Object with constructor method. The class defined have method's or behaviour which act on the instance data. Now the big question is how to distinguish between Class variables and Instance variable.
+The main purpose of class is to define the OBJECT, we need to construct the Object with constructor method. The class defined have method's or behaviour which act on the instance data. 
 
-In JAVA, `this` is the keyword is used to refer the instance variable and Class variable. Sample java code below.
+Once object is created, we can refer the object variables using object name (eg: `men.age`). 
+`How to discribe or refer the object fields before it actually get created?`
+
+Now the big question is `How to distinguish between Class variables and Instance variable?`
+
+In JAVA, `this` is the keyword is used to refer the instance variable. Sample java code below.
 
 ```java
 public class Human {
@@ -187,6 +192,9 @@ this reference = Human@24d46ca6
 object reference = Human@24d46ca6
 ```
 In above example, OBJECT `men` and `this` refer the same address(virtual) in memory. 
+```java
+  men.age == this.age 
+```
 
 > Note :`this` is used in Java and Javascript, Python uses `self` keyword.
 > Idea is to refer the OBJECT inside class, to assign or set value to the OBJECT attributes.
