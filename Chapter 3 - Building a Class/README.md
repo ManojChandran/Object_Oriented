@@ -107,6 +107,50 @@ public class OuterClass{
    }
 }
 ```
+
+# Interface
+Now that we understood Class and Class types, lets discuss about communication between the Objects instantiated by the Class. Communication between two entities depend on the protocol of communication, guidelines set or a contract defined. Similarly communication between the Objects instantiated by the class, also need to set a protocol. Let's get introduced to Interface.... 
+
+In general, an interface is a device or a system that unrelated entities use to interact. It defines the rules of communication between two un related objects. 
+```
+"In object oriented programming, a protocol or interface is a common 
+means for unrelated objects to communicate with each other"
+                                                         -Wikipedia
+```
+Interfaces form a contract between the class and the outside world, and this contract is enforced at build time by the compiler.
+
+```java
+// define interface
+interface readwrite {
+	public char Read();
+	public void Write(char in); 
+}
+
+// piport implements readwrite interface
+class Port implements readwrite {
+       char dataIn;
+       char dataOut;
+
+	public char Read() {
+	        this.dataOut = this.dataIn;
+		return this.dataOut;
+	}
+	
+	public void Write(char dataIn) {
+		this.dataIn = dataIn;
+		System.out.println("Write :"+ this.dataIn);
+	}	
+}
+
+public class MyPie {
+	public static void main(String[] args){
+	     Port piPort = new Port();
+     	     piPort.Write('A');
+     	     System.out.println("Read :"+ piPort.Read());
+	}
+}
+```
+
 > Things to think on:</br>
 > Now that we have learned to create class, Is there any guidelines to create a class?
 
