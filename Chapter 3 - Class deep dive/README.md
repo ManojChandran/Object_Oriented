@@ -42,10 +42,10 @@ While describing class and its signature, we discussed about access modifiers. T
 Access modifiers in JAVA specifies the accessibility or scope of fields, methods, constructors or class.
 ```
 
-`Private`: The access level of a private modifier is only within the class. It cannot be accessed from outside the class.</br>
-`Default`: The access level of a default modifier is only within the package. It cannot be accessed from outside the package. If you do not specify any access level, it will be the default.</br>
-`Protected`: The access level of a protected modifier is within the package and outside the package through child class. If you do not make the child class, it cannot be accessed from outside the package.</br>
-`Public`: The access level of a public modifier is everywhere. It can be accessed from within the class, outside the class, within the package and outside the package.</br>
+Private : The access level of a private modifier is only within the class. It cannot be accessed from outside the class.</br>
+Default : The access level of a default modifier is only within the package. It cannot be accessed from outside the package. If you do not specify any access level, it will be the default.</br>
+Protected : The access level of a protected modifier is within the package and outside the package through child class. If you do not make the child class, it cannot be accessed from outside the package.</br>
+Public : The access level of a public modifier is everywhere. It can be accessed from within the class, outside the class, within the package and outside the package.</br>
 
 ## Non-access Modifiers
 
@@ -152,6 +152,7 @@ public class MyPie {
 ```
 
 In the above example, Interface `piereadwrite` defines the signature for Read and Write method without its implemenatation. Its created a standard, who ever wants to create a pie object will have to implement to the port with read write signature. 
+
 > Things to think on:</br>
 > Now that we have learned to create class, Is there any guidelines to create a class?
 
