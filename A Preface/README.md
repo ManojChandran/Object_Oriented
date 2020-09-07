@@ -8,7 +8,7 @@ Chapter 1 - Beginning                                                 </br>
 Chapter 2 - Object and Class                                          </br>
    What are Objects and Classes?                                      </br>
 
-Chapter 3 - Building a Class                                          </br>
+Chapter 3 - Class deep dive                                          </br>
    How OOPS programming addresses the Data security?                  </br>
    What are the types of class available?                             </br>
    How can we build an efficient class?                               </br>

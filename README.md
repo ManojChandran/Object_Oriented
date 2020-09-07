@@ -7,7 +7,7 @@ This is a small attempt to write up a simple, easy to understand book for Object
     A Preface
     Chapter 1 - Beginning	 
     Chapter 2 - Object and Class	 
-    Chapter 3 - Building a Class	 
+    Chapter 3 - Class deep dive	 
     Chapter 4 - Class Properties and Capabilities	 
     Chapter 5 - New Challenge	 
     Chapter 6 - Design Patterns	 
