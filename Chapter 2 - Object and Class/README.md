@@ -191,10 +191,8 @@ output:
 this reference = Human@24d46ca6
 object reference = Human@24d46ca6
 ```
-In above example, OBJECT `men` and `this` refer the same address(virtual) in memory. 
-```java
-  men.age == this.age 
-```
+In above example, OBJECT `men` and `this` refer the same address(virtual) in memory.
+`men.age == this.age` 
 
 > Note :`this` is used in Java and Javascript, Python uses `self` keyword.
 > Idea is to refer the OBJECT inside class, to assign or set value to the OBJECT attributes.
