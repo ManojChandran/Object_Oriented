@@ -121,13 +121,13 @@ Interfaces form a contract between the class and the outside world, and this con
 
 ```java
 // define interface
-interface readwrite {
+interface piereadwrite {
 	public char Read();
 	public void Write(char in); 
 }
 
 // piport implements readwrite interface
-class Port implements readwrite {
+class Port implements piereadwrite {
        char dataIn;
        char dataOut;
 
@@ -151,6 +151,7 @@ public class MyPie {
 }
 ```
 
+In the above example, Interface `piereadwrite` defines the signature for Read and Write method without its implemenatation. Its created a standard, who ever wants to create a pie object will have to implement to the port with read write signature. 
 > Things to think on:</br>
 > Now that we have learned to create class, Is there any guidelines to create a class?
 
