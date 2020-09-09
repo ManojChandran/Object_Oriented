@@ -61,5 +61,5 @@ By defining state as attributes and behavior as function.
 Now that we learned little bit of history and the idea to create "OBJECT", let's take our next step....
 
 > Discovering Object Oriented programming </br>
-> Ole-John Dahl and Kristen Nygaard at the Norwegian Computing Center in Oslo, Norway. </br>
-> Local variable are stored in stack, Local variables of function are stored in special "function stack frame". Additionally there are option to declare functions which are also stored in stack. Ole-John and Kristen thought of moving "function stack frame" from stack to Heap. In this case, sub functions and calling functions can still operate on the function's local variables. We don't have to distroy function local variables every time we come out of function.
+> Ole-John Dahl and Kristen Nygaard at the Norwegian Computing Center in Oslo, Norway. Both working with ALGOL, knocked up with an idea. </br>
+> IDEA : Local variable are stored in stack and Local variables of function are stored in special "function stack frame". Additionally there are option to declare functions which were also stored in stack. Ole-John and Kristen thought of moving "function stack frame" from stack to Heap. In this case, sub functions and calling functions can still operate on the function's local variables. We don't have to distroy function local variables every time we come out of function.
