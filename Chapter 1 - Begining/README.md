@@ -36,15 +36,14 @@ Problems around us, where big and very much from the real world!!!
 Bigger problems, we can achive it by braking down the problem and take a step by step approach towards solution. First form of break down happened in the form of Procedure (function). Problems were boken down into smaller ones and started resolving one by one. These `procedure` have specific, defined input and provide output in defined format. More and more `procedure` (functions) where created, solutions became complicated and hard to maintain. Functions, sub functions, sub sub functions....more over not representing real world entities.
 
 ```
-Funtions have following problem : </br>
-1) High memory consumption, because of stacking the details of calling program </br>
-2) Functions cannot determine the access privillege of Data getting handled. </br>
-3) Functions cannot hold state, most system decisions are taken on the state of the entity.</br>
-   Consider a real world scenario where you say hello to one person, response will depend on the state </br>
-   or impact of his previous interaction. If you are calling a function, it will process the request   </br>
+Funtions have following problem : 
+1) High memory consumption, because of stacking the details of calling program 
+2) Functions cannot determine the access privillege of Data getting handled. 
+3) Functions cannot hold state, most system decisions are taken on the state of the entity.
+   Consider a real world scenario where you say hello to one person, response will depend on the state
+   or impact of his previous interaction. If you are calling a function, it will process the request 
    and always give same type of response. There won't be any kind of impact of previous interactions.
-   </br>
-4) Fuction couldn't guarantee data security or abstraction.</br>
+4) Fuction couldn't guarantee data security or abstraction.
 
    But most of our real life decisions are made or taken considering the state of the entity.
 ```
@@ -61,6 +60,6 @@ By defining state as attributes and behavior as function.
 
 Now that we learned little bit of history and the idea to create "OBJECT", let's take our next step....
 
-> Discovering Object Oriented programming 
+> Discovering Object Oriented programming
 > Ole-John Dahl and Kristen Nygaard at the Norwegian Computing Center in Oslo, Norway. 
 > Local variable are stored in stack, Local variables of function are stored in special "function stack frame". Additionally there are option to declare functions which are also stored in stack. Ole-John and Kristen thought of moving "function stack frame" from stack to Heap. In this case, sub functions and calling functions can still operate on the function's local variables. We don't have to distroy function local variables every time we come out of function.
