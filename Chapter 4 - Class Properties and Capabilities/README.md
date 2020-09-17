@@ -141,7 +141,7 @@ public class relation {
 }
 
 ```
-
+> Polymorphism is a technique which allow a function to be called, without knowing anything about it...
 ## What is that our solution gaining by applying 4 principle?
 
 * Encapsulation give the solution a modularity and be more self centered, binding processing function and data together. Everything is capsuled and protected within the boundary of class.

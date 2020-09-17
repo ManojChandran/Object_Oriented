@@ -70,7 +70,7 @@ walks with two legs
 ```
 Clear understanding of following line `Human men = new Human();` is essential for our understanding and grasp the ideas. </br>
 
-Literal meaning : We are creating object named `men` of type `Human` using key word `new` by calling `Human()` class. </br>
+Literal meaning : We are creating object named `men` of type `Human` using key word `new` by calling `Human()` method. </br>
 Real meaning : System allocates memory for Object with name `men` and of type `Human`.
 
 > Things to think on : </br>
@@ -79,9 +79,9 @@ Real meaning : System allocates memory for Object with name `men` and of type `H
 
 # Constructor
 
-During our chapter 1 discussion, we talked about the STATE of an OBJECT, any real world entity has a state. Consider a person walking in rain, he will get wet and by time, he might get cold. Now person is in wet and cold state, he might have started dry and warm state from home. Similarly, software objects have state and during interaction with other objects, it will change. These state has important part in decision making of software entities. We learned to define OBJECT using class, learned antomy of a class and instantiate it with `new` to create an OBJECT. Now our big question is...
+ We learned to define OBJECT using class, learned antomy of a class and request to instantiate it with `new` keyword. Now our big question is...
 
-`How we can set the state of an object?`
+`Who creates the object for us?`
 
 Let me introduce `Constructor`, every class contains a costructor and get invoked to create an OBJECT. Constructor can be called as a special method that get's called every time, when we create an OBJECT using `new` keyword. Same constructor method is used to set the state of an OBJECT. 
 
@@ -99,7 +99,7 @@ class Human {
    }
 }
 ```
-
+> Constructors are available in all Object oriented language, sometimes its explicitly stated.
 #### Constructor types
 
 Constructor methods are created by default by compiler, we use the same method to create the object. Object oriented programming language allow you to define constructor and there are different types of constructor.
@@ -163,12 +163,16 @@ public class Human {
 
 # Understanding "this"
 
+During our chapter 1 discussion, we talked about the STATE of an OBJECT, any real world entity has a state. Consider a person walking in rain, he will get wet and by time, he might get cold. Now person is in wet and cold state, he might have started dry and warm state from home. Similarly, software objects have state and during interaction with other objects, it will change. These state has important part in decision making of software entities.
+
 The main purpose of class is to define the OBJECT, we need to construct the Object with constructor method. The class defined have method's or behaviour which act on the instance data. 
 
-Once object is created, we can refer the object variables using object name (eg: `men.age`). 
-`How to discribe or refer the object fields before it actually get created?`
+Once object is created, we can refer the object variables using object name (eg: `men.age`).
 
-Now the big question is `How to distinguish between Class variables and Instance variable?`
+Now the big questions are 
+`How we can set the state of an object?`
+`How to discribe or refer the object fields before it actually get created?`
+`How to distinguish between Class variables and Instance variable?`
 
 In JAVA, `this` is the keyword is used to refer the instance variable. Sample java code below.
 

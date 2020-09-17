@@ -1,6 +1,6 @@
 # Introduction
 
-Evolving complex systems and new challenges, are making life hell for coders. The industry thriving for efficient and optimized code, it is evident by increasing complexity of problems and solutions. To tackle this, we coders has to keep up with changing terrain. This is not possible all times, most of the time coder is pushed to provide "fix" than actually addressing the issue. Urgency makes coders life hell....
+Evolving complex systems and new challenges are making life of coders, a hell. The industry thriving for efficient and optimized code, it is evident by increasing complexity of problems and solutions. To tackle this, we coders has to keep up with changing terrain. This is not possible all times, most of the time coder is pushed to provide "fix" than actually addressing the issue. Urgency makes coders life hell....
 
 Solution is to go back to basics, refresh our understandings of core principle and strong basics in writing code. When we are clear about our path, travel will be easy. Clarity will be achieved when We  understand the evolution of programming in general and what led to new programming concepts.
 
