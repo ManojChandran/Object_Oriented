@@ -42,10 +42,10 @@ While describing class and its signature, we discussed about access modifiers. T
 Access modifiers in JAVA specifies the accessibility or scope of fields, methods, constructors or class.
 ```
 
-Private : The access level of a private modifier is only within the class. It cannot be accessed from outside the class.</br>
-Default : The access level of a default modifier is only within the package. It cannot be accessed from outside the package. If you do not specify any access level, it will be the default.</br>
-Protected : The access level of a protected modifier is within the package and outside the package through child class. If you do not make the child class, it cannot be accessed from outside the package.</br>
-Public : The access level of a public modifier is everywhere. It can be accessed from within the class, outside the class, within the package and outside the package.</br>
+`Private` : The access level of a private modifier is only within the class. It cannot be accessed from outside the class.</br>
+`Default` : The access level of a default modifier is only within the package. It cannot be accessed from outside the package. If you do not specify any access level, it will be the default.</br>
+`Protected` : The access level of a protected modifier is within the package and outside the package through child class. If you do not make the child class, it cannot be accessed from outside the package.</br>
+`Public` : The access level of a public modifier is everywhere. It can be accessed from within the class, outside the class, within the package and outside the package.</br>
 
 ## Non-access Modifiers
 
@@ -61,7 +61,7 @@ Now that we have learned about declartion of class, lets explore types avilable.
 
 Yes!!!...  what are the type of classes we can create?
 
-### Concrete class
+## Concrete class
 A simple class which can be instantiated, extended....etc. One which is normal.
 ```java
 public class Plane {
@@ -74,7 +74,7 @@ public class Plane {
    }
 }
 ```
-### Inner class - group your class
+## Inner class - group your class
 An Inner class is a class within the class, mostly use to group a couple of classes together.
 ```java
 public class OuterClass{
@@ -83,7 +83,7 @@ public class OuterClass{
    }
 }
 ```
-### Abstract class - not allowed to instantiate
+## Abstract class - not allowed to instantiate
 An Abstract class is the one, which is not allowed to instantiate. Without instatntiating, no objects are created.
 ```java
 public class GraphicObject {
@@ -91,14 +91,14 @@ public class GraphicObject {
    abstract void draw(); // Abstract method, automatically makes the class as Abstract.
 }
 ```
-### Final class - not allowed to inherit
+## Final class - not allowed to inherit
 A Final class is the one, which is not allowed to extend. Without extending, no inheritens possible.
 ```java
 final class MyObject {
    // methods and fields
 }
 ```
-### Static class - not allowed to inherit nor instantiate
+## Static class - not allowed to inherit nor instantiate
 A Static class is the one, which is not allowed to instantiate or inherit. 
 ```java
 public class OuterClass{
@@ -107,6 +107,8 @@ public class OuterClass{
    }
 }
 ```
+> Things to think on:</br>
+> What is this INHERITANCE heritance we are talking about?
 
 # Interface
 Now that we understood Class and Class types, lets discuss about communication between the Objects instantiated by the Class. Communication between two entities depend on the protocol of communication, guidelines set or a contract defined. Similarly communication between the Objects instantiated by the class, also need to set a protocol. Let's get introduced to Interface.... 
@@ -153,8 +155,18 @@ public class MyPie {
 
 In the above example, Interface `piereadwrite` defines the signature for Read and Write method without its implemenatation. Its created a standard, who ever wants to create a pie object will have to implement to the port with read write signature. 
 
+## Interface pollution
+Sometimes over doing things will cause issue!!!!
+Even though Interface is a good thing, over doing it will get you `Interface pollution'. It is about creating large interfaces or grabbing more Unrelated Methods.
+
+below mentioned are signs of Interface Pollution
+   - Classes have empty method Implementation
+   - Method Implementations throw UnsupportedOperationException 
+   - Method Implementations return default/ dummy values
+
 > Things to think on:</br>
-> Now that we have learned to create class, Is there any guidelines to create a class?
+> Yes, we know about class...what else?
+> Is there any guidelines to create a class?
 
 # Efficient class
 
@@ -163,10 +175,16 @@ First step towards Object Orientation, is to design an efficient class.
 
 ## Why we need an efficient CLASS?
 
+Often software application written fails with follwoing three issues, which will cause maintnenance and enhancement hard.
+
+* RIGIDITY - Every change made will effect many other parts, making it a huge task.
+* FRAGILITY - Things start breaking in unrelated parts of the application.
+* IMMOBILITY - Cannot re-use the code outside of its original context.
+
 Idea of writing a good code is to have certain properties. A good code should be,
 
 * Easy to Read and Understand
-* Easy to Upgrade and Maintainable
+* Easy to Upgrade and Maintain
 * Easy to Extend and reuse Components
 
 To achieve this, we need to start with base building block "CLASS". By creating an efficient class "CLASS", we are creating strong base to build a big building.
@@ -221,11 +239,3 @@ The dependency of one class to another, should depend on the smallest possible i
 
 
 
-```
-Interface pollution is about creating large interfaces or grabbing more Unrelated Methods.
-
-Signs of Interface Pollution 
-   - Classes have empty method Implementation
-   - Method Implementations throw UnsupportedOperationException 
-   - Method Implementations return default/ dummy values
-```
