@@ -1,11 +1,10 @@
 # Class Deep dive
 
-Once the CLASS and OBJECT is defined, we extend our work to improve it. Let's take a deep dive into CLASS, its types and interactions. Also, we will discuss security concept in Object Oriented Programming and how we can achive it.
+ Let's take a deep dive into CLASS, its types and interactions. Once the CLASS and OBJECT is defined, we extend our work to improve it. Improvements can only be achived by demstifying the class, understanding priciples of defining it.
 
-> Things to think on:</br>
-> Real life object hide its composition and make, they just display the Attributes and Behavior. Certain times they don't display or convey the reason behind their Attributes and Behavior. This might be part of their security and data hiding.</br>
->
-> Software entity also has the attain the same, How its realized in our Software solution?</br>
+> Things to think on: </br>
+> 1. Real life object hide its composition and make, they just display the Attributes and Behavior. Certain times they don't display or convey the reason behind their Attributes and Behavior. This might be part of their security and data hiding.</br>
+> 2. Software entity also has the attain the same, How its realized in our Software solution?</br>
 
 # Scope
 
@@ -28,8 +27,8 @@ public class Men {
 ```
 
 > Things to Think on: </br>
-> Can we access or refer object oriented entities by name in each every place in program? </br>
-> What determines the visiblity these entities?
+> 1. Can we access or refer object oriented entities by name in each every place in program? </br>
+> 2. What determines the visiblity these entities?
 
 # Modifiers
 
@@ -114,7 +113,7 @@ public class OuterClass{
 }
 ```
 > Things to think on:</br>
-> What is this INHERITANCE heritance we are talking about?
+> 1. What is this INHERITANCE we are talking about?
 
 # Interface
 Now that we understood Class and Class types, lets discuss about communication between the Objects instantiated by the Class. Communication between two entities depend on the protocol of communication, guidelines set or a contract defined. Similarly communication between the Objects instantiated by the class, also need to set a protocol. Let's get introduced to Interface.... 
