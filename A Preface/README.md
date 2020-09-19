@@ -7,7 +7,7 @@ Chapter 1 - Beginning                                                 </br>
 
 Chapter 2 - Object and Class                                          </br>
    What are Objects and Classes?                                      </br>
-   How to create an Object?                                              </br>
+   How to create an Object?                                           </br>
    Who creates Object for us?                                         </br>
    How to set state of an Object?                                     </br>
    How to refer the Object varibles?                                  </br>
