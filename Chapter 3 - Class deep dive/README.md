@@ -13,8 +13,8 @@ Additional concept which boosted Object Oriented Proraming, is all our solutions
 
 All the CLASS we defined and OBJECT created, has an association of name. The name is used to refer these entities in different parts of the program. 
 
-> Things to Think on </br>
-> Can we access or refer these entities by name, each every place in program?
+> Things to Think on: </br>
+> Can we access or refer these entities by name, each every place in program? </br>
 > What determines the visiblity these entities?
 
 ## Define scope
