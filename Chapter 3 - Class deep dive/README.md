@@ -1,6 +1,6 @@
-# Building a Class
+# Class Deep dive
 
-Once the CLASS and OBJECT is defined, we extend our work to improve it. Let's deep dive into CLASS, its types and interactions. Also, we will discuss security concept in Object Oriented Programming and how we can achive it.
+Once the CLASS and OBJECT is defined, we extend our work to improve it. Let's take a deep dive into CLASS, its types and interactions. Also, we will discuss security concept in Object Oriented Programming and how we can achive it.
 
 > Things to think on:</br>
 > Real life object hide its composition and make, they just display the Attributes and Behavior. Certain times they don't display or convey the reason behind their Attributes and Behavior. This might be part of their security and data hiding.</br>
@@ -9,7 +9,15 @@ Once the CLASS and OBJECT is defined, we extend our work to improve it. Let's de
 
 # Scope
 
-Object Oriented Programming paradigm, emphasis is more on data than application logic. Data handling, representation and protection are all given more importance. This is achived by a concept called `scope`.
+Additional concept which boosted Object Oriented Proraming, is all our solutions are in and around handling DATA. Data is put in memory and operation are carried out with refering them with a name (Programing term is variable). Object Oriented Programming paradigm, emphasis is more on data than application logic. Data handling, representation and protection are all given more importance. This is achived by a concept called `scope`.
+
+All the CLASS we defined and OBJECT created, has an association of name. The name is used to refer these entities in different parts of the program. 
+
+> Things to Think on </br>
+> Can we access or refer these entities by name, each every place in program?
+> What determines the visiblity these entities?
+
+## Define scope
 
 ```
 Scope refers to the visibility of variables and methods in one part of a program to another part of that program. 
