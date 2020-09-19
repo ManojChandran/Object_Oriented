@@ -26,13 +26,14 @@ public class Men {
    }
 }
 ```
-All the CLASS we defined and OBJECT created, has an association of name. The name is used to refer these entities in different parts of the program. 
 
 > Things to Think on: </br>
-> Can we access or refer these entities by name, each every place in program? </br>
+> Can we access or refer object oriented entities by name in each every place in program? </br>
 > What determines the visiblity these entities?
 
 # Modifiers
+
+All the CLASS we defined and OBJECT created, has an association of name. The name is used to refer these entities in different parts of the program. 
 
 Modifiers are keywords which alters the access and visibility of the definitions, there are two types of Modifiers...
 
