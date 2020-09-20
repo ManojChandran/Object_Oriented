@@ -35,7 +35,7 @@ public class Men {
 
 # Modifiers
 
-All the CLASS we defined and OBJECT created, has an association of name. The name is used to refer these entities in different parts of the program. 
+All the CLASS we defined and OBJECT created, has an association of name. The name is used to refer object oriented entities in different parts of the program. Visibility and access to these entities are managed by Modifiers.
 
 Modifiers are keywords which alters the access and visibility of the definitions, there are two types of Modifiers...
 
