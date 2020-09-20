@@ -65,7 +65,7 @@ Access modifiers deals with the visibility of the variable, methods and class. N
 
 # Class types
 
-Now that we have learned about declartion of class, lets explore types avilable. 
+Now that we have learned about declartion of class and explored the anatomy, lets explore types available. 
 
 Yes!!!...  what are the type of classes we can create?
 
@@ -174,7 +174,7 @@ below mentioned are signs of Interface Pollution
 
 > Things to think on:</br>
 > Yes, we know about class...what else?
-> Is there any guidelines to create a class?
+> 1. What are the Industry specific guidelines to create a class?
 
 # Efficient class
 
@@ -197,8 +197,8 @@ Idea of writing a good code is to have certain properties. A good code should be
 
 To achieve this, we need to start with base building block "CLASS". By creating an efficient class "CLASS", we are creating strong base to build a big building.
 
->Above criteria seems simple and logical...But
->Being simple is a noble pursuit of any design and trying to make something simple is hard.- Anonymous.
+> Above criteria seems simple and logical...But
+> Being simple is a noble pursuit of any design and trying to make something simple is hard.- Anonymous.
 
 ## How can we build an efficient class?
 Defining a class in a design, developer should consider multiple factors.
