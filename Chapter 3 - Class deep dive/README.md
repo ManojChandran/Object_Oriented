@@ -8,7 +8,11 @@
 
 # Scope
 
-Additional concept which boosted Object Oriented Proraming, is all our solutions are in and around handling DATA. Data is put in memory and operation are carried out with refering them with a name (Programing term is variable). Object Oriented Programming paradigm, emphasis is more on data than application logic. Data handling, representation and protection are all given more importance. This is achived by a concept called `scope`.
+Additional concept which boosted Object Oriented Proraming, is all our solutions are in and around handling DATA. Data is put in memory and operation are carried out with refering them with a name (Programing term is variable). 
+
+`Can we access or refer object oriented entities by name in each every place in program?`
+
+Object Oriented Programming paradigm, emphasis is more on data than application logic. Data handling, representation and protection are all given more importance. Primary factor which help in a concept called `scope`.
 
 ```
 Scope refers to the visibility of variables and methods in one part of a program to another part of that program. 
@@ -27,8 +31,7 @@ public class Men {
 ```
 
 > Things to Think on: </br>
-> 1. Can we access or refer object oriented entities by name in each every place in program? </br>
-> 2. What determines the visiblity these entities?
+> 1. What determines the visiblity these entities?
 
 # Modifiers
 
