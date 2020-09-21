@@ -5,7 +5,7 @@ Guidelines help us to create an efficient CLASS, whats next?... An efficient CLA
 ## What happens when an efficient class is build?
 
 An efficient CLASS construction will give you the object, which have all real world object properties.
-Also provide us with 4 major principles which make the solution designed an Object Oriented one.
+It provide us with 4 major principles which make the solution designed an Object Oriented one.
 
 4 major principles are :
 1) Encapsulation

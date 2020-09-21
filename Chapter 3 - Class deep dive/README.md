@@ -10,8 +10,6 @@
 
 Additional concept which boosted Object Oriented Proraming, is all our solutions are in and around handling DATA. Data is put in memory and operation are carried out with refering them with a name (Programing term is variable). 
 
-`Can we access or refer object oriented entities by name in each every place in program?`
-
 Object Oriented Programming paradigm, emphasis is more on data than application logic. Data handling, representation and protection are all given more importance. Primary factor which help in a concept called `scope`.
 
 ```
@@ -31,7 +29,8 @@ public class Men {
 ```
 
 > Things to Think on: </br>
-> 1. What determines the visiblity these entities?
+> 1. What determines the visiblity Object oriented entities?
+> 2. Can we access or refer object oriented entities by name in each and every place in program?
 
 # Modifiers
 
@@ -117,6 +116,7 @@ public class OuterClass{
 ```
 > Things to think on:</br>
 > 1. What is this INHERITANCE we are talking about?
+> 2. How object speak a common language?
 
 # Interface
 Now that we understood Class and Class types, lets discuss about communication between the Objects instantiated by the Class. Communication between two entities depend on the protocol of communication, guidelines set or a contract defined. Similarly communication between the Objects instantiated by the class, also need to set a protocol. Let's get introduced to Interface.... 
