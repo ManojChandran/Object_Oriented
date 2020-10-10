@@ -90,4 +90,4 @@ can access and often modify the data fields of the object with which they
 are  associated.                                                                             
                                                           - Wikipedia
 ```
-yeah, I got it. To understand this, we need start our journey. 
+yeah, I got it. To understand this, we need to start our journey. 
