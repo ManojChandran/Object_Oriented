@@ -38,19 +38,19 @@ Problems, needed real world thoughts and solutions. Real world is full of object
 
 Bigger problems, we can achive it by braking down the problem and take a step by step approach towards solution. First form of break down happened in the form of Procedure (function). 
 
-Problems were boken down into smaller ones and started resolving one by one. These `procedure` have specific, defined input and provide output in defined format. Extended the break down to the level of Modules, one Modules for one operation and gradually they helped in reuse of code. Modules were written for each type of requirement and started calling them as function calls.
+We started doing `structured approach` in programming, which is about decomposition. Problems were boken down into smaller ones and started resolving one by one. These `procedure` have specific, defined input and provide output in defined format. Extended the break down to the level of Modules, one Modules for one operation and gradually they helped in reuse of code. Modules were written for each type of requirement and started calling them as function calls.
 
 More and more `procedure` (functions) where created, solutions became complicated and hard to maintain. Functions, sub functions, sub sub functions....more over not representing real world entities.
 
-Funtions have following problem : 
-* High memory consumption
-  (Every time program A calls Program B, Program A current settings and state has to be stacked for processing Program B. While comming back from Program B, we need to restore the Program A)
-* Fuction couldn't handle the security contraints of the data handled. 
-  (Functions cannot determine the access privillege of Data getting handled.)
+Structured programming have following problem : 
+* Decomposition by functions 
+  Fucntional decomposition defines structure and boundary, Fuction couldn't handle the security contraints of the data handled. (Functions cannot determine the access privillege of Data getting handled.)
 * Functions cannot hold state, most system decisions are taken on the state of the entity.
   (Consider a real world scenario where you say hello to one person, response will depend on the state
    or impact of his previous interaction. If you are calling a function, it will process the request 
    and always give same type of response. There won't be any kind of impact of previous interactions. But most of our real life decisions are made or taken considering the state of the entity.)
+* High memory requirement
+  (Every time program A calls Program B, Program A current settings and state has to be stacked for processing Program B. While comming back from Program B, we need to restore the Program A)
 
 Discussion heated up, on finding a new approach to solve the problem. An efficient approach to address all entities and their associated interaction in real world, realize it in program world. 
 
@@ -58,23 +58,24 @@ Mean while two programmers from the Norwegian Computing Center in Oslo, Norway h
 
 Idea :- Local variable are stored in stack and Local variables of function are stored in special "function stack frame". Additionally there are option to declare functions which were also stored in stack. Ole-John and Kristen thought of moving "function stack frame" from stack to Heap. In this case, sub functions and calling functions can still operate on the function's local variables. We don't have to distroy function local variables every time we come out of function.
 
-Idea actually removed the "Stacking" of the calling program. Calling program "A" fields and variables are active, called program "B" has access to operate on them.
+Idea actually removed the "Stacking" of the calling program. Calling program "A" fields and variables are active, called program "B" has access to operate on them. ALso, called program "B" can access the fields declared in "A". This opened up an idea of writing program by defining feilds and function acting upon the fields together. This collection of fields and function is called an `OBJECT`.
 
-# Lets define the Object....
+# Lets define a real world Object....
 ```
 OBJECT - Any thing that has state and exhibit behavior
 ```
 
-How do you represent it in digital world?
-By defining state as attributes and behavior as function.
+How do you represent `OBJECT` in digital world?
+By defining state as attributes and behavior as function, this definition is called `CLASS`. Coding solutions by defining `CLASS`, creating `OBJECT` and controlling interaction between the `OBJECTs` are called Object Oriented programing.
+
+Hope we asnwered two question.
+why we code? 
+why we code like this?
 
 Now that we learned little bit of history and the idea to create "OBJECT", let's take our next step....
 
-
-=========================
-
 ## Object Oriented Programming
-Let's start our journey with basic question...
+Let's start again by asking with question...
 ```
 What is Object Oriented Programming?
 ```
@@ -90,4 +91,3 @@ are  associated.
                                                           - Wikipedia
 ```
 yeah, I got it. To understand this, we need start our journey. 
-A journey to understand why we code? why we code like this?
