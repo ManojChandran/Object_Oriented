@@ -60,17 +60,17 @@ Idea :- Local variable are stored in stack and Local variables of function are s
 
 Idea actually removed the "Stacking" of the calling program. Calling program "A" and variables are active, called program "B" has access to operate on them. ALso, called program "B" can access the fields declared in "A". This opened up an idea of writing program by defining feilds and function acting upon the fields together. This collection of fields and function is called an `OBJECT`.
 
+> Things to think on:
+> OK, we can have variables and called function together in memory, Also those functions can access variables.
+> What is that we are achieving by clubing Variables and Functions with access to the variables defined with it?
+
 # Lets define a real world Object....
 ```
 OBJECT - Any thing that has state and exhibit behavior
 ```
 
-How do you represent `OBJECT` in digital world?
+How do you represent `OBJECT` in digital world? </br>
 By defining state as attributes and behavior as function, this definition is called `CLASS`. Coding solutions by defining `CLASS`, creating `OBJECT` and controlling interaction between the `OBJECTs` are called Object Oriented programing.
-
-Hope we asnwered two question.
-why we code? 
-why we code like this?
 
 Now that we learned little bit of history and the idea to create "OBJECT", let's take our next step....
 
@@ -91,3 +91,7 @@ are  associated.
                                                           - Wikipedia
 ```
 yeah, I got it. To understand this, we need to start our journey. 
+
+Hope we asnwered two question.</br>
+why we code? </br>
+why we code like this?
