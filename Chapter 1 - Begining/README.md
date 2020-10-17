@@ -27,7 +27,7 @@ Additional benefits of Machine...
 
 Evolution of machines which can remember, fascinated us and we devoted ourselves to improve them. Primary enhancement of a Machine which can remember is to make it undertand `What needs to be remembered?`. By remembering, Machine know what to do when requested the assisstance. We as a civilization, extended our relationship with machine by introducing language to speak with them. Machines started understanding our instructions with language we decided to communicate with them, thus we started writing it down as `CODE`.
 
-We write CODE to make our machine understand `what to remember`. CODE is a set of instruction written down for the same.
+We write CODE to make our machine understand `what to remember?`. CODE is a set of instruction written down for the same.
 
 ## Everything has a beginning
 
@@ -58,7 +58,7 @@ Mean while two programmers from the Norwegian Computing Center in Oslo, Norway h
 
 Idea :- Local variable are stored in stack and Local variables of function are stored in special "function stack frame". Additionally there are option to declare functions which were also stored in stack. Ole-John and Kristen thought of moving "function stack frame" from stack to Heap. In this case, sub functions and calling functions can still operate on the function's local variables. We don't have to distroy function local variables every time we come out of function.
 
-Idea actually removed the "Stacking" of the calling program. Calling program "A" fields and variables are active, called program "B" has access to operate on them. ALso, called program "B" can access the fields declared in "A". This opened up an idea of writing program by defining feilds and function acting upon the fields together. This collection of fields and function is called an `OBJECT`.
+Idea actually removed the "Stacking" of the calling program. Calling program "A" and variables are active, called program "B" has access to operate on them. ALso, called program "B" can access the fields declared in "A". This opened up an idea of writing program by defining feilds and function acting upon the fields together. This collection of fields and function is called an `OBJECT`.
 
 # Lets define a real world Object....
 ```
