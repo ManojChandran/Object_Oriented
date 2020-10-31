@@ -1,84 +1,9 @@
 # New Challenge
 
-Road to Object Oriented Programming was open and many of us came up with new languages to code in Object Oriented way. Adding on to this, we introduced many techniques and tweak's with the language.
-
-  1) Access Modifiers to protect the class.
-  2) Constructors to initialize the class.
-  3) Interfaces to enhance Abstraction of class.
-  4) Final to stop class mutation.
-
-### Access Modifiers
-
-Scope and Access of object is key part in designing the solution. We created access modifiers to help...
-
-* Private: The access level of a private modifier is only within the class. It cannot be accessed from outside the class.
-* Default: The access level of a default modifier is only within the package. It cannot be accessed from outside the package. If you do not specify any access level, it will be the default.
-* Protected: The access level of a protected modifier is within the package and outside the package through child class. If you do not make the child class, it cannot be accessed from outside the package.
-* Public: The access level of a public modifier is everywhere. It can be accessed from within the class, outside the class, within the package and outside the package.
-
-### Constructors
-
-When some object is created we need options to set its state. This will help us to have logical beginning for any Solution we are Building. Constructor is a block of code that initializes the newly created object.
-
-```java
-// Constructor example
-class MyClass{
-   //This is the constructor
-   MyClass(){
-     System.out.print("I am initializing the newly created object");
-   }
-}
-public class ObjectInitialization {
-  public static void main(String [] args){
-    MyClass constr = new MyClass();
-  }
-}
 ```
-
-### Interface
-
-Communication between object and between different teams are key in our Object Oriented solution. Teams which build them might be working isolated and achieving their goals. Interface provide a way to reach an agreement between them.
-
-Interface is an agreement or contract.
-
-```java
-interface HumanClass{
-  public void sleep();
-  public void study();
-}
-class FatherClass implements HumanClass{
-  public void sleep(){
-    System.out.print("Snore");
-  }
-
-  public void study(){
-    System.out.print("chemistry");
-  }
-}
-
-public class relation {
-  public static void main(String [] args){
-    FatherClass myfather = new FatherClass();
-    myfather.sleep();
-  }
-}
+A Java user group meeting where James Gosling (Java’s inventor) was the featured speaker. During the memorable Q&A session, someone asked him: “If you could do Java over again, what would you change?” “I’d leave out classes,” he replied. After the laughter died down, he explained that the real problem wasn’t classes per se, but rather implementation inheritance (the extends relationship). Interface inheritance (the implements relationship) is preferable. You should avoid implementation inheritance whenever possible.
 ```
-
-### Final
-
-While allowing inheritance, sometimes we need to stop it from happening. Declaring class as "Final" will prevent it to be inherited by other classes.
-
-```java
-final class A
-{
-     // methods and fields
-}
-// The following class is illegal.
-class B extends A
-{
-    // COMPILE-ERROR! Can't subclass A
-}
-```
+What made him think of removing Class itself from the programming language?
 
 ## What was the new challenge?
 

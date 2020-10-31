@@ -287,7 +287,7 @@ public class relation {
 
 > Difference between Function and Method. A function is a block of organised, reusable code that is used to perform a single, related action. Method is a type of function through which one object communicate with another object. 
 
-## How to gauge the quality of Classes designed?
+## How to gauge the quality of Classes designed and OO design?
 Idea of class is getting more enhancements and upgrades. With these sophisticated way of defining class, comes with challenge to gauge the quality of the class being created. We definitely need a base to measure the quality of class.
 
 Grady Booch proposes five metrics to measure the quality of classes:
@@ -345,7 +345,7 @@ High Cohesion example is clear about intention and more focused.Low Cohesion exa
 ## Primitiveness
 * Does the class capture all of the useful behavior of the thing being modeled to be re-usable?
 
-
+> Things to think on:
 > Irrespective of any interview or discussion on Object orient programming, you might have come across these question.
 > What is the difference between function and a method?
 > Why multiple inheritance is not allowed in JAVA?

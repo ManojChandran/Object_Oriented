@@ -163,15 +163,6 @@ public class MyPie {
 
 In the above example, Interface `piereadwrite` defines the signature for Read and Write method without its implemenatation. Its created a standard, who ever wants to create a pie object will have to implement to the port with read write signature. 
 
-## Interface pollution
-Sometimes over doing things will cause issue!!!!
-Even though Interface is a good thing, over doing it will get you `Interface pollution'. It is about creating large interfaces or grabbing more Unrelated Methods.
-
-below mentioned are signs of Interface Pollution
-   - Classes have empty method Implementation
-   - Method Implementations throw UnsupportedOperationException 
-   - Method Implementations return default/ dummy values
-
 > Things to think on:</br>
 > Yes, we know about class...what else?
 > 1. What are the Industry specific guidelines to create a class?
@@ -246,4 +237,11 @@ The dependency of one class to another, should depend on the smallest possible i
 * Depends on abstractions (interfaces), not on concrete classes.
 
 
+## Interface pollution
+Sometimes over doing things will cause issue!!!!
+Even though Interface is a good thing, over doing it will get you `Interface pollution'. It is about creating large interfaces or grabbing more Unrelated Methods.
 
+below mentioned are signs of Interface Pollution
+   - Classes have empty method Implementation
+   - Method Implementations throw UnsupportedOperationException 
+   - Method Implementations return default/ dummy values
