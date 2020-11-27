@@ -18,7 +18,8 @@ Chapter 3 - Class deep dive                                           </br>
    How can we build an efficient class?                               </br>
 
 Chapter 4 - Class Properties and Capabilities                         </br>
-   What happens when an efficient class is build?                     </br>
+   What happens when an efficient class is build?    
+   What are 4 major principles, which makes solution an Object oriented?   </br>
    What is that our solution gaining by applying 4 principle?         </br>
    What happens when our solution applies Object oriented principles? </br>
    How to gauge the quality of Class?                                 </br>

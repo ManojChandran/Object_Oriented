@@ -7,11 +7,13 @@ Guidelines help us to create an efficient CLASS, whats next?... An efficient CLA
 An efficient CLASS construction will give you the object, which have all real world object properties.
 It provide us with 4 major principles which make the solution designed an Object Oriented one.
 
+```
 4 major principles are :
 1) Encapsulation
 2) Abstraction
 3) Inheritance
 4) Polymorphism
+```
 
 ## Encapsulation  
 Encapsulation is an idea of bundling data and methods that work on the data within one unit. It is a mechanism of hiding of data implementation by restricting access to public methods. It reduce complexity and increase re-usability.
@@ -283,10 +285,6 @@ public class relation {
 
 ```
 
-> An object is simply a value or variable that has a method, A method is a function associated with a particular object. An Object Oriented program is the one that uses methods to express the properties and operations on each data structure.
-
-> Difference between Function and Method. A function is a block of organised, reusable code that is used to perform a single, related action. Method is a type of function through which one object communicate with another object. 
-
 ## How to gauge the quality of Classes designed and OO design?
 Idea of class is getting more enhancements and upgrades. With these sophisticated way of defining class, comes with challenge to gauge the quality of the class being created. We definitely need a base to measure the quality of class.
 
@@ -344,6 +342,9 @@ High Cohesion example is clear about intention and more focused.Low Cohesion exa
 * Does the class capture all of the useful behavior of the thing being modeled to be re-usable?
 ## Primitiveness
 * Does the class capture all of the useful behavior of the thing being modeled to be re-usable?
+# Summary
+* An object is simply a value or variable that has a method, A method is a function associated with a particular object. An Object Oriented program is the one that uses methods to express the properties and operations on each data structure.
+
 
 > Things to think on:
 > Irrespective of any interview or discussion on Object orient programming, you might have come across these question.

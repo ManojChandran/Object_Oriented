@@ -1,7 +1,14 @@
 # New Challenge
 
 ```
-A Java user group meeting where James Gosling (Java’s inventor) was the featured speaker. During the memorable Q&A session, someone asked him: “If you could do Java over again, what would you change?” “I’d leave out classes,” he replied. After the laughter died down, he explained that the real problem wasn’t classes per se, but rather implementation inheritance (the extends relationship). Interface inheritance (the implements relationship) is preferable. You should avoid implementation inheritance whenever possible.
+A Java user group meeting where James Gosling was the featured speaker. 
+During the memorable Q&A session, someone asked him: 
+“If you could do Java over again, what would you change?” 
+
+he answered :
+“I’d leave out classes,” he replied. 
+
+After the laughter died down, he explained that the real problem wasn’t classes per se, but rather implementation inheritance (the extends relationship). Interface inheritance (the implements relationship) is preferable. You should avoid implementation inheritance whenever possible.
 ```
 What made him think of removing Class itself from the programming language?
 
