@@ -16,10 +16,9 @@ Known principles are :
 
 In the 1994 a mile stone book came in software engineering, it was called Design Pattern and it was work of four authors, later known as Gang of Four.
 
-```
-Design Patterns: Elements of Reusable Object-Oriented Software (1994) is a software engineering book describing software design patterns. The book was written by Erich Gamma, Richard Helm, Ralph Johnson, and John Vlissides, with a foreword by Grady Booch. The book is divided into two parts, with the first two chapters exploring the capabilities and pitfalls of object-oriented programming, and the remaining chapters describing 23 classic software design patterns.
-                                                                                - Wikipedia
-```
+> Design Patterns: Elements of Reusable Object-Oriented Software (1994) is a software engineering book describing software design patterns. The book was written by Erich Gamma, Richard Helm, Ralph Johnson, and John Vlissides, with a foreword by Grady Booch. The book is divided into two parts, with the first two chapters exploring the capabilities and pitfalls of object-oriented programming, and the remaining chapters describing 23 classic software design patterns.
+>                                                                            - Wikipedia
+
 23 Patterns where identified and categorized, these were general Repeatable/ Proven solution to a commonly occurring problem in software design. Design patterns are classified into three main category based on the type of probelm they solve.
 
 Original GoF Categorization
