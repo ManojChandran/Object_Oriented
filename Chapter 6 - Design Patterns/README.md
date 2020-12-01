@@ -91,5 +91,5 @@ How to assign responsibility in order to remove coupling between two component?
 ## Controller Variation
 How to design in such a way that changes on classes, modules and systems doesn't effect dependent components?
 
-
+# Next
 Once you get hold on these Design Patterns, you are ready to solve mysteries and go beyond. Ultimately, solution is also an Object which has a meaning now .....
