@@ -31,28 +31,41 @@ Original GoF Categorization
 ## Creational
 Creational design patterns are design patterns that deal with object creation mechanisms, trying to create objects in a manner suitable to the situation.
 
+* Singleton - Ensure a class only has one instance, and provide a global point of access to it.
+
+* Builder - The exercise of creating complex types can be simplified by piecewise object constuction made up of several sub-objects.
+
+* Prototype - Create new objects from the 'skeleton' of an existing object, they reiterate the existing design and boosting performance.
+
+* Abstract Factory - Provide an interface for creating families of related or dependent objects without specifying their concrete classes.
+
+* Dependency Injection - A class accepts the objects, it requires from an injector instead of creating the objects directly.
+
+* Object Pool - Avoid expensive acquisition and release of resources by recycling objects that are no longer in use. 
+
 ## Structural
 Structural design patterns are design patterns that ease the design by identifying a simple way to realize relationships among entities.
+
+* Module - Group several related elements, such as classes, singletons, methods, globally used, into a single conceptual entity.
+
+* Facade - Provide a unified interface to a set of interfaces in a subsystem. Facade defines a higher-level interface that makes the subsystem easier to use.
+
+* Bridge - Decouple an abstraction from its implementation allowing the two to vary independently.
+
+* Adapter - Convert the interface of a class into another interface clients expect. An adapter lets classes work together that could not otherwise because of incompatible interfaces. The enterprise integration pattern equivalent is the translator.
 
 ## Behavioral
 Behavioral patterns are concerned with the assignment of responsibilities between objects, or, encapsulating behavior in an object and delegating requests to it
 
-## The Catalog of Design Patterns
+* State - Allow an object to alter its behavior when its internal state changes. The object will appear to change its class.
 
-Singleton - Ensure a class only has one instance, and provide a global point of access to it.
+* Observer (Publish/Subscribe) - Define a one-to-many dependency between objects where a state change in one object results in all its dependents being notified and updated automatically.
 
-Observer - Defines a one-to-many dependency between objects so that when one object changes state, all of its dependents are notified and updated automatically
-
-Abstract Factory - Provide an interface for creating families of related or dependent objects without specifying their concrete classes.
-
-Decorator Pattern - Attaches additional responsibilities to an object dynamically. Decorator provides a flexible alternative to sub-classing for extending functionality.
-
-Factory Method Pattern - Defines an interface for creating an object, but lets sub classes decide which class to instantiate. It lets a class defer instantiation to subclass
-
-Command - Encapsulate a request as an object, thereby letting you parameterize clients with different requests, queue or log requests, and support undoable operations.
+* Strategy - Define a family of algorithms, encapsulate each one, and make them interchangeable. Strategy lets the algorithm vary independently from clients that use it.
 
 > Thinks to Think on: </br>
-> Now that we have learned about the rules and guidelines, what about reponsibilities?
+> We have great discussion about Object, classes and their interactions. We understood how to create, use and communicate objects. 
+> What about reponsibilities of these Object?
 
 # GRASP
 General Responsibility Assignment Software Patterns, abbreviated GRASP, consist of guidelines for assigning responsibility to classes and objects in object-oriented design. 
