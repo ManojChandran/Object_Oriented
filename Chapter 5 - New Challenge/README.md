@@ -27,7 +27,7 @@ he answered :
 
 What made him think of removing Class itself from the programming language?
 
-James Gosling, explained that the real problem wasn’t classes per se, but rather implementation of inheritance (the extends relationship). Interface inheritance (the implements relationship) is preferable. You should avoid implementation inheritance whenever possible.
+James Gosling, explained that the real problem wasn’t classes per se, but rather implementation of inheritance (the extends relationship). Interface inheritance (the implements relationship) is preferable. You should avoid implementation of inheritance whenever possible.
 
 # Program to interface, not implementation
 # Depend on Abstraction, do nt dpend on concrete class
