@@ -52,7 +52,7 @@ Structural design patterns are design patterns that ease the design by identifyi
 
 * Bridge - Decouple an abstraction from its implementation allowing the two to vary independently.
 
-* Adapter - Convert the interface of a class into another interface clients expect. An adapter lets classes work together that could not otherwise because of incompatible interfaces. The enterprise integration pattern equivalent is the translator.
+* Adapter - Get an Interface from an Interface you have or Convert the interface of a class into another interface clients expect. 
 
 ## Behavioral
 Behavioral patterns are concerned with the assignment of responsibilities between objects, or, encapsulating behavior in an object and delegating requests to it
