@@ -31,12 +31,13 @@ design patterns.
 
 Original GoF Categorization
 ```
-  Creational - process of creation of Objects from classes </br>
-  Structural - process of arranging or composing Objects and Classes </br>
-  Behavioral - process of communication/ interaction between Objects </br>
+  Creational - process of creation of Objects from classes
+  Structural - process of arranging or composing Objects and Classes
+  Behavioral - process of communication/ interaction between Objects
 ```
+
 ## Creational
-Creational design patterns are design patterns that deal with object creation mechanisms, trying to create objects in a manner suitable to the situation.
+Creational design patterns are design patterns that deal with object creation mechanisms, trying to create objects in a manner suitable to the situation. 
 
 * Singleton - Ensure a class only has one instance, and provide a global point of access to it.
 
