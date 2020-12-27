@@ -4,10 +4,11 @@ Evolving complex systems and new challenges are making life of coders, a hell. I
 
 Possible solution is to go back to basics, refresh our understandings of core principle and strong basics in writing code. When we are clear about our path, travel will be easy. Clarity will be achieved when We understand the evolution of programming in general and what led to new programming concepts.
 
-This book attempt to refresh the basics and provide a clear picture for beginners to start with. We want new programmers to start asking questions, question which give clarrity on two things....
+This book attempt to refresh the basics and provide a clear picture for beginners to start with any language. Purpose is definitly not about teaching any language, its about how to approach and learn the language. We want new programmers to start asking questions, question which give clarrity on job they do....
+
+All beginer will or should start with below question...
 ```
 Why we code?
-Why we code like this?
 ```
 ## Let's talk about CODE
 
@@ -16,14 +17,16 @@ Let's start our journey with basic question....
 What is CODE?
 Why we CODE?
 ```
+Before answering "Why we code?", lets discuss "What is code?".
+
 Human civilization evolved every day and with each step in evolution, complex questions blocked them in their journey. A need for companion to assit us, was felt in every step and luckily!!!...we found one to help us in desperate times, Machines !!!!!
 
-Initially Machine was assisting us, in the form of small tools and gradually evolved with us. It evolved into a complex ones, one which can remember. 
+Initially Machine was assisting us, in the form of small tools and gradually evolved with us. It evolved into a complex ones, one which can remember. Evolution of machine which can remember is a game changer, it provided immense possibilities.
 
-Additional benefits of Machine...
-* Can repeat task N number of time.
-* Can do it in high Precision.
-* Can do it with less Fatigue.
+Benefits of Machine, which can remember...
+* Can repeat a task, N number of time.
+* Can do a task with high Precision.
+* Can do a task with less Fatigue.
 
 Evolution of machines which can remember, fascinated us and we devoted ourselves to improve them. Primary enhancement of a Machine which can remember is to make it undertand `What needs to be remembered?`. By remembering, Machine know what to do when requested the assisstance. We as a civilization, extended our relationship with machine by introducing language to speak with them. Machines started understanding our instructions with language we decided to communicate with them, thus we started writing it down as `CODE`.
 
