@@ -33,7 +33,7 @@ Chapter 2 - Object and Class                                          </br>
    How to refer the Object varibles?                                  </br>
 
 Chapter 3 - Class deep dive                                           </br>
-   How are the Data security aspects of Class handled?                        </br>
+   How are the Data security aspects of Class handled?                </br>
    What are the types of class available?                             </br>
    How can we build an efficient class?                               </br>
 

@@ -1,36 +1,38 @@
 # Introduction
 
-Evolving complex systems and new challenges are making life of coders, a hell. Industry is thriving for efficient and optimized code, it is evident by increasing complexity of problems and solutions. To tackle this, we coders has to keep up with changing terrain. This is not possible all times, most of the time coder is pushed to provide "fix" than actually addressing the issue. Urgency pushes coders to compromise and his or her life a hell....
+Evolving complex systems and new challenges are making life of coders, a hell. Industry is thriving for efficient and optimized code, it is evident by increasing complexity of problems and solutions. To tackle this, we coders has to keep up with changing terrain. This is not possible all times, most of the time coder is pushed to provide "fix" than actually addressing the issue. Urgency pushes coders to compromise, making his or her life a hell....
 
-Possible solution is to go back to basics, refresh our understandings of core principle and strong basics in writing code. When we are clear about our path, travel will be easy. Clarity will be achieved when We understand the evolution of programming in general and what led to new programming concepts.
+Possible solution is "back to basics" approach, refresh our understandings of core principle and create strong base in writing code. When we are clear about our goals, achieving it... will be easy. Clarity will be achieved when We understand the evolution of programming in general and what led to new programming concepts.
 
-This book attempt to refresh the basics and provide a clear picture for beginners to start with any language. Purpose is definitly not about teaching any language, its about how to approach and learn the language. We want new programmers to start asking questions, question which give clarrity on job they do....
+This book attempt to refresh the basics and provide a clear picture for beginners to start with any language. Purpose is definitly not about teaching any language, its about how to approach the learnig. We want new programmers to start asking questions, question which give clarity on job they do....
 
 All beginer will or should start with below question...
 ```
-Why we code?
+What is a Code?
 ```
 ## Let's talk about CODE
 
-Let's start our journey with basic question....
-```
-What is CODE?
-Why we CODE?
-```
-Before answering "Why we code?", lets discuss "What is code?".
+Human civilization evolved every day and with each step in evolution, there were multiple hurdles. Each one was specific and sometimes complex enough to question his or her core existence. Civilization grow with accumulation and keeping track of what we have and what we need, introduced us to maths and finance. The volume in which accumulation happened, requested high resources and precision.
 
-Human civilization evolved every day and with each step in evolution, complex questions blocked them in their journey. A need for companion to assit us, was felt in every step and luckily!!!...we found one to help us in desperate times, Machines !!!!!
+Similar growth in other fields created need for helper or companion.A companion to assit us, was felt in every step and luckily!!!...we found one to help us in desperate times, Machines !!!!!
 
-Initially Machine was assisting us, in the form of small tools and gradually evolved with us. It evolved into a complex ones, one which can remember. Evolution of machine which can remember is a game changer, it provided immense possibilities.
+Initially Machine was assisting us, in the form of small tools and regular use of tools pushed evolution process of machines. gradually evolved with us. It evolved into a complex ones, one which remember...one with memory. Evolution of machine which can remember is a game changer, it provided immense possibilities.
+
+Evolution of machines which can remember, fascinated us and we devoted ourselves to improve them. By remembering, a Machine know what to do when requested for an assisstance. Machine completes particular task or step based on the instruction given to them. Two important questions...
+
+```
+What step needs to be remembered?
+When to use the remembered step?
+``` 
+Yes, we need to talk to machine and definitly need a dependable language. We as a civilization, extended our relationship with machine by introducing language to speak with them. Machines started understanding our instructions with language we decided to communicate with them, thus we started writing it down as `CODE`.
+
+> CODE is a set of instruction written in a particular language, which machine understand.
 
 Benefits of Machine, which can remember...
+
 * Can repeat a task, N number of time.
 * Can do a task with high Precision.
 * Can do a task with less Fatigue.
-
-Evolution of machines which can remember, fascinated us and we devoted ourselves to improve them. Primary enhancement of a Machine which can remember is to make it undertand `What needs to be remembered?`. By remembering, Machine know what to do when requested the assisstance. We as a civilization, extended our relationship with machine by introducing language to speak with them. Machines started understanding our instructions with language we decided to communicate with them, thus we started writing it down as `CODE`.
-
-We write CODE to make our machine understand `what to remember?`. CODE is a set of instruction written down for the same.
 
 ## Everything has a beginning
 
