@@ -9,6 +9,7 @@ This book attempt to refresh the basics and provide a clear picture for beginner
 All beginer will or should start with below question...
 ```
 What is a Code?
+Why we Code?
 ```
 ## Let's talk about CODE
 
@@ -18,13 +19,15 @@ Similar growth in other fields created need for helper or companion.A companion 
 
 Initially Machine was assisting us, in the form of small tools and regular use of tools pushed evolution process of machines. gradually evolved with us. It evolved into a complex ones, one which remember...one with memory. Evolution of machine which can remember is a game changer, it provided immense possibilities.
 
-Evolution of machines which can remember, fascinated us and we devoted ourselves to improve them. By remembering, a Machine know what to do when requested for an assisstance. Machine completes particular task or step based on the instruction given to them. Two important questions...
+Evolution of machines which can remember, fascinated us and we devoted ourselves to improve them. By remembering, a Machine know what to do when requested for an assisstance. Machine completes particular task or step based on the instruction given to them. Primay challenge will addressing two questions..
 
 ```
 What step needs to be remembered?
 When to use the remembered step?
-``` 
-Yes, we need to talk to machine and definitly need a dependable language. We as a civilization, extended our relationship with machine by introducing language to speak with them. Machines started understanding our instructions with language we decided to communicate with them, thus we started writing it down as `CODE`.
+```
+Success rate of machine getting things clearly depend on, Machines capability to address these questions. As humans we need a language to talk to them. Yes, we need to talk to machine and definitly need a dependable language. 
+
+We as a civilization, extended our relationship with machine by introducing language to speak with them. Machines started understanding our instructions with language we decided to communicate with them. Gradually we started to write down the instruuctions and feed them. Based on the instructions, Machine understand "what to remember" and when to use it. This written set of instructions are known as `CODE`.
 
 > CODE is a set of instruction written in a particular language, which machine understand.
 
@@ -34,7 +37,7 @@ Benefits of Machine, which can remember...
 * Can do a task with high Precision.
 * Can do a task with less Fatigue.
 
-## Everything has a beginning
+## Understand the evolution
 
 Day by day our need to solve problem and its complexity increased, simultaneously we needed more powerful and intelligent machines to assist. We started solving real world problems and at times break our backs to make the machine understand our request. Size and Complexity of the code we write was directly proportionate to the complexity of the program. Large code written to solve particular set of problems are called Software (One which run on the Hardware, physical machine).
 
@@ -97,6 +100,6 @@ are  associated.
 ```
 yeah, I got it. To understand this, we need to start our journey. 
 
-Hope we asnwered two question.</br>
-why we code? </br>
-why we code like this?
+# Conclusion
+
+We were trying to address our initial question and walk us through the evolution of machines. 
